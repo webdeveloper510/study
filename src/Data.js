@@ -1,0 +1,68 @@
+export const universityData = [
+    {
+      id:'1',
+      universityName:'MCAST',
+      backTile:'if you Europe in your mind, MCAST is the destination to be and have schengen visa to travel and work across europe',
+      universityWebsite:'https://www.mcast.edu.mt/',
+      imageName:'https://s4.aconvert.com/convert/p3r68-cdx67/a4wnc-qotsb.jpg',
+      variant: "hover",
+
+    },
+    {
+      id:'2',
+      universityName:'Manipal University, Dubai',
+      backTile:'UK degree with Indian Diploma, 2 Top universities Manipal and ARU have come together open your doors for international education, jobs in Dubai and London',
+      universityWebsite:'https://www.manipaldubai.com/',
+      imageName:'https://s4.aconvert.com/convert/p3r68-cdx67/awoag-pzgxf.jpg',
+      variant: "hover",
+      
+    },
+    {
+        id:'3',
+        universityName:'University of Bolton',
+        backTile:'Migrate to UK with most affordable and prestigious UK degree by Bolton University, get exemption with in-house diploma and complete masters in less than 1 Year: Post study work visa for 2 years',
+        universityWebsite:'https://www.bolton.ac.uk/',
+        imageName:'https://s4.aconvert.com/convert/p3r68-cdx67/aopjc-05vrq.jpg',
+        variant: "hover",
+    },
+    {
+        id:'4',
+        universityName:'Anglia Ruskin University',
+        backTile:'one of the only two Universities in Cambridge, study at ARU chelmsford campus and get the best of opportunities to work in the UK.',
+        universityWebsite:'https://aru.ac.uk/',
+        imageName:'https://s4.aconvert.com/convert/p3r68-cdx67/afkgs-dc2ma.jpg',
+        variant: "hover",
+    },
+    {
+        id:'5',
+        universityName:'Omnix International ',
+        backTile:'most popular and powerful Bim short courses and internships come from OMNIX international, learn more about FormIt Pro, Infraworks, Revit MEP',
+        universityWebsite:null,
+        imageName:'https://s4.aconvert.com/convert/p3r68-cdx67/a9v47-kl5gd.jpg', 
+        variant: "hover",
+    },
+    {
+        id:'6',
+        universityName:'Faculty Development Program',
+        backTile:'one of the most promising internationally recognized Faculty development program delivered by International Faculties in association with Anglia Ruskin University faculty certification',
+        universityWebsite:null,
+        imageName:'https://s4.aconvert.com/convert/p3r68-cdx67/afz3f-9y2of.jpg',
+        variant: "hover",
+    },
+    {
+        id:'7',
+        universityName:'British Council ',
+        backTile:'take IELTS or APTIS, visit our page and get to know more about these quick tests to get eligible for applying in international Universities or migrate',
+        universityWebsite:'https://www.britishcouncil.ae/en',
+        imageName:'https://s4.aconvert.com/convert/p3r68-cdx67/ajssr-pav5c.jpg',
+        variant: "hover",
+    },
+    {
+        id:'8',
+        universityName:'India - VSCC ',
+        backTile:'an exclusive offering to students from North India, in association with VSCC, a place for business and financial aspirants, get an international career in accounting, finance and Business through VSCC international diploma programs recognized from UK awarding bodies',
+        universityWebsite:'www.drvishalsaxenacommerceclasses.com',
+        imageName:'https://s4.aconvert.com/convert/p3r68-cdx67/agtse-pydxv.jpg',
+        variant: "hover",
+    },
+  ];
