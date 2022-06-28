@@ -26,7 +26,7 @@ function FlipCard({ card }) {
         <div className="card front">
           <div className="card-body   align-items-center">
             <img src={card.imageName} height="100px" />
-            <p className="card-text">{card.universityName}</p>
+            <b><p className="card-text"    >{card.tagLine}</p></b>
           </div>
         </div>
         <div className="card back">
