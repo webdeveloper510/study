@@ -31,9 +31,9 @@ function FlipCard({ card }) {
         </div>
         <div className="card back">
           <div className="card-body  align-items-center">
-            <p className="card-text" style={{ fontSize: '11px' }}>{card.backTile}</p>
+            <p className="card-text p-0" style={{ fontSize: '11px' }}>{card.backTile}</p>
             <a href={card.universityWebsite} target="_blank">
-              <button> More Info </button>
+              <button className="btn btn-sm"> More Info </button>
             </a>
           </div>
         </div>
