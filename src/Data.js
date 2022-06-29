@@ -2,7 +2,7 @@ export const universityData = [
     {
       id:'1',
       universityName:'MCAST',
-      backTile:'if you Europe in your mind, MCAST is the destination to be and have schengen visa to travel and work across europe',
+      backTile:'if you Europe in your mind, MCAST is the destination to be and have schengen visa',
       universityWebsite:'https://www.mcast.edu.mt/',
       imageName:'https://www.linkpicture.com/q/image4-3.png',
       variant: "hover",
@@ -12,7 +12,7 @@ export const universityData = [
     {
       id:'2',
       universityName:'Manipal University, Dubai',
-      backTile:'UK degree with Indian Diploma, 2 Top universities Manipal and ARU have come together open your doors for international education',
+      backTile:'UK degree with Indian Diploma, 2 Top universities Manipal and ARU have come together',
       universityWebsite:'https://www.manipaldubai.com/',
       imageName:'https://www.linkpicture.com/q/image5-2.png',
       variant: "hover",
@@ -21,7 +21,7 @@ export const universityData = [
     {
         id:'3',
         universityName:'University of Bolton',
-        backTile:'Migrate to UK with most affordable and prestigious UK degree by Bolton University, get exemption with in-house diploma ',
+        backTile:'Migrate to UK with most affordable and prestigious UK degree by Bolton University',
         universityWebsite:'https://www.bolton.ac.uk/',
         imageName:'https://www.linkpicture.com/q/image7-3.png',
         variant: "hover",
@@ -30,7 +30,7 @@ export const universityData = [
     {
         id:'4',
         universityName:'Anglia Ruskin University',
-        backTile:'one of the only two Universities in Cambridge, study at ARU chelmsford campus and get the best of opportunities to work in the UK.',
+        backTile:'one of the only two Universities in Cambridge, study at ARU chelmsford campus',
         universityWebsite:'https://aru.ac.uk/',
         imageName:'https://www.linkpicture.com/q/image1-2.png',
         variant: "hover",
@@ -39,7 +39,7 @@ export const universityData = [
     {
         id:'5',
         universityName:'Omnix International ',
-        backTile:'most popular and powerful Bim short courses and internships come from OMNIX international, learn more about FormIt Pro, Infraworks, Revit MEP',
+        backTile:'most popular and powerful Bim short courses and internships come from OMNIX international',
         universityWebsite:null,
         imageName:'https://www.linkpicture.com/q/image6-2.png', 
         variant: "hover",
@@ -57,7 +57,7 @@ export const universityData = [
     {
         id:'7',
         universityName:'British Council ',
-        backTile:'take IELTS or APTIS, visit our page and get to know more about these quick tests to get eligible for applying in international Universities or migrate',
+        backTile:'take IELTS or APTIS, visit our page and get to know more about these quick tests',
         universityWebsite:'https://www.britishcouncil.ae/en',
         imageName:'https://www.linkpicture.com/q/image2-2.png',
         variant: "hover",
@@ -66,7 +66,7 @@ export const universityData = [
     {
         id:'8',
         universityName:'India - VSCC ',
-        backTile:'an exclusive offering to students from North India, in association with VSCC, a place for business and financial aspirants',
+        backTile:'an exclusive offering to students from North India, in association with VSCC',
         universityWebsite:'www.drvishalsaxenacommerceclasses.com',
         imageName:'https://www.linkpicture.com/q/image8-2.png',
         variant: "hover",
