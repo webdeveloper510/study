@@ -4,6 +4,9 @@ body {
   font-family: 'Ubuntu', sans-serif;
  
 }
+.container {
+  padding: 0px 60px;
+}
 .card .back:hover {
   transform: scale(1.1,1.1);
 }
@@ -58,6 +61,15 @@ body {
         background-color: #fff;
         color: #2d2d2d;
       }
+     .card-body.align-items-center {
+        position: relative;
+        a {
+          position: absolute;
+          bottom: 3px;
+          left: 0;
+          right: 0;
+      }
+    }
     }
     .card img {
       width: auto;
