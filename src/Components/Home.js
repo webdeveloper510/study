@@ -25,7 +25,7 @@ console.log('uni',uniData)
       <div className="row ">
        
           {uniData.map((card) => (
-             <div className="col-md-4">
+             <div className="col-md-3">
             <FlipCard key={card.id} card={card} />
             </div>
           ))}
