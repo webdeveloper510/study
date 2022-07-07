@@ -7,7 +7,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a.nav-link {
+  margin: 0px 68px;
+  font-weight: 700;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Credentials, .home {
+  background: #bdc5a0;
+  padding-bottom: 4px;
+}
+
+.navbars {
+  background-color: #bdc5a0!important;
+}
+
+.Credentials ul li {
+  list-style-type: none;
+  border-right: 2px solid black;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+.Credentials ul {
+  display: flex;
+  padding-left: 0;
+}
+
+img.contentimage {
+  width: 100%;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.Syllabus {
+  background-color: #025043;
+  color: white;
+  padding-top: 50px;
+}
+
+.Benefits {
+  background: #bdc5a0;
+  padding-bottom: 4px;
+}
+
+.Syllabus ul li {
+  padding: 16px;
+  font-size: 18px;
 }

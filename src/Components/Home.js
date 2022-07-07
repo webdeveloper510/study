@@ -14,7 +14,7 @@ const cards = [
   ];
   
 
-const HomePage = () => {
+const HomePage = () => {  
   useEffect(()=>{
 console.log('uni',uniData)
  },[])
