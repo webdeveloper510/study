@@ -49,4 +49,154 @@ export const universityDetails = [
     ],
    
 },
+{
+    id:'3',
+    universityName:'UOB',
+    overview:'IMMIGRATION AND WORK OPPORTUNITIES IN THE UK WHEN YOU COMPLETE YOUR MASTERS WITH UOB IN LESS THEN A YEAR',
+    certificate:'MBA on Campus',
+    instructor:'Academic Staff - Bolton University',
+    benefits:'Students will get Dual Certification / Transcript will show 180 credits including exemptions / Student is getting the placement year / Students would be eligible for 1 year PSWV and additional 1 year extended visa bypaying 1000GBP to the university / Students are eligible for the Spouse visa for the partners',
+    careers:'',
+    admissionProcess:'Online',
+    fees:'9000 Pounds',
+   
+    programStructure:[
+        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
+        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
+        'Digital Marketing',
+        'Business Analytics',
+        'Hospitality and Tourism / '
+    ],
+   
+},
+{
+    id:'4',
+    universityName:'ARU',
+    overview:'WANT THE LIFE IN CAMBRIDGE AND HAVE A CHANCE TO WORK IN THE UK, JOIN ARU THE UNIVERSITY IN CAMBRIDGE, AND WITH ADDITIONAL BENEFITS OF CAMBRIDGE UNIVERSITY',
+    certificate:'Bachelors & Masters, DL / ON Campus',
+    instructor:'Academic Staff - Anglia Ruskin University',
+    benefits:'Dual Certification / Post Study Work Visa',
+    careers:'',
+    admissionProcess:'Online',
+    fees:'',
+   
+    programStructure:[
+        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
+        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
+        'Digital Marketing',
+        'Business Analytics',
+        'Hospitality and Tourism / '
+    ],
+},
+{
+    id:'5',
+    universityName:'OMNIX',
+    overview:'GET TRAINED FROM THE WORLDs BEST TRAINERS IF YOU WANT A CAREER IN THE FIELD OF DESIGN & CONSTRUCTION',
+    certificate:'BIM , FormIt, Infraworks, Revit MEP',
+    instructor:'Prabhu / Arti',
+    benefits:'International Certification / Work Opportunities / Internship Opportunities',
+    careers:'',
+    admissionProcess:'Online',
+    fees:'',
+   
+    programStructure:[
+        'Certifications'
+    ],
+},
+{
+    id:'6',
+    universityName:'FDP',
+    overview:'WANT TO DEVELOP YOUR PROFESSIONAL CAREER, GET THE FDP CERTIFCATE FROM THE RENOWED ARU AND GET THE BEST OUT OF THE LOT',
+    certificate:'Faculty Development Program',
+    instructor:'Dr Simon Evans (Director International Partnership)',
+    benefits:'Professional Development / Networking',
+    careers:'',
+    admissionProcess:'Online',
+    fees:'',
+   
+    programStructure:[
+        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
+        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
+        'Digital Marketing',
+        'Business Analytics',
+        'Hospitality and Tourism / '
+    ],
+},
+{
+    id:'7',
+    universityName:'BRITISH COUNCIL',
+    overview:'WANT TO APPLY FOR INTERNATIONAL UNIVERSITIES AND GET IMMIGRATION OPPORTUNITIES TO UK, US, CANADA. CLICK ON THE BANNER AND GET MORE INFORMATION',
+    certificate:'IETLS / APTIS',
+    instructor:'Nancy Singhal, Christian Damanka, Ansea Isufi, Lydia Meriku, Alfred Mensah, Samuel Dobor',
+    benefits:'The English proficiency data provided by Aptis is accurate and dependable. As a result, you may decide more effectively regarding hiring, workforce development, and training requirements.Aptis is adaptable and available so you can easily evaluate people.Additionally, it enables you to quickly and reliably test the skills necessary to meet your needs.',
+    careers:'',
+    admissionProcess:'Online',
+    fees:'',
+   
+    programStructure:[
+        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
+        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
+        'Digital Marketing',
+        'Business Analytics',
+        'Hospitality and Tourism / '
+    ],
+},
+{
+    id:'8',
+    universityName:'VSCC',
+    overview:'EXCLUSIVE COURSES FOR THE STUDENTS OF NORTH INDIA IN ASSOCIATION WITH THE UK AWARDING BODIES AND GET A CHANCE TO BUILD YOUR CAREER IN THE UK AND SETTLE.',
+    certificate:'Level 4/5 HIgher National Diploma in Business Management  / Level 4/5 Higher National Diploma in Computing / Level 7 Diploma in Strategic Leadership & Management / Level 7 Diploma in Computing',
+    instructor:'Dr Jatin Tekriwal, Mr Amritesh P Singh, Joy Eduviere, Mirian Eduviere, Shweta Sharma, Himanshi Manuja, Dorothy, Hema Sajnani, Shubham',
+    benefits:'Skill Development / International Diploma + Degree / Post study work visa, Job/Internship Opportunities',
+    careers:'',
+    admissionProcess:'Online',
+    fees:'',
+   
+    programStructure:[
+        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
+        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
+        'Digital Marketing',
+        'Business Analytics',
+        'Hospitality and Tourism / '
+    ],
+},
+{
+    id:'9',
+    universityName:'Cricket Analytics',
+    overview:'',
+    certificate:'Intenational Certification in Cricket Analytics',
+    instructor:'Mr Shaurya Bhatnagar',
+    benefits:'Skill Development / Analytics Knowldge',
+    careers:'',
+    admissionProcess:'',
+    fees:'',
+   
+    programStructure:[
+        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
+        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
+        'Digital Marketing',
+        'Business Analytics',
+        'Hospitality and Tourism / '
+    ],
+},
+{
+    id:'10',
+    universityName:'HTBD',
+    overview:'Understanding the placement of resource allocation by the Dubai government across the city, geographically.Your Learning: as a student, you will be able to take this learning to access the resources laid out by The Dubai city and use them for several purposes of entrepreneurship, finding jobs, elevating lifestyle, developing network, and finding a suitable location to reside, all in all, knowing, accessing, and being resourceful from the city to make the best of you as a professional.Your Understanding: Students will understand the relevant government resources available for the community for ease of business, finding jobs, and improving lifestyle, demographics, and standard of living.Your Skillful Knowledge: Students will know about building start-ups in Dubai. Knowledge of geopolitical resources, knowledge of building a productive lifestyle, knowledge of city infrastructure, urban planning, and community development (demographics).',
+    certificate:'International Certificate in How to Do Business in Dubai',
+    instructor:'Self Paced',
+    benefits:'Your Skills Acquisition Networking skills Start-up business skills Understanding Arabic cultural skills  / Knowledge of the infrastructure,Understanding of Arabic culture,Knowledge of city demographics Knowledge of Government resources allocated for ease of business.',
+    careers:'',
+    admissionProcess:'',
+    fees:'25 Pounds',
+   
+    programStructure:[
+        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
+        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
+        'Digital Marketing',
+        'Business Analytics',
+        'Hospitality and Tourism /'
+    ],
+},
+
 ]
