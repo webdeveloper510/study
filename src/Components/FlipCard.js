@@ -1,13 +1,17 @@
 import { useState } from "react";
 import cn from "classnames";
+import { useNavigate } from 'react-router-dom';
 
 function FlipCard({ card }) {
   const [showBack, setShowBack] = useState(false);
-
+  const navigate = useNavigate();
   function handleClick() {
     if (card.variant === "click") {
       setShowBack(!showBack);
     }
+  }
+  function universityDetails(id){
+    navigate(`/university/${id}`);
   }
   return (
     <div
@@ -32,9 +36,7 @@ function FlipCard({ card }) {
         <div className="card back">
           <div className="card-body  align-items-center">
             <p className="card-text m-0" style={{ fontSize: '13px' }}>{card.backTile}</p>
-            <a href={card.universityWebsite} target="_blank">
-              <button className="btn btn-primary btn-sm"> More Info </button>
-            </a>
+              <button className="btn btn-primary btn-sm" onClick={()=>universityDetails(card.id)}> More Info </button>
           </div>
         </div>
       </div>

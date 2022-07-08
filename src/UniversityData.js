@@ -11,21 +11,21 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        'Level 4 + 5 + 6 / Level 4+5 and Top-Up / Level 7 - Postgraduate Diploma in Business and Administration / Demonstrate professionalism, self-awareness, leadership, and effective communication in a team based environment.',
-        'Possess the skills required to integrate concepts from various disciplines to identify and develop business strategies.',
-        'Demonstrate entrepreneurial, creative and innovative skills in managing and running an organisation.',
-        'Apply knowledge and skills to solve business problems.',
-        'Analyze and apply accounting information to facilitate strategic decision making.',
-        'Employ financial decision models to select appropriate projects for a business enterprise. / Applied Research & Development',
-        'Business Analytics',
-        'Dynamic Strategic Management',
-        'Development Economics',
-        'Accounting for Managers',
-        'Contemporary Entrepreneurship Management',
-        'Strategic International marketing',
-        'Project Management',
-        'Financial Analysis',
-        'Organisational Behaviour'
+        {name:'Level 4 + 5 + 6 / Level 4+5 and Top-Up / Level 7 - Postgraduate Diploma in Business and Administration / Demonstrate professionalism, self-awareness, leadership, and effective communication in a team based environment.'},
+        {name: 'Possess the skills required to integrate concepts from various disciplines to identify and develop business strategies.'},
+        {name:'Demonstrate entrepreneurial, creative and innovative skills in managing and running an organisation.'},
+        {name:'Apply knowledge and skills to solve business problems.'},
+        {name:'Analyze and apply accounting information to facilitate strategic decision making.'},
+        {name:'Employ financial decision models to select appropriate projects for a business enterprise. / Applied Research & Development'},
+        {name:'Business Analytics'},
+        {name:'Dynamic Strategic Management'},
+        {name:'Development Economics'},
+        {name:'Accounting for Managers'},
+        {name:'Contemporary Entrepreneurship Management'},
+        {name:'Strategic International marketing'},
+        {name:'Project Management'},
+        {name:'Financial Analysis'},
+        {name:'Organisational Behaviour'}
     ],
    
 },
@@ -41,11 +41,11 @@ export const universityDetails = [
     fees:'Registration -GBP 340 Tution Fees -GBP 10,000',
    
     programStructure:[
-        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
-        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
-        'Digital Marketing',
-        'Business Analytics',
-        'Hospitality and Tourism / '
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
    
 },
@@ -61,11 +61,11 @@ export const universityDetails = [
     fees:'9000 Pounds',
    
     programStructure:[
-        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
-        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
-        'Digital Marketing',
-        'Business Analytics',
-        'Hospitality and Tourism / '
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
    
 },
@@ -81,11 +81,11 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
-        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
-        'Digital Marketing',
-        'Business Analytics',
-        'Hospitality and Tourism / '
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
 },
 {
@@ -100,7 +100,11 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        'Certifications'
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
 },
 {
@@ -115,11 +119,11 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
-        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
-        'Digital Marketing',
-        'Business Analytics',
-        'Hospitality and Tourism / '
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
 },
 {
@@ -134,11 +138,11 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
-        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
-        'Digital Marketing',
-        'Business Analytics',
-        'Hospitality and Tourism / '
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
 },
 {
@@ -153,11 +157,11 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
-        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
-        'Digital Marketing',
-        'Business Analytics',
-        'Hospitality and Tourism / '
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
 },
 {
@@ -172,11 +176,11 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
-        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
-        'Digital Marketing',
-        'Business Analytics',
-        'Hospitality and Tourism / '
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
 },
 {
@@ -191,11 +195,11 @@ export const universityDetails = [
     fees:'25 Pounds',
    
     programStructure:[
-        'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.',
-        'The curriculum also allows students to pursue a specialization in one of the following streams: Management',
-        'Digital Marketing',
-        'Business Analytics',
-        'Hospitality and Tourism /'
+        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
+        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
+        {name:'Digital Marketing'},
+        {name:'Business Analytics'},
+        {name:'Hospitality and Tourism / '}
     ],
 },
 

@@ -45,11 +45,16 @@ img.contentimage {
   height: 200px;
   border-radius: 50px;
 }
-
+img.contentimage1 {
+  width: 600px;
+  height: 400px;
+  border-radius: 50px;
+}
 .Syllabus {
   background-color: #025043;
   color: white;
   padding-top: 50px;
+  position: relative;
 }
 
 .Benefits {
@@ -60,4 +65,10 @@ img.contentimage {
 .Syllabus ul li {
   padding: 16px;
   font-size: 18px;
+}
+
+.omage {
+  position: absolute;
+  bottom: 50px;
+  right: 60px;
 }

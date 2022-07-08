@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { useState, useEffect } from "react"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -16,9 +17,28 @@ import telephone from '../assets/telephone.png'
 import live from '../assets/live-chat.png'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import { useParams } from "react-router-dom";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import { universityDetails } from '../UniversityData';
 
-function landing() {
+function Landing() {
+  const { id } = useParams()
+  const [uniData,setUniData]=useState({})
+  const [program,setProgramStructure]=useState([])
+  useEffect(()=> {
+   console.log(universityDetails)
+   universityDetail(id)
+}, [id])
+const universityDetail=(id)=>{
+  universityDetails.find((data,index)=>{
+    const flag=data.id==id;
+    if(flag){
+      console.log(data)
+      setUniData(data)
+      setProgramStructure(data.programStructure)
+    }
+  })
+}
   return (
     <>
      <Navbar expand="lg" className='navbars'>
@@ -45,82 +65,62 @@ function landing() {
             </div>
         <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-            <Breadcrumb.Item active>MCAST</Breadcrumb.Item>
+            <Breadcrumb.Item active>{uniData.universityName}</Breadcrumb.Item>
         </Breadcrumb>
        
-           <h3>GET A EUROPEAN DEGREE AND WORK <br/> OPPORTUNITIES IN THE EUROPEAN REGION </h3>
+           <h3>{uniData.overview}</h3>
 
            <ul>
-               <li>Apprenticeship</li>
-               <li>Diploma in furniture</li>
-               <li> ME</li>
-               <li>EE</li>
+               {uniData.certificate}
            </ul>
            <img src={Logo} className="contentimage"/>
         
-            <p className='mt-5'> <b>Certificate : </b> Apprenticeship, Diploma in furniture, ME, EE,</p>
-            <p className='pb-5'><b>Faculty :</b></p>
+            <p className='mt-5'> <b>Certificate : </b> {uniData.certificate}</p>
+            <p className='pb-5'><b>Faculty :</b>{uniData.instructor}</p>
         </Container>
     </div>
     <div className='Syllabus'>
         <Container>
            <h3>Program Structure :</h3>
-           <ul>
-               <li>Level 4+ 5 + 6 / Level 4+5 and Top-Up / Level 7 + 
-                   Postgraduate Diploma in Business and Adminstration /
-                    Demostrate professionalism, self- awreness, 
-                   Leadership, and effective communication in a team based environment. </li>
-                <li>Possess the skills required to integrate concepts from various
-                        disciplines to identify anddevelop business strategies.</li>
-                <li>Demonstrate entrepreueurial, creative and innovative skills in
-                     managing and running an organisation.</li>
-                <li>Apply knowledge and skills to solve bussiness problems</li>
-                <li>Analyze and apply accounting information to facilitate strategic decision making </li>
-                <li>
-                Employ financial decision models to select appropriate projects for a businessenterprise / Applied Reserch & Development.
-                </li>
-           </ul>
+           {/* <ul> */}
+           
+           {/* <li> */}
+
+           {/* </li> */}
+           {/* </ul> */}
            <Row>
-               <Col md={6}>
+               <Col md={12}>
                <ul>
-                   <li>
-                         Business Analytices.
+               {
+              program.map((data)=>(
+                
+                  <li> 
+                       {data.name}
                    </li>
-                   <li>
-                         Dynamir Strategic  Management.
-                   </li>
-                   <li>
-                        Development Economices.
-                   </li>
-                   <li>
-                        Accounting for Managers.
-                   </li>
-                   <li>
-                        Coutemporary Entrepreneurship Mnagement.
-                   </li>
-                   <li>
-                        Strategic International marketing.
-                   </li>
+                  
+              ))
+            }
                </ul>
                </Col>
-               <Col md={6}>
-               <img src={Logo} className="contentimage"/>
-               </Col>
+              
            </Row>
+           {/* <div className='omage'>
+               <img src={Logo} className="contentimage1"/>
+               </div> */}
         </Container>
     </div>
 
     <div className='Benefits'>
         <Container>
             <h3>Benefits :</h3>
-            <p>Post Study Work Visa / Paid Internships / Guaranteed Jobs</p>
+            <p>{uniData.benefits}</p>
             <img src={Logo} className="contentimage"/>
 
-            <p> <b>Admission Process : </b> Online </p>
+            <p> <b>Admission Process : </b> {uniData.admissionProcess} </p>
         </Container>
     </div>
     </>
   )
 }
 
-export default landing
+export default Landing
