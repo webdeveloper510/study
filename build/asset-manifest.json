@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3ec1415.css",
+    "main.js": "/static/js/main.da81e757.js",
+    "static/js/787.0ede400a.chunk.js": "/static/js/787.0ede400a.chunk.js",
+    "static/media/deakin.webp": "/static/media/deakin.83d426c084f3969b39f6.webp",
+    "static/media/global.png": "/static/media/global.76690983a9d82f387590.png",
+    "static/media/telephone.png": "/static/media/telephone.cbe9d4398c59db4fc820.png",
+    "static/media/live-chat.png": "/static/media/live-chat.995a0c8a549cd5a5a78c.png",
+    "static/media/presentation.png": "/static/media/presentation.daa555e6b56e16ef9c14.png",
+    "static/media/logoHome.png": "/static/media/logoHome.9389082960ad9d6e0054.png",
+    "static/media/copy.png": "/static/media/copy.2589547f4fc9a39f6ee7.png",
+    "index.html": "/index.html",
+    "main.e3ec1415.css.map": "/static/css/main.e3ec1415.css.map",
+    "main.da81e757.js.map": "/static/js/main.da81e757.js.map",
+    "787.0ede400a.chunk.js.map": "/static/js/787.0ede400a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3ec1415.css",
+    "static/js/main.da81e757.js"
+  ]
+}

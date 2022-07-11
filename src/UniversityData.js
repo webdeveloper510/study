@@ -63,7 +63,7 @@ export const universityDetails = [
     programStructure:[
         {name:'MBA Top-Up / Duration 9 Months / 3 Trimesters / Modules to be studied - Leadership & Management, Marketing & Operations / Financial Mgmt & Decision Making / Strategy / Organizational Behaviour / Strategic HRM / Professional Project / Academic Skills & Proffesional Practice'},
         
-    ],
+    ], 
    
 },
 {
