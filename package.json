@@ -2,6 +2,7 @@
   "name": "study",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://54.146.156.216",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
