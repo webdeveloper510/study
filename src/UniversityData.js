@@ -61,11 +61,8 @@ export const universityDetails = [
     fees:'9000 Pounds',
    
     programStructure:[
-        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
-        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
-        {name:'Digital Marketing'},
-        {name:'Business Analytics'},
-        {name:'Hospitality and Tourism / '}
+        {name:'MBA Top-Up / Duration 9 Months / 3 Trimesters / Modules to be studied - Leadership & Management, Marketing & Operations / Financial Mgmt & Decision Making / Strategy / Organizational Behaviour / Strategic HRM / Professional Project / Academic Skills & Proffesional Practice'},
+        
     ],
    
 },
@@ -81,11 +78,10 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
-        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
-        {name:'Digital Marketing'},
-        {name:'Business Analytics'},
-        {name:'Hospitality and Tourism / '}
+        {name:'BA (Hons) Management (Top-Up) - Strategic Management Work Based Major Project Work Based Project Impact and Review Reflections on Practice and Career Progression. '},
+        {name:'MBA Top Up - Here you will undertake a major project that focuses on your understanding and execution of entrepreneurial management in an area of specific interest to your or your organisation, such as:'},
+        {name:'An applied or engaged research project An enterprise consultancy project Taking a new business proposition through to proof of concept This is a 15,000 words dissertation.  / '},
+
     ],
 },
 {
@@ -100,11 +96,8 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
-        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
-        {name:'Digital Marketing'},
-        {name:'Business Analytics'},
-        {name:'Hospitality and Tourism / '}
+        {name:'Certifications'},
+
     ],
 },
 {
@@ -119,11 +112,11 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
-        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
-        {name:'Digital Marketing'},
+        {name:'Create a welcoming, encouraging, and inclusive learning atmosphere for postsecondary education by using rapport-building strategies.'},
+        {name:'Deliver a lesson that closes the knowledge gap between you and your students in a powerful, memorable way.'},
+        {name:'By employing efficient third-level education teaching strategies, you can improve your institutional reputation as a reflective teacher.'},
         {name:'Business Analytics'},
-        {name:'Hospitality and Tourism / '}
+        {name:'Implement useful techniques for lesson planning and classroom management.'}
     ],
 },
 {
@@ -138,11 +131,11 @@ export const universityDetails = [
     fees:'',
    
     programStructure:[
-        {name:'PGDBM - The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.'},
-        {name:'The curriculum also allows students to pursue a specialization in one of the following streams: Management'},
-        {name:'Digital Marketing'},
-        {name:'Business Analytics'},
-        {name:'Hospitality and Tourism / '}
+        {name:'Aptis variants' },
+        {name:'Aptis General '},
+        {name:'Aptis Advanced'},
+        {name:'Aptis for Teachers'},
+        {name:'Aptis for Teens'}
     ],
 },
 {
