@@ -72,3 +72,80 @@ img.contentimage1 {
   bottom: 50px;
   right: 60px;
 }
+
+/* --------------------------omnix css------------------- */
+
+.omnix {
+  background-color: #004e41;
+  color:#c3e5b4;
+}
+
+.omnix .navbars {
+  background-color: #004e41 !important;
+  color:#c3e5b4 !important;
+}
+
+.omnix .navbars a {
+  color:#c3e5b4 !important;
+}
+
+.omnix li.breadcrumb-item {
+  color:#c3e5b4 !important;
+}
+
+.omnix li.breadcrumb-item a {
+  color:#c3e5b4 !important;
+}
+
+.omnix-world {
+  background-color: #bdc5a0;
+  padding: 40px 0px;
+}
+
+/* ------------------fdp css---------------- */
+
+.fdp {
+  background-color: #bdc5a0;
+  padding-bottom: 5px;
+}
+
+.fdp-world {
+  background-color: #004e41;
+  color:#c3e5b4;
+  padding: 40px 0px;
+}
+
+/* ---------------Anglia css------------- */
+
+.Anglia {
+  background-color: #bdc5a0;
+  padding-bottom: 5px;
+}
+
+.Anglia-world {
+  background-color: #004e41;
+  color:#c3e5b4;
+  padding: 40px 0px;
+}
+
+.Anglia-world a {
+  color:#c3e5b4;
+}
+
+/* ---------------British css------------------- */
+
+
+.British {
+  background-color: #bdc5a0;
+  padding-bottom: 5px;
+}
+
+.British-world {
+  background-color: #004e41;
+  color:#c3e5b4;
+  padding: 40px 0px;
+}
+
+.British-world a {
+  color:#c3e5b4;
+}

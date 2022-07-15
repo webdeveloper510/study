@@ -73,7 +73,7 @@ const universityDetail=(id)=>{
            <ul>
                {uniData.certificate}
            </ul>
-           <img src={Logo} className="contentimage"/>
+           <img src={Logo} className="contentimage" />
         
             <p className='mt-5'> <b>Certificate : </b> {uniData.certificate}</p>
             <p className='pb-5'><b>Faculty :</b>{uniData.instructor}</p>
