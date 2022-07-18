@@ -149,3 +149,53 @@ img.contentimage1 {
 .British-world a {
   color:#c3e5b4;
 }
+
+/* -------------Universityob  Css------------ */
+
+.Universityob .navbars {
+  background-color: #004e41 !important;
+  color:#c3e5b4 !important;
+}
+
+.Universityob .navbars a {
+  color:#c3e5b4 !important;
+}
+
+.Universityob li.breadcrumb-item {
+  color:#c3e5b4 !important;
+}
+
+.Universityob li.breadcrumb-item a {
+  color:#c3e5b4 !important;
+}
+.Universityob {
+
+  background-color: #004e41;
+  color:#c3e5b4;
+  padding-bottom: 5px;
+}
+
+.Universityob-world {
+  background-color: #bdc5a0;
+  padding: 40px 0px;
+}
+
+.Universityob a {
+  color:#c3e5b4;
+}
+
+/* -----------------ManipalU css---------------- */
+.ManipalU {
+  background-color: #bdc5a0;
+  padding-bottom: 5px;
+}
+
+.ManipalU-world {
+  background-color: #004e41;
+  color:#c3e5b4;
+  padding: 40px 0px;
+}
+
+.ManipalU-world a {
+  color:#c3e5b4;
+}
