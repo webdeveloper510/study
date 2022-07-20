@@ -3,6 +3,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import logo from '../images/vscc.png'
+import images from '../images/WEBPAGE.png'
+import images1 from '../images/SB.png'
+import image from '../images/VSCC-01.png'
+import image1 from '../images/VSCC-02.png'
+import image2 from '../images/VSCC-03.png'
+import image3 from '../images/VSCC-04.png'
+import { Col, Row } from 'react-bootstrap';
+
 
 function Vishalscc() {
   return (
@@ -22,9 +31,9 @@ function Vishalscc() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
+<Container>
     <div class="text-right">
-        <img src="../images/Omnix.png" className='img-fluid'/>
+        <img src={logo} className='img-fluid'/>
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -33,10 +42,10 @@ function Vishalscc() {
 
         <h3>EXCLUSIVE COURSES FOR THE STUDENTS OF NORTH INDIA IN ASSOCIATION WITH THE UK AWARDING BODIES AND GET A CHANCE TO BUILD YOUR CAREER IN THE UK AND SETTLE.</h3>
     <div className=''>
-        <img src="../images/OMNIX-01.png" className='img-fluid'/>
+        <img src={images} className='img-fluid' width='100%'/>
     </div>
-    </div>
-    <div className='world'>
+    
+ 
         <p><b>Certificate: </b> </p>
            <ul>
                 <li>Level 4/5 HIgher National Diploma in Business Management</li>
@@ -44,7 +53,7 @@ function Vishalscc() {
                 <li>Level 7 Diploma in Strategic Leadership & Management</li>
                 <li>Level 7 Diploma in Computing</li>
            </ul>
-          <p><b>Instructor:</b> </p>
+           <p><b>Instructor:</b> </p>
           <ul>
             <li>Dr Jatin Tekriwal - https://www.linkedin.com/in/jatin-tekriwal-a38410138/</li>
             <li>Mr Amritesh P Singh - https://www.linkedin.com/in/amritesh-pratap-singh-892a9813/</li>
@@ -56,8 +65,15 @@ function Vishalscc() {
             <li>Hema Sajnani - https://www.linkedin.com/in/hema-sajnani-a4b47a129/</li>
             <li>Shubham</li>
           </ul>
+        </Container>
+      </div>
+      <div className='world'>
+        <Container>
+       
           <p><b>Program Structure:</b></p>
-          <p><b>Level 4 / 5 - (Business Management)</b></p>
+          <Row>
+            <Col md={6}>
+            <p><b>Level 4 / 5 - (Business Management)</b></p>
           <ol>
             <li>Communications in Organisations</li>
             <li>Leadership and the Organisation</li>
@@ -72,6 +88,20 @@ function Vishalscc() {
             <li>Customer Management</li>
             <li>Risk Management and Organisations</li>
           </ol>
+            </Col>
+            <Col md={6}>
+              <img src={image1} className="img-fluid"/>
+            </Col>
+            </Row>
+           
+           <Row>
+            <Col md={6}>
+            
+            </Col>
+            <Col md={6}>
+            
+            </Col>     
+           </Row>
           <p><b>Level 4 / 5 (IT & Computing)</b></p>
           <ol>
             <li>Information Technology and IT Ethics</li>
@@ -114,7 +144,7 @@ function Vishalscc() {
           <p> <b>Program: </b> MBA Top-Up</p>
           <p> <b>Duration: </b> 9 Months</p>
           <p> <b>Trimesters: </b> 3</p>
-          <p><b>Unit Structure</b></p>
+          <p><b>Unit Structure</b></p>   
           <ol>
             <li>Leadership & Management</li>
             <li>Marketing & Operations</li>
@@ -136,6 +166,7 @@ function Vishalscc() {
           </ul>
           <p><b>Mode of Study: </b> Online</p>
           <p><b>Fees: </b>9000 Pounds </p>
+          </Container>
     </div>
     </>
   )
