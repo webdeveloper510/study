@@ -7,6 +7,7 @@ export const universityData = [
       imageName:'https://www.linkpicture.com/q/image4-3.png',
       variant: "hover",
       tagLine:"if Europe is on your mind MCAST is a ray of Shine",
+      route:'MCAST'
 
     },
     {
@@ -16,7 +17,8 @@ export const universityData = [
       universityWebsite:'https://www.manipaldubai.com/',
       imageName:'https://www.linkpicture.com/q/image5-2.png',
       variant: "hover",
-      tagLine:"Dubai Diploma with UK degree a Unique world-class MBA"
+      tagLine:"Dubai Diploma with UK degree a Unique world-class MBA",
+      route:'Manipal'
     },
     {
         id:'3',
