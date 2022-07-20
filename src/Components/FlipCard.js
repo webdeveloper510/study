@@ -11,6 +11,7 @@ function FlipCard({ card }) {
     }
   }
   function universityDetails(id){
+    console.log(id)
     navigate(`/university/${id}`);
   }
   return (
@@ -29,14 +30,13 @@ function FlipCard({ card }) {
       >
         <div className="card front">
           <div className="card-body   align-items-center">
-            <img src={card.imageName} height="100px" />
-            {/* <b><p className="card-text"    >{card.tagLine}</p></b> */}
+            <img src={card.imageName} height="100px"/>
           </div>
         </div>
         <div className="card back">
           <div className="card-body  align-items-center">
             <p className="card-text m-0" style={{ fontSize: '13px' }}>{card.backTile}</p>
-              <button className="btn btn-primary btn-sm" onClick={()=>universityDetails(card.id)}> More Info </button>
+              <button className="btn btn-primary btn-sm" onClick={()=>universityDetails(card.route)}> More Info </button>
           </div>
         </div>
       </div>

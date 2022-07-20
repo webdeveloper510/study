@@ -34,7 +34,7 @@ function British() {
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-            <Breadcrumb.Item active>Anglia Ruskin University</Breadcrumb.Item>
+            <Breadcrumb.Item active>British Council</Breadcrumb.Item>
         </Breadcrumb>
 
         <h3 className='mt-5'>WANT TO APPLY FOR INTERNATIONAL UNIVERSITIES AND GET IMMIGRATION OPPORTUNITIES TO UK, US, CANADA. CLICK ON THE BANNER AND GET MORE INFORMATION</h3>

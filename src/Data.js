@@ -6,7 +6,7 @@ export const universityData = [
       universityWebsite:'https://www.mcast.edu.mt/',
       imageName:'https://www.linkpicture.com/q/image4-3.png',
       variant: "hover",
-      tagLine:"if Europe is on your mind MCAST is a ray of Shine"
+      tagLine:"if Europe is on your mind MCAST is a ray of Shine",
 
     },
     {
@@ -34,7 +34,8 @@ export const universityData = [
         universityWebsite:'https://aru.ac.uk/',
         imageName:'https://www.linkpicture.com/q/image1-2.png',
         variant: "hover",
-        tagLine:"A University from Cambridge making local go global"
+        tagLine:"A University from Cambridge making local go global",
+        route:'Anglia'
     },
     {
         id:'5',
@@ -43,7 +44,8 @@ export const universityData = [
         universityWebsite:null,
         imageName:'https://www.linkpicture.com/q/image6-2.png', 
         variant: "hover",
-        tagLine:"Internships, Certifications for AutoCAD- Architectures, Civil Engineers and Mechanical Engineers"
+        tagLine:"Internships, Certifications for AutoCAD- Architectures, Civil Engineers and Mechanical Engineers",
+        route:'Omnix'
     },
     {
         id:'6',
@@ -52,7 +54,8 @@ export const universityData = [
         universityWebsite:null,
         imageName:'https://www.linkpicture.com/q/image3-2.png',
         variant: "hover",
-        tagLine:"Faculty Development Program to make you an International Teacher, Globally"
+        tagLine:"Faculty Development Program to make you an International Teacher, Globally",
+        route:'fdp'
     },
     {
         id:'7',
@@ -61,7 +64,8 @@ export const universityData = [
         universityWebsite:'https://www.britishcouncil.ae/en',
         imageName:'https://www.linkpicture.com/q/image2-2.png',
         variant: "hover",
-        tagLine:"Most Unique programs from British council, exempting IELTS at Universities"
+        tagLine:"Most Unique programs from British council, exempting IELTS at Universities",
+        route:'British'
     },
     {
         id:'8',

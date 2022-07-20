@@ -33,7 +33,7 @@ function Omnix() {
     <Container>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-            <Breadcrumb.Item active>Mcast</Breadcrumb.Item>
+            <Breadcrumb.Item active>Omnix</Breadcrumb.Item>
         </Breadcrumb>
 
         <h3>GET TRAINED FROM THE WORLD'S BEST TRAINERS IF YOU WANT A CAREER IN THE FIELD OF DESIGN & CONSTRUCTION</h3>
