@@ -27,7 +27,8 @@ export const universityData = [
         universityWebsite:'https://www.bolton.ac.uk/',
         imageName:'https://www.linkpicture.com/q/image7-3.png',
         variant: "hover",
-        tagLine:"Most prestigious UK degree with 2 Years work visas in the UK"
+        tagLine:"Most prestigious UK degree with 2 Years work visas in the UK",
+        route:'Universityob'
     },
     {
         id:'4',
@@ -76,6 +77,7 @@ export const universityData = [
         universityWebsite:'www.drvishalsaxenacommerceclasses.com',
         imageName:'https://www.linkpicture.com/q/image8-2.png',
         variant: "hover",
-        tagLine:"Unique Accounting and Finance blend of Fast Track UK MBA"
+        tagLine:"Unique Accounting and Finance blend of Fast Track UK MBA",
+        route:"Vishalscc"
     },
   ];

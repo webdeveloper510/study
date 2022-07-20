@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Mcast from '../Components/Mcast';
 import Manipal from '../Components/ManipalU';
 import Vishalscc from '../Components/Vishalscc';
+import Universityob from '../Components/Universityob';
  import Omnix from '../Components/Omnix';
  import Fdp from '../Components/Fdp';
  import Anglia from '../Components/Anglia';
@@ -17,6 +18,8 @@ const Routers = () => {
           <Route path="/university/Anglia" element={<Anglia/>} />
           <Route path="/university/Mcast" element={<Mcast/>} />
           <Route path="/university/Manipal" element={<Manipal/>} />
+          <Route path="/university/Vishalscc" element={<Vishalscc/>} />
+          <Route path="/university/Universityob" element={<Universityob/>} />
           <Route path="/university/Omnix" element={<Omnix/>} />
           <Route path="/university/Fdp" element={<Fdp/>} />
           <Route path="/university/British" element={<British/>} />
