@@ -45,17 +45,8 @@ function ManipalU() {
           <li>PGDBM</li>
           <li>ARU MBA Top-Up</li>
         </ol>
-          <p><b>Instructor:</b></p>
-        <ol>
-            <li>Nancy Singhal</li>
-            <li>Christian Damanka</li>
-            <li>Ansea Isufi</li>
-            <li>Lydia Meriku</li>
-            <li>Alfred Mensah</li>
-            <li>Samuel Dobor</li>
-        </ol>
-        <p><b>Instructor: </b> </p>
-           <a href='https://www.manipaldubai.com/sob/faculty/faculty-list.html'>https://www.manipaldubai.com/sob/faculty/faculty-list.html</a>
+        <p><b>Instructor: </b>   <a href='https://www.manipaldubai.com/sob/faculty/faculty-list.html'>https://www.manipaldubai.com/sob/faculty/faculty-list.html</a> </p>
+         
           <p><b>Program Structure: PGDBM</b> <br/>
               The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.
               <br/>
