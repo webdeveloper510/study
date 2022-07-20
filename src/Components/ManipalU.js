@@ -32,7 +32,7 @@ function ManipalU() {
             <Breadcrumb.Item active>Manipal University</Breadcrumb.Item>
         </Breadcrumb>
 
-        <h3>WANT THE LIFE IN CAMBRIDGE AND HAVE A CHANCE TO WORK IN THE UK, JOIN ARU THE UNIVERSITY IN CAMBRIDGE, AND WITH ADDITIONAL BENEFITS OF CAMBRIDGE UNIVERSITY</h3>
+        <h3>GET AN OPPORTUNITY TO GET AN INTERNATIONAL DIPLOMA WITH A UK DEGREE WHEN YOU JOIN MANIPAL UNIVERSITY</h3>
     <div className='my-4'>
         <img src={image} className='img-fluid'/>
     </div>
@@ -40,7 +40,11 @@ function ManipalU() {
     </div>
     <div className='ManipalU-world'>
       <Container>
-        <p><b>Certificates: </b> IETLS / APTIS</p>
+        <p><b>Certificates: </b></p>
+        <ol>
+          <li>PGDBM</li>
+          <li>ARU MBA Top-Up</li>
+        </ol>
           <p><b>Instructor:</b></p>
         <ol>
             <li>Nancy Singhal</li>
@@ -50,23 +54,45 @@ function ManipalU() {
             <li>Alfred Mensah</li>
             <li>Samuel Dobor</li>
         </ol>
-        <p><b>Program Structure / Types of Programs: </b> </p>
-           <ul>
-                <li>Aptis variants</li>
-                <li>Aptis General</li>
-                <li>Aptis Advanced</li>
-                <li>Aptis for Teachers</li>
-                <li>Aptis for Teens</li>
-           </ul>
-          <p><b>Benefits:</b> <br/>
-          The English proficiency data provided by Aptis is accurate and dependable. As a result, you may decide more effectively regarding hiring, workforce development, and training requirements.
-          <br/>
-          <br/>
-          Aptis is adaptable and available so you can easily evaluate people.<br/> <br/>
-          Additionally, it enables you to quickly and reliably test the skills necessary to meet your needs."	
+        <p><b>Instructor: </b> </p>
+           <a href='https://www.manipaldubai.com/sob/faculty/faculty-list.html'>https://www.manipaldubai.com/sob/faculty/faculty-list.html</a>
+          <p><b>Program Structure: PGDBM</b> <br/>
+              The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.
+              <br/>
+              <br/>
+              The curriculum also allows students to pursue a specialization in one of the following streams: Management<br/>
+              Digital Marketing <br/>
+              Business Analytics<br/>
+              Hospitality and Tourism
           </p>
-          <p><b>Mode of Study:</b>Online</p>
-          <p><b>Fees:</b> TBD</p>
+          <p><b>Benefits:</b></p>
+          <p><b>PGDBM</b></p>
+          <ul>
+            <li>Created with working individuals seeking career advancement in mind</li>
+            <li>Adaptable - These are taught as an evening session using our course materials and online instruction.</li>
+            <li>A shorter business graduate degree offers the chance to select from a variety of specializations for career change.</li>
+            <li>designed for business clients who want their education to be paid for by employers</li>
+            <li>In order for students to comprehend real-world industry-specific difficulties and how solutions may be worked around them, case studies have been introduced to the class.</li>
+            <li>Industry professionals lead the seminars and workshops. </li>
+          </ul>
+          <p><b>MBA ARU</b></p>
+          <ul>
+            <li>Gaining an international perspective is one of the things that an MBA from Anglia Ruskin University will assist students with.</li>
+            <li>Develop important management abilities.</li>
+            <li>Increase your employability.</li>
+            <li>Consolidate your business knowledge while resolving practical problems.</li>
+          </ul>
+          <p><b>CAREERS:</b></p>
+          <ul>
+            <li>The programme is designed to prepare graduates for careers as managers across a range of industries. The current range of proposed specializations are aligned with current needs in the market areas of:</li>
+            <li>General Management</li>
+            <li>Digital Marketing</li>
+            <li>Hospitality and Tourism.</li>
+          </ul>
+          <p><b>MODE OF STUDY:</b> Fulltime / Online</p>
+          <p><b>FEES</b></p>
+          <p>Registration - GBP 340 <br/>
+          Tution Fees - GBP 10,000</p>
       </Container>
     </div>
     </>

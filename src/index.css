@@ -53,18 +53,13 @@ img.contentimage1 {
 .Syllabus {
   background-color: #025043;
   color: white;
-  padding-top: 50px;
+  padding: 50px;
   position: relative;
 }
 
 .Benefits {
   background: #bdc5a0;
-  padding-bottom: 4px;
-}
-
-.Syllabus ul li {
-  padding: 16px;
-  font-size: 18px;
+  padding: 20px;
 }
 
 .omage {
@@ -197,5 +192,40 @@ img.contentimage1 {
 }
 
 .ManipalU-world a {
+  color:#c3e5b4;
+}
+
+/* -----------------Vishalscc css---------------- */
+
+
+.Vishalscc .navbars {
+  background-color: #004e41 !important;
+  color:#c3e5b4 !important;
+}
+
+.Vishalscc .navbars a {
+  color:#c3e5b4 !important;
+}
+
+.Vishalscc li.breadcrumb-item {
+  color:#c3e5b4 !important;
+}
+
+.Vishalscc li.breadcrumb-item a {
+  color:#c3e5b4 !important;
+}
+.Vishalscc {
+
+  background-color: #004e41;
+  color:#c3e5b4;
+  padding-bottom: 5px;
+}
+
+.Vishalscc-world {
+  background-color: #bdc5a0;
+  padding: 40px 0px;
+}
+
+.Vishalscc a {
   color:#c3e5b4;
 }

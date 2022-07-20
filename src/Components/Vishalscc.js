@@ -16,7 +16,7 @@ import { Col, Row } from 'react-bootstrap';
 function Vishalscc() {
   return (
  <>
-   <div className=''>
+   <div className='Vishalscc'>
     <Navbar expand="lg" className='navbars'>
       <Container className='p-0'>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -33,7 +33,7 @@ function Vishalscc() {
     </Navbar>
 <Container>
     <div class="text-right">
-        <img src={logo} className='img-fluid'/>
+        <img src={logo} width="350px"/>
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -42,7 +42,7 @@ function Vishalscc() {
 
         <h3>EXCLUSIVE COURSES FOR THE STUDENTS OF NORTH INDIA IN ASSOCIATION WITH THE UK AWARDING BODIES AND GET A CHANCE TO BUILD YOUR CAREER IN THE UK AND SETTLE.</h3>
     <div className=''>
-        <img src={images} className='img-fluid' width='100%'/>
+        <img src={images} className='img-fluid my-4' width='100%'/>
     </div>
     
  
@@ -67,7 +67,7 @@ function Vishalscc() {
           </ul>
         </Container>
       </div>
-      <div className='world'>
+      <div className='Vishalscc-world'>
         <Container>
        
           <p><b>Program Structure:</b></p>
@@ -90,19 +90,13 @@ function Vishalscc() {
           </ol>
             </Col>
             <Col md={6}>
-              <img src={image1} className="img-fluid"/>
+              <img src={image} className="img-fluid"/>
             </Col>
             </Row>
            
            <Row>
             <Col md={6}>
-            
-            </Col>
-            <Col md={6}>
-            
-            </Col>     
-           </Row>
-          <p><b>Level 4 / 5 (IT & Computing)</b></p>
+            <p><b>Level 4 / 5 (IT & Computing)</b></p>
           <ol>
             <li>Information Technology and IT Ethics</li>
             <li>Mathematics and Statistics for IT</li>
@@ -117,18 +111,33 @@ function Vishalscc() {
             <li>Network Routing and Switching</li>
             <li>Network Design and Administration</li>
           </ol>
-          <p><b>Fees: Level 4 / 5 -</b> TBD </p>
-          <p><b>Level 7 - (DIPLOMA IN STRATEGIC MANAGEMENT AND INNOVATION)</b></p>
-          <ul>
-            <li>Finance for Managers</li>
-            <li>Strategic Direction</li>
-            <li>Strategic Marketing</li>
-            <li>Human Resource Planning</li>
-            <li>Marketing Strategy for Social Enterprise</li>
-            <li>Global Marketing</li>
-            <li>Strategic Management</li>
-          </ul>
-          <p><b>Level 7 - (Extended Diploma in Computing Technologies) Year 1</b></p>
+            </Col>
+            <Col md={6}>
+                <img src={image1} className="img-fluid"/>
+            </Col>     
+           </Row>
+           <Row>
+             <Col md={6}>
+                <p><b>Fees: Level 4 / 5 -</b> TBD </p>
+                <p><b>Level 7 - (DIPLOMA IN STRATEGIC MANAGEMENT AND INNOVATION)</b></p>
+                <ul>
+                  <li>Finance for Managers</li>
+                  <li>Strategic Direction</li>
+                  <li>Strategic Marketing</li>
+                  <li>Human Resource Planning</li>
+                  <li>Marketing Strategy for Social Enterprise</li>
+                  <li>Global Marketing</li>
+                  <li>Strategic Management</li>
+                </ul>
+             </Col>
+             <Col md={6}>
+                  <img src={image2} className="img-fluid"/>
+             </Col>
+           </Row>
+
+           <Row>
+             <Col md={6}>
+             <p><b>Level 7 - (Extended Diploma in Computing Technologies) Year 1</b></p>
           <ol>
             <li>Managing Innovation and Change in Computing</li>
             <li>Systems Development and User Experience (UX)</li>
@@ -139,6 +148,13 @@ function Vishalscc() {
             <li>Enterprise Resources Planning Systems (ERP Systems)</li>
             <li>Mobile Application Development</li>
           </ol>
+             </Col>
+             <Col md={6}>
+                <img src={image3} className="img-fluid"/>
+             </Col>
+           </Row>
+         
+         
           <p><b>Fees: </b> Level 7 TBD</p>
           <p><b>Bolton University TopUp Year 2</b></p>
           <p> <b>Program: </b> MBA Top-Up</p>
