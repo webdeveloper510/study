@@ -71,31 +71,16 @@ img.contentimage1 {
 /* --------------------------omnix css------------------- */
 
 .omnix {
-  background-color: #004e41;
-  color:#c3e5b4;
-}
-
-.omnix .navbars {
-  background-color: #004e41 !important;
-  color:#c3e5b4 !important;
-}
-
-.omnix .navbars a {
-  color:#c3e5b4 !important;
-}
-
-.omnix li.breadcrumb-item {
-  color:#c3e5b4 !important;
-}
-
-.omnix li.breadcrumb-item a {
-  color:#c3e5b4 !important;
+  background-color: #bdc5a0;
+  padding-bottom: 5px;
 }
 
 .omnix-world {
-  background-color: #bdc5a0;
+  background-color: #004e41;
+  color:#c3e5b4;
   padding: 40px 0px;
 }
+
 
 /* ------------------fdp css---------------- */
 
@@ -146,36 +131,18 @@ img.contentimage1 {
 }
 
 /* -------------Universityob  Css------------ */
-
-.Universityob .navbars {
-  background-color: #004e41 !important;
-  color:#c3e5b4 !important;
-}
-
-.Universityob .navbars a {
-  color:#c3e5b4 !important;
-}
-
-.Universityob li.breadcrumb-item {
-  color:#c3e5b4 !important;
-}
-
-.Universityob li.breadcrumb-item a {
-  color:#c3e5b4 !important;
-}
 .Universityob {
-
-  background-color: #004e41;
-  color:#c3e5b4;
+  background-color: #bdc5a0;
   padding-bottom: 5px;
 }
 
 .Universityob-world {
-  background-color: #bdc5a0;
+  background-color: #004e41;
+  color:#c3e5b4;
   padding: 40px 0px;
 }
 
-.Universityob a {
+.Universityob-world a {
   color:#c3e5b4;
 }
 
@@ -197,35 +164,17 @@ img.contentimage1 {
 
 /* -----------------Vishalscc css---------------- */
 
-
-.Vishalscc .navbars {
-  background-color: #004e41 !important;
-  color:#c3e5b4 !important;
-}
-
-.Vishalscc .navbars a {
-  color:#c3e5b4 !important;
-}
-
-.Vishalscc li.breadcrumb-item {
-  color:#c3e5b4 !important;
-}
-
-.Vishalscc li.breadcrumb-item a {
-  color:#c3e5b4 !important;
-}
 .Vishalscc {
-
-  background-color: #004e41;
-  color:#c3e5b4;
+  background-color: #bdc5a0;
   padding-bottom: 5px;
 }
 
 .Vishalscc-world {
-  background-color: #bdc5a0;
+  background-color: #004e41;
+  color:#c3e5b4;
   padding: 40px 0px;
 }
 
-.Vishalscc a {
+.Vishalscc-world a {
   color:#c3e5b4;
 }
