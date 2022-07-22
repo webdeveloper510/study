@@ -6,13 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Button , Card } from 'react-bootstrap';
-import Logo from '../assets/deakin.webp'
+import Logo from '../images/MCAST1.jpg'
 import LogoHome from '../assets/logoHome.png'
 import cv from '../assets/cv.png'
 import copy from '../assets/copy.png'
 import global from '../assets/global.png'
 import presentation from '../assets/presentation.png'
-import telephone from '../assets/telephone.png'
+import telephone from '../images/MCAST2.jpg'
 import live from '../assets/live-chat.png'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
@@ -65,7 +65,7 @@ function Mcast() {
     </div>
     <div className='Syllabus'>
         <Container>
-           <h3>Program Structure :</h3>
+        <h3>Program Structure :</h3>
            <ul>
                <li>Level 4+ 5 + 6  </li>
                 <li>Level 4+5 and Top-Up</li>
@@ -80,7 +80,9 @@ function Mcast() {
              <li>Accounting Principles</li>
              <li>Managing a Successful Business Project</li>
            </ul>
-           <p><b>Optional Unit:</b></p>
+          <Row>
+            <Col md={6}>
+            <p><b>Optional Unit:</b></p>
            <ul>
              <li>Innovation and Commercialisation</li>
            </ul>
@@ -120,6 +122,13 @@ function Mcast() {
               <li>Derby University & Many More.</li>
             </ul>
             <p><b>Mode of Learning:</b>  Online / On Campus</p>
+            </Col>
+            <Col md={6}>
+              <img src={telephone} className="img-fluid"/>
+            </Col>
+          </Row>
+          
+         
         </Container>
     </div>
 

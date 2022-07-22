@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/FDP.png'
-import fdp from '../images/FDP-01.png'
+import fdp from '../images/FDP1.jpg'
 function Fdp() {
   return (
     <>

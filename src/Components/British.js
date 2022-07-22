@@ -4,9 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import {Row, Col} from 'react-bootstrap';
-import logo from '../images/British_Council.png'
+import logo from '../images/british-council.jpg'
 import image from '../images/BC-01.png'
-import image1 from '../images/BC-02.png'
+import image1 from '../images/BC2.jpg'
 
 
 

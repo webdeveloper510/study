@@ -4,7 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/logo.png'
-import image from '../images/img1.jpg'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import image from '../images/MU.jpg'
+import image1 from '../images/MU1.jpg'
 function ManipalU() {
   return (
     <>
@@ -40,13 +43,15 @@ function ManipalU() {
     </div>
     <div className='ManipalU-world'>
       <Container>
-        <p><b>Certificates: </b></p>
+      <p><b>Certificates: </b></p>
         <ol>
           <li>PGDBM</li>
           <li>ARU MBA Top-Up</li>
         </ol>
         <p><b>Instructor: </b>   <a href='https://www.manipaldubai.com/sob/faculty/faculty-list.html'>https://www.manipaldubai.com/sob/faculty/faculty-list.html</a> </p>
          
+        <Row>
+          <Col md={6}>
           <p><b>Program Structure: PGDBM</b> <br/>
               The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.
               <br/>
@@ -80,6 +85,13 @@ function ManipalU() {
             <li>Digital Marketing</li>
             <li>Hospitality and Tourism.</li>
           </ul>
+          </Col>
+          <Col md={6}>
+            <img src={image1} className="img-fluid" />
+          </Col>
+        </Row>
+       
+         
           <p><b>MODE OF STUDY:</b> Fulltime / Online</p>
           <p><b>FEES</b></p>
           <p>Registration - GBP 340 <br/>

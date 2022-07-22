@@ -6,10 +6,10 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/vscc.png'
 import images from '../images/WEBPAGE.png'
 import images1 from '../images/SB.png'
-import image from '../images/VSCC-01.png'
-import image1 from '../images/VSCC-02.png'
-import image2 from '../images/VSCC-03.png'
-import image3 from '../images/VSCC-04.png'
+import image from '../images/VSCC1.jpg'
+import image1 from '../images/VSCC2.jpg'
+import image2 from '../images/VSCC3.jpg'
+import image3 from '../images/VSCC4.jpg'
 import { Col, Row } from 'react-bootstrap';
 
 
@@ -71,7 +71,7 @@ function Vishalscc() {
         <Container>
        
           <p><b>Program Structure:</b></p>
-          <Row>
+          <Row className='my-3'>
             <Col md={6}>
             <p><b>Level 4 / 5 - (Business Management)</b></p>
           <ol>
@@ -94,7 +94,10 @@ function Vishalscc() {
             </Col>
             </Row>
            
-           <Row>
+            <Row className='my-3'>
+           <Col md={6}>
+                <img src={image1} className="img-fluid"/>
+            </Col> 
             <Col md={6}>
             <p><b>Level 4 / 5 (IT & Computing)</b></p>
           <ol>
@@ -112,11 +115,9 @@ function Vishalscc() {
             <li>Network Design and Administration</li>
           </ol>
             </Col>
-            <Col md={6}>
-                <img src={image1} className="img-fluid"/>
-            </Col>     
+                
            </Row>
-           <Row>
+           <Row className='my-3'>
              <Col md={6}>
                 <p><b>Fees: Level 4 / 5 -</b> TBD </p>
                 <p><b>Level 7 - (DIPLOMA IN STRATEGIC MANAGEMENT AND INNOVATION)</b></p>
@@ -135,7 +136,10 @@ function Vishalscc() {
              </Col>
            </Row>
 
-           <Row>
+           <Row className='my-3'>
+           <Col md={6}>
+                <img src={image3} className="img-fluid"/>
+             </Col>
              <Col md={6}>
              <p><b>Level 7 - (Extended Diploma in Computing Technologies) Year 1</b></p>
           <ol>
@@ -149,9 +153,7 @@ function Vishalscc() {
             <li>Mobile Application Development</li>
           </ol>
              </Col>
-             <Col md={6}>
-                <img src={image3} className="img-fluid"/>
-             </Col>
+             
            </Row>
          
          
