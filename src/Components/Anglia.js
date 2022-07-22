@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import {Row, Col} from 'react-bootstrap'
 import logo from '../images/ARU.png'
-import Angliaimage from '../images/ARU-01.png'
+import Angliaimage from '../images/ARU1.jpg'
 import imagess from '../images/ARU2.jpg'
 function Anglia() {
   return (

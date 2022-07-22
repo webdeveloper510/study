@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/vscc.png'
-import images from '../images/WEBPAGE.png'
+import images from '../images/VSCC.jpg'
 import images1 from '../images/SB.png'
 import image from '../images/VSCC1.jpg'
 import image1 from '../images/VSCC2.jpg'

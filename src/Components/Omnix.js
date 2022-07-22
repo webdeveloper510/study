@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/Omnix.png'
-import image from '../images/OMNIX-01.png'
+import image from '../images/OMIX1.jpg'
 
 function Omnix() {
   return (
