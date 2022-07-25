@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Button , Card } from 'react-bootstrap';
 import Logo from '../images/MCAST1.jpg'
-import LogoHome from '../assets/logoHome.png'
+import LogoHome from '../images/MCAST.png'
 import cv from '../assets/cv.png'
 import copy from '../assets/copy.png'
 import global from '../assets/global.png'
@@ -41,7 +41,7 @@ function Mcast() {
      
         <Container>
             <div className='text-right'>
-            <img src={LogoHome} className='img-fluid'/>
+            <img src={LogoHome} width="420px" height="120px"/>
             </div>
         <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -56,7 +56,10 @@ function Mcast() {
                <li> ME</li>
                <li>EE</li>
            </ul>
-           <img src={Logo} className="img-fluid"/>
+           <div className='my-4'>
+           <img src={Logo} width="100%" height="600px"/>
+           </div>
+
         
             <p className='mt-5'> <b>Certificate : </b> Apprenticeship, Diploma in furniture, ME, EE,</p>
             <p><b>Instructors:</b> <a href="https://intranet.mcast.edu.mt/">https://intranet.mcast.edu.mt/</a></p>

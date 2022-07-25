@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import logo from '../images/logo.png'
+import logo from '../images/Manipal.png'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import image from '../images/MU.jpg'
@@ -28,7 +28,7 @@ function ManipalU() {
     </Navbar>
     <Container>
     <div class="text-right">
-        <img src={logo} className='img-fluid'/>
+        <img src={logo} width="420px" height="120px"/>
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -37,7 +37,7 @@ function ManipalU() {
 
         <h3>GET AN OPPORTUNITY TO GET AN INTERNATIONAL DIPLOMA WITH A UK DEGREE WHEN YOU JOIN MANIPAL UNIVERSITY</h3>
     <div className='my-4'>
-        <img src={image} className='img-fluid'/>
+        <img src={image} width="100%" height="600px"/>
     </div>
     </Container>
     </div>

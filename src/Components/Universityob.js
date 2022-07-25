@@ -28,7 +28,7 @@ function Universityob() {
     </Navbar>
     <Container>
     <div class="text-right">
-        <img src={logo} height="120px"/>
+        <img src={logo} width="420px" height="120px"/>
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -36,8 +36,8 @@ function Universityob() {
         </Breadcrumb>
 
         <h3 className='mt-5'>IMMIGRATION AND WORK OPPORTUNITIES IN THE UK WHEN YOU COMPLETE YOUR MASTERS WITH UOB IN LESS THEN A YEAR</h3>
-    <div className=''>
-        <img src={image} className='img-fluid my-5'/>
+        <div className='my-4'>
+        <img src={image} width="100%" height="600px"/>
     </div>
     <p><b>Certificates: </b> MBA on Campus</p>
     <p><b>Instructor:</b> <a href="https://rb.gy/1aaggv">https://rb.gy/1aaggv</a></p>

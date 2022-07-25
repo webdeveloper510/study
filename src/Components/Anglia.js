@@ -35,8 +35,8 @@ function Anglia() {
         </Breadcrumb>
 
         <h3 className='my-5'>WANT THE LIFE IN CAMBRIDGE AND HAVE A CHANCE TO WORK IN THE UK, JOIN ARU THE UNIVERSITY IN CAMBRIDGE, AND WITH ADDITIONAL BENEFITS OF CAMBRIDGE UNIVERSITY</h3>
-    <div className=''>
-        <img src={Angliaimage} className='img-fluid my-5'/>
+        <div className='my-4'>
+        <img src={Angliaimage} width="100%" height="600px"/>
     </div>
     </Container>
     </div>

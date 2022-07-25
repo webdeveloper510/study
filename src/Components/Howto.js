@@ -25,7 +25,7 @@ function Howto() {
    </Navbar>
 
    <div class="text-right">
-       <img src="../images/Omnix.png" className='img-fluid'/>
+       <img src="../images/Omnix.png" width="420px" height="120px"/>
    </div>
    <Breadcrumb>
            <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -33,8 +33,8 @@ function Howto() {
        </Breadcrumb>
 
        <h3>WANT THE LIFE IN CAMBRIDGE AND HAVE A CHANCE TO WORK IN THE UK, JOIN ARU THE UNIVERSITY IN CAMBRIDGE, AND WITH ADDITIONAL BENEFITS OF CAMBRIDGE UNIVERSITY</h3>
-   <div className=''>
-       <img src="../images/OMNIX-01.png" className='img-fluid'/>
+       <div className='my-4'>
+       <img src="../images/OMNIX-01.png" width="100%" height="600px"/>
    </div>
    </div>
   </>

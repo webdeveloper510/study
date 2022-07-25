@@ -178,3 +178,303 @@ img.contentimage1 {
 .Vishalscc-world a {
   color:#c3e5b4;
 }
+
+
+.brain {
+  position: relative;
+  height: 400px;
+}
+
+
+
+.image2 {
+  position: absolute;
+  left: 37%;
+}
+
+.image5 {
+  position: absolute;
+  right: 45%;
+  top: -17px;
+}
+
+
+.image3 {
+  position: absolute;
+  left: 33%;
+  top: 34px;
+}
+
+.image4 {
+  position: absolute;
+  left: 34.7%;
+  top: 110px;
+}
+
+.image6 {
+  position: absolute;
+  right: 41.5%;
+    top: 37px;
+}
+
+.image7 {
+  position: absolute;
+  right: 42.5%;
+  top: 94px;
+}
+
+.image1 {
+  position: absolute;
+  top: 61px;
+  left: 33.16%;
+}
+
+
+
+@media only screen and (max-width: 1054px) {
+
+  .image4 {
+    position: absolute;
+    left: 346px;
+    top: 110px;
+}
+.image1 {
+    position: absolute;
+    top: 61px;
+    left: 330px;
+}
+
+.image7 {
+    position: absolute;
+    right: 330px;
+    top: 94px;
+}
+
+.image6 {
+    position: absolute;
+    right: 326px;
+    top: 37px;
+}
+.image5 {
+    position: absolute;
+    right: 361px;
+    top: -17px;
+}
+.image3 {
+    position: absolute;
+    left: 315px;
+    top: 34px;
+}
+
+.image2 {
+    position: absolute;
+    left: 373px;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .image1 {
+    position: absolute;
+    top: 64px;
+    left: 117px;
+}
+
+.image7 {
+    position: absolute;
+    right: 120px;
+    top: 94px;
+}
+
+.image6 {
+    position: absolute;
+    right: 115px;
+    top: 37px;
+}
+
+.image4 {
+    position: absolute;
+    left: 132px;
+    top: 110px;
+}
+
+.image3 {
+    position: absolute;
+    left: 110px;
+    top: 34px;
+}
+
+.image5 {
+    position: absolute;
+    right: 154px;
+    top: -17px;
+}
+
+.image2 {
+    position: absolute;
+    left: 160px;
+}
+
+}
+@media only screen and (max-width: 410px) {
+  .image7 {
+    position: absolute;
+    right: 17%;
+    top: 94px;
+}
+.image1 {
+    position: absolute;
+    top: 64px;
+    left: 13%;
+}
+.image6 {
+    position: absolute;
+    right: 15%;
+    top: 37px;
+}
+.image4 {
+    position: absolute;
+    left: 17%;
+    top: 110px;
+}
+.image3 {
+    position: absolute;
+    left: 11%;
+    top: 34px;
+}
+.image5 {
+    position: absolute;
+    right: 23.7%;
+    top: -17px;
+}
+.image2 {
+    position: absolute;
+    left: 24%;
+}
+
+}
+
+@media only screen and (max-width: 414px) {
+  .image7 {
+    position: absolute;
+    right: 13%;
+    top: 94px;
+}
+.image1 {
+    position: absolute;
+    top: 64px;
+    left: 17%;
+}
+
+.image6 {
+    position: absolute;
+    right: 11%;
+    top: 37px;
+}
+.image4 {
+    position: absolute;
+    left: 21%;
+    top: 110px;
+}
+.image3 {
+    position: absolute;
+    left: 14%;
+    top: 34px;
+}
+.image5 {
+    position: absolute;
+    right: 20.4%;
+    top: -17px;
+}
+.image2 {
+    position: absolute;
+    left: 27.8%;
+}
+
+
+}
+@media only screen and (max-width: 375px) {
+
+  .image6 {
+    position: absolute;
+    right: 6%;
+    top: 37px;
+}
+.image1 {
+    position: absolute;
+    top: 64px;
+    left: 13%;
+}
+.image7 {
+    position: absolute;
+    right: 8%;
+    top: 94px;
+}
+.image4 {
+    position: absolute;
+    left: 17%;
+    top: 110px;
+}
+.image3 {
+    position: absolute;
+    left: 11%;
+    top: 34px;
+}
+.image5 {
+    position: absolute;
+    right: 17.5%;
+    top: -17px;
+}
+.image2 {
+    position: absolute;
+    left: 25%;
+}
+
+}
+@media only screen and (max-width: 320px) {
+
+
+  .image2 {
+    position: absolute;
+    left: 17%;
+}
+
+.image5 {
+    position: absolute;
+    right: 14%;
+    top: -17px;
+}
+.image3 {
+    position: absolute;
+    left: 0%;
+    top: 34px;
+}
+.image4 {
+    position: absolute;
+    left: 7%;
+    top: 110px;
+}
+.image6 {
+    position: absolute;
+    right: 1%;
+    top: 37px;
+}
+
+.image7 {
+    position: absolute;
+    right: 3%;
+    top: 94px;
+}
+.image1 {
+    position: absolute;
+    top: 64px;
+    left: 2.6%;
+}
+
+
+
+}

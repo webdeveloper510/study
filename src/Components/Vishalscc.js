@@ -33,7 +33,7 @@ function Vishalscc() {
     </Navbar>
 <Container>
     <div class="text-right">
-        <img src={logo} width="350px"/>
+        <img src={logo} width="420px" height="120px"/>
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -41,8 +41,8 @@ function Vishalscc() {
         </Breadcrumb>
 
         <h3>EXCLUSIVE COURSES FOR THE STUDENTS OF NORTH INDIA IN ASSOCIATION WITH THE UK AWARDING BODIES AND GET A CHANCE TO BUILD YOUR CAREER IN THE UK AND SETTLE.</h3>
-    <div className=''>
-        <img src={images} className='img-fluid my-4' width='100%'/>
+        <div className='my-4'>
+        <img src={images} width="100%" height="600px"/>
     </div>
     
  

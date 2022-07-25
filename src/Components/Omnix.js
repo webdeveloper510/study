@@ -27,7 +27,7 @@ function Omnix() {
  
     <div class="text-right">
         <Container>
-            <img src={logo} width="320px" height="120px"/>
+            <img src={logo} width="420px" height="120px"/>
         </Container>
     </div>
     <Container>
@@ -37,8 +37,8 @@ function Omnix() {
         </Breadcrumb>
 
         <h3>GET TRAINED FROM THE WORLD'S BEST TRAINERS IF YOU WANT A CAREER IN THE FIELD OF DESIGN & CONSTRUCTION</h3>
-    <div className=''>
-        <img src={image} className='img-fluid my-5' style={{borderRadius:'10px' }}/>
+        <div className='my-4'>
+        <img src={image} width="100%" height="600px"/>
     </div>
     </Container>
     </div>

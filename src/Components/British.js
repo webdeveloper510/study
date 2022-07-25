@@ -4,8 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import {Row, Col} from 'react-bootstrap';
-import logo from '../images/british-council.jpg'
-import image from '../images/BC-01.png'
+import logo from '../images/British_Council.png'
+import image from '../images/british-council.jpg'
 import image1 from '../images/BC2.jpg'
 
 
@@ -38,8 +38,8 @@ function British() {
         </Breadcrumb>
 
         <h3 className='mt-5'>WANT TO APPLY FOR INTERNATIONAL UNIVERSITIES AND GET IMMIGRATION OPPORTUNITIES TO UK, US, CANADA. CLICK ON THE BANNER AND GET MORE INFORMATION</h3>
-    <div className=''>
-        <img src={image} className='img-fluid my-5'/>
+    <div className='my-4'>
+        <img src={image} width="100%" height="600px"/>
     </div>
     </Container>
     </div>
