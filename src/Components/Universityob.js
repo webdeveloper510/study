@@ -4,9 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/UOB.png'
-import image from '../images/UOB-01.png'
+import image from '../images/UOB1.jpg'
 import { Col, Row } from 'react-bootstrap';
-import images from '../images/UOB-02.png'
+import images from '../images/UOB2.jpg'
 
 function Universityob() {
   return (
