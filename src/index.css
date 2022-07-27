@@ -186,48 +186,40 @@ img.contentimage1 {
   margin-top: 100px;
 }
 
-
-
-.image2 {
-  position: absolute;
-  left: 37%;
-}
-
-.image5 {
-  position: absolute;
-  right: 45%;
-  top: -17px;
-}
-
-
-.image3 {
-  position: absolute;
-  left: 33%;
-  top: 34px;
-}
-
-.image4 {
-  position: absolute;
-  left: 34.7%;
-  top: 110px;
-}
-
-.image6 {
-  position: absolute;
-  right: 41.5%;
-    top: 37px;
-}
-
-.image7 {
-  position: absolute;
-  right: 42.5%;
-  top: 94px;
-}
-
 .image1 {
   position: absolute;
-  top: 61px;
-  left: 33.16%;
+  top: 91px;
+  left: 50.3%;
+}
+.image7 {
+  position: absolute;
+  right: 39%;
+  top: 135px;
+}
+.image6 {
+  position: absolute;
+  right: 37%;
+  top: 53px;
+}
+.image4 {
+  position: absolute;
+  left: 43.2%;
+  top: 111px;
+}
+.image3 {
+  position: absolute;
+  left: 41%;
+  top: 27px;
+}
+.image5 {
+  position: absolute;
+  right: 39%;
+  top: -25px;
+}
+.image2 {
+  position: absolute;
+  left: 45%;
+  top: -24px;
 }
 
 .brain img:hover {

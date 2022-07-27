@@ -33,13 +33,13 @@ console.log('uni',uniData)
            <div className="brain">
           
              <div className="image2"> <img src={brain2}  height={'120px'}/> </div>
-             <div className="image5"> <img src={brain5} height={'156px'}/> </div>
-             <div className="image3"> <img src={brain3} height={'137px'}/> </div>
-             <div className="image4"> <img src={brain4} height={'137px'}/> </div>
+             <div className="image5"> <img src={brain5} height={'120px'}/> </div>
+             <div className="image3"> <img src={brain3} height={'120px'}/> </div>
+             <div className="image4"> <img src={brain4} height={'100px'}/> </div>
              
-             <div className="image6"> <img src={brain6} height={'180px'}/> </div>
-             <div className="image7"> <img src={brain7} height={'180px'}/> </div>
-             <div className="image1"> <img src={brain1} height={'240px'}/> </div>
+             <div className="image6"> <img src={brain6} height={'90px'}/> </div>
+             <div className="image7"> <img src={brain7} height={'75px'}/> </div>
+             <div className="image1"> <img src={brain1} height={'180px'}/> </div>
 
            </div>
 
