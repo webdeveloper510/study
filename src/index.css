@@ -287,7 +287,117 @@ img.contentimage1 {
 }
 
 
+img.collage24 {
+  position: absolute;
+  left: 46%;
+  top: 249px;
+}
 
+img.collage25 {
+  position: absolute;
+  left: 50%;
+  top: 249px;
+}
+
+img.collage15 {
+  position: absolute;
+  right: 28%;
+  top: 149px;
+}
+
+img.collage16 {
+  position: absolute;
+  right: 31%;
+  top: 198px;
+}
+
+img.collage12 {
+  position: absolute;
+  right: 25%;
+  top: 38px;
+}
+
+img.collage13 {
+  position: absolute;
+  right: 27%;
+  top: 113px;
+}
+
+img.collage14 {
+  position: absolute;
+  right: 27%;
+  top: -29px;
+}
+
+img.collage3 {
+  position: absolute;
+  right: 32%;
+  top: -67px;
+}
+
+img.collage4 {
+  position: absolute;
+  right: 37%;
+  top: -97px;
+}
+
+img.collage5 {
+  position: absolute;
+  right: 30%;
+  top: -1px;
+}
+
+img.collage {
+  position: absolute;
+  left: 34%;
+}
+
+img.collage1 {
+  position: absolute;
+  left: 44%;
+  top: -96px;
+}
+
+img.collage2 {
+  position: absolute;
+  left: 37%;
+  top: -62px;
+}
+
+img.collage6 {
+  position: absolute;
+  left: 34%;
+}
+
+img.collage7 {
+  position: absolute;
+  left: 32%;
+  top: 70px;
+}
+
+img.collage8 {
+  position: absolute;
+  left: 35%;
+  top: 141px;
+}
+
+img.collage9 {
+  position: absolute;
+  top: 134px;
+  left: 33%;
+}
+
+img.collage10 {
+  position: absolute;
+  top: 201px;
+  left: 37%;
+}
+
+img.collage11 {
+  position: absolute;
+  top: 238px;
+  left: 43%;
+}
 
 
 
