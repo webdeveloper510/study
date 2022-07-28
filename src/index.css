@@ -287,156 +287,152 @@ img.contentimage1 {
 }
 
 
-img.collage24 {
+.collage24 {
   position: absolute;
   left: 46%;
   top: 249px;
 }
 
-img.collage25 {
+.collage25 {
   position: absolute;
   left: 50%;
   top: 249px;
 }
 
-img.collage15 {
+.collage15 {
   position: absolute;
-  right: 28%;
+  right: 33%;
   top: 149px;
 }
 
-img.collage16 {
+.collage16 {
   position: absolute;
-  right: 31%;
+  right: 35%;
   top: 198px;
 }
 
-img.collage12 {
+.collage12 {
   position: absolute;
-  right: 25%;
+  right: 31%;
   top: 38px;
 }
 
-img.collage13 {
+.collage13 {
   position: absolute;
-  right: 27%;
+  right: 32%;
   top: 113px;
 }
 
-img.collage14 {
+.collage14 {
   position: absolute;
-  right: 27%;
+  right: 32%;
   top: -29px;
 }
 
-img.collage3 {
+.collage3 {
   position: absolute;
-  right: 32%;
+  right: 35%;
   top: -67px;
 }
 
-img.collage4 {
+.collage4 {
   position: absolute;
-  right: 37%;
-  top: -97px;
+  right: 40%;
+  top: -70px;
 }
 
-img.collage5 {
+.collage5 {
   position: absolute;
-  right: 30%;
+  right: 31%;
   top: -1px;
 }
 
-img.collage {
+.collage {
   position: absolute;
   left: 34%;
 }
 
-img.collage1 {
+.collage1 {
   position: absolute;
   left: 44%;
-  top: -96px;
+  top: -66px;
 }
 
-img.collage2 {
+.collage2 {
   position: absolute;
   left: 37%;
   top: -62px;
 }
 
-img.collage6 {
+.collage6 {
   position: absolute;
   left: 34%;
 }
 
-img.collage7 {
+.collage7 {
   position: absolute;
   left: 32%;
   top: 70px;
 }
 
-img.collage8 {
+.collage8 {
   position: absolute;
   left: 35%;
   top: 141px;
 }
 
-img.collage9 {
+.collage9 {
   position: absolute;
   top: 134px;
-  left: 33%;
+  left: 36%;
 }
-
-img.collage10 {
+.collage10 {
   position: absolute;
-  top: 201px;
-  left: 37%;
+  top: 186px;
+  left: 39%;
 }
-
-img.collage11 {
+.collage11 {
   position: absolute;
-  top: 238px;
-  left: 43%;
+  top: 216px;
+  left: 44%;
 }
-
-
 
 @media only screen and (max-width: 1054px) {
 
-  .image4 {
+  .image4 .main {
     position: absolute;
     left: 346px;
     top: 110px;
 }
-.image1 {
+.image1 .main {
     position: absolute;
     top: 61px;
     left: 330px;
 }
 
-.image7 {
+.image7 .main {
     position: absolute;
     right: 330px;
     top: 94px;
 }
 
-.image6 {
+.image6 .main {
     position: absolute;
     right: 326px;
     top: 37px;
 }
-.image5 {
+.image5 .main {
     position: absolute;
     right: 361px;
     top: -17px;
 }
-.image3 {
+.image3 .main {
     position: absolute;
     left: 315px;
     top: 34px;
 }
 
-.image2 {
+.image2 .main {
     position: absolute;
     left: 373px;
 }
@@ -448,75 +444,75 @@ img.collage11 {
 
 
 @media only screen and (max-width: 768px) {
-  .image1 {
+  .image1 .main {
     position: absolute;
     top: 64px;
     left: 117px;
 }
 
-.image7 {
+.image7 .main {
     position: absolute;
     right: 120px;
     top: 94px;
 }
 
-.image6 {
+.image6 .main {
     position: absolute;
     right: 115px;
     top: 37px;
 }
 
-.image4 {
+.image4 .main {
     position: absolute;
     left: 132px;
     top: 110px;
 }
 
-.image3 {
+.image3 .main {
     position: absolute;
     left: 110px;
     top: 34px;
 }
 
-.image5 {
+.image5 .main {
     position: absolute;
     right: 154px;
     top: -17px;
 }
 
-.image2 {
+.image2 .main {
     position: absolute;
     left: 160px;
 }
 
 }
 @media only screen and (max-width: 410px) {
-  .image2 {
+  .image2 .main {
     position: absolute;
     left: 29.7%;
     top: -15px;
 }
-.image5 {
+.image5 .main {
     position: absolute;
     right: 20.4%;
     top: -17px;
 }
-.image3 {
+.image3 .main {
     position: absolute;
     left: 17%;
     top: 36px;
 }
-.image4 {
+.image4 .main {
     position: absolute;
     left: 25%;
     top: 121px;
 }
-.image6 {
+.image6 .main {
     position: absolute;
     right: 16%;
     top: 59px;
 }
-.image7 {
+.image7 .main {
     position: absolute;
     right: 19%;
     top: 140px;
@@ -524,32 +520,32 @@ img.collage11 {
 }
 
 @media only screen and (max-width: 414px) {
-  .image2 {
+  .image2 .main {
     position: absolute;
     left: 29.7%;
     top: -15px;
 }
-.image5 {
+.image5 .main {
     position: absolute;
     right: 20.4%;
     top: -17px;
 }
-.image3 {
+.image3 .main {
     position: absolute;
     left: 17%;
     top: 36px;
 }
-.image4 {
+.image4 .main {
     position: absolute;
     left: 25%;
     top: 121px;
 }
-.image6 {
+.image6 .main {
     position: absolute;
     right: 16%;
     top: 59px;
 }
-.image7 {
+.image7 .main {
     position: absolute;
     right: 19%;
     top: 140px;
@@ -558,37 +554,37 @@ img.collage11 {
 }
 @media only screen and (max-width: 375px) {
 
-  .image6 {
+  .image6 .main {
     position: absolute;
     right: 6%;
     top: 37px;
 }
-.image1 {
+.image1 .main {
     position: absolute;
     top: 64px;
     left: 13%;
 }
-.image7 {
+.image7 .main {
     position: absolute;
     right: 8%;
     top: 94px;
 }
-.image4 {
+.image4 .main {
     position: absolute;
     left: 17%;
     top: 110px;
 }
-.image3 {
+.image3 .main {
     position: absolute;
     left: 11%;
     top: 34px;
 }
-.image5 {
+.image5 .main {
     position: absolute;
     right: 17.5%;
     top: -17px;
 }
-.image2 {
+.image2 .main {
     position: absolute;
     left: 25%;
 }
@@ -597,38 +593,38 @@ img.collage11 {
 @media only screen and (max-width: 320px) {
 
 
-  .image2 {
+  .image2 .main {
     position: absolute;
     left: 17%;
 }
 
-.image5 {
+.image5 .main {
     position: absolute;
     right: 14%;
     top: -17px;
 }
-.image3 {
+.image3 .main {
     position: absolute;
     left: 0%;
     top: 34px;
 }
-.image4 {
+.image4 .main {
     position: absolute;
     left: 7%;
     top: 110px;
 }
-.image6 {
+.image6 .main {
     position: absolute;
     right: 1%;
     top: 37px;
 }
 
-.image7 {
+.image7 .main {
     position: absolute;
     right: 3%;
     top: 94px;
 }
-.image1 {
+.image1 .main {
     position: absolute;
     top: 64px;
     left: 2.6%;
