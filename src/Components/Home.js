@@ -116,8 +116,6 @@ console.log('uni',uniData)
                <div className="collage14">
                <img className="" src={image15} height={'75px'} alt=""/>
                </div>
-               
-
                </div></div>
              <div className="image7 position-relative"> <img src={brain7} height={'75px'} alt="" className="main"/> 
              <div className="brainimag2">
