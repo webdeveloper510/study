@@ -52,85 +52,85 @@ console.log('uni',uniData)
          <div className="container">
            <div className="brain">
           
-             <div className="image2 position-relative"> <img src={brain2}  height={'120px'} alt="" className="main"/> 
+             <div className="image2 position-relative"> <img src={brain2}  height={'250px'} alt="" className="main"/> 
              <div className="brainimag7">
                <div className="collage">
-               <img className="" src={image} height={'75px'} alt=""/>
+               <img className="" src={image} height={'150px'} alt=""/>
                </div>
                <div className="collage1">
-               <img  src={image16} height={'37px'} alt=""/>
+               <img  src={image16} height={'80px'} alt=""/>
                </div>
                <div className="collage2">
-               <img className="" src={image2} height={'75px'} alt=""/>
+               <img className="" src={image2} height={'150px'} alt=""/>
                </div>
                 
                </div></div>
-             <div className="image5 position-relative"> <img src={brain5} height={'120px'} alt="" className="main"/> 
+             <div className="image5 position-relative"> <img src={brain5} height={'250px'} alt="" className="main"/> 
              <div className="brainimag6">
                <div className="collage3">
-                   <img className="" src={image10} height={'75px'} alt=""/>
+                   <img className="" src={image10} height={'150px'} alt=""/>
                </div>
                <div className="collage4">
-                  <img className="" src={image17} height={'37px'} alt=""/>
+                  <img className="" src={image17} height={'80px'} alt=""/>
                </div>
                <div className="collage5">
-                 <img className="" src={image12} height={'75px'} alt=""/>
+                 <img className="" src={image12} height={'150px'} alt=""/>
                </div>
                 
                </div></div>
-             <div className="image3 position-relative"> <img src={brain3} height={'120px'} alt="" className="main"/> 
+             <div className="image3 position-relative"> <img src={brain3} height={'200px'} alt="" className="main"/> 
              <div className="brainimag5">
                <div className="collage6">
-                    <img className="" src={image7} height={'75px'} alt=""/>
+                    <img className="" src={image7} height={'150px'} alt=""/>
                </div>
                <div className="collage7">
-                    <img className="" src={image8} height={'75px'} alt=""/>
+                    <img className="" src={image8} height={'150px'} alt=""/>
                </div>
                <div className="collage8">
-                    <img className="p-3" src={image9} height={'75px'} alt=""/>
+                    <img className="p-3" src={image9} height={'120px'} alt=""/>
                </div>
                  
                </div></div>
-             <div className="image4 position-relative"> <img src={brain4} height={'100px'} alt="" className="main"/> 
+             <div className="image4 position-relative"> <img src={brain4} height={'180px'} alt="" className="main"/> 
              <div className="brainimag4">
                  <div className="collage9">
-                   <img className="" src={image3} height={'75px'} alt=""/>
+                   <img className="" src={image3} height={'150px'} alt=""/>
                  </div>
                  <div className="collage10">
-                     <img className="" src={image5} height={'75px'} alt=""/>
+                     <img className="" src={image5} height={'150px'} alt=""/>
                  </div>
                  <div className="collage11">
-                    <img className="" src={image6} height={'75px'} alt=""/>
+                    <img className="" src={image6} height={'150px'} alt=""/>
                  </div>
                 
                </div></div>
              
-             <div className="image6 position-relative"> <img src={brain6} height={'90px'} alt="" className="main"/> 
+             <div className="image6 position-relative"> <img src={brain6} height={'150px'} alt="" className="main"/> 
              <div className="brainimag3">
                <div className="collage12">
-               <img className="" src={image13} height={'75px'} alt=""/>
+               <img className="" src={image13} height={'150px'} alt=""/>
                </div>
                <div className="collage13">
-               <img className="" src={image14} height={'75px'} alt=""/>
+               <img className="" src={image14} height={'150px'} alt=""/>
                </div>
                <div className="collage14">
-               <img className="" src={image15} height={'75px'} alt=""/>
+               <img className="" src={image15} height={'150px'} alt=""/>
                </div>
                </div></div>
-             <div className="image7 position-relative"> <img src={brain7} height={'75px'} alt="" className="main"/> 
+             <div className="image7 position-relative"> <img src={brain7} height={'125px'} alt="" className="main"/> 
              <div className="brainimag2">
                <div className="collage15">
-               <img className="" src={image1} height={'75px'}  alt=""/>
+               <img className="" src={image1} height={'150px'}  alt=""/>
                </div>
                <div className="collage16">
-               <img className="" src={image11} height={'75px'} alt=""/>
+               <img className="" src={image11} height={'150px'} alt=""/>
                </div>
                </div>
              </div>
-             <div className="image1 position-relative"> <img src={brain1} height={'180px'} alt="" className="main"/>
+             <div className="image1 position-relative"> <img src={brain1} height={'340px'} alt="" className="main"/>
                <div className="brainimag1">
-                  <img className="collage24" src={sam} height={'75px'} alt=""/>
-                  <img className="collage25" src={sam1} height={'75px'} alt=""/>
+                  <img className="collage24" src={sam} height={'150px'} alt=""/>
+                  <img className="collage25" src={sam1} height={'150px'} alt=""/>
                </div>
               </div>
 

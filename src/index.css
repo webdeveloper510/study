@@ -182,220 +182,445 @@ img.contentimage1 {
 
 .brain {
   position: relative;
-  height: 400px;
+  height: 700px;
   margin-top: 100px;
 }
-
-.image1 .main {
+@media only screen and (max-width: 1399px) {
+  
+.image2 .main {
   position: absolute;
-  top: 91px;
-  left: 50.3%;
-}
-.image7 .main {
-  position: absolute;
-  right: 39%;
-  top: 135px;
-}
-.image6 .main {
-  position: absolute;
-  right: 37%;
-  top: 53px;
-}
-.image4 .main {
-  position: absolute;
-  left: 43.2%;
-  top: 111px;
-}
-.image3 .main {
-  position: absolute;
-  left: 41%;
-  top: 27px;
+  left: 34.8%;
+  top: -22px;
 }
 .image5 .main {
   position: absolute;
-  right: 39%;
+  right: 32%;
   top: -25px;
 }
-.image2 .main {
+.image3 .main {
   position: absolute;
-  left: 45%;
-  top: -24px;
+  left: 30%;
+  top: 84px;
+}
+.image4 .main {
+  position: absolute;
+  left: 33.2%;
+  top: 221px;
+}
+.image6 .main {
+  position: absolute;
+  right: 29%;
+  top: 141px;
+}
+.image7 .main {
+  position: absolute;
+  right: 33%;
+  top: 278px;
+}
+.image1 .main {
+  position: absolute;
+  top: 215px;
+  left: 46.2%;
 }
 
-.brain img:hover {
+}
+
+.brain .main:hover {
   -ms-transform: scale(0.6);
   -webkit-transform: scale(0.6);
   transform: scale(0.6);
 }
 
 .brainimag1 {
-  display: none;
+  opacity: 0;
 }
 
 .image1:hover .brainimag1 {
-  display: block;
+  opacity: 1;
 }
 
 .brainimag2 {
-  display: none;
+  opacity: 0;
 }
 
 .image7:hover .brainimag2 {
-  display: block;
+  opacity: 1;
 }
 .brainimag3 {
-  display: none;
+  opacity: 0;
 }
 
 .image6:hover .brainimag3 {
-  display: block;
+  opacity: 1;
 }
 .brainimag4 {
-  display: none;
+  opacity: 0;
 }
 
 .image4:hover .brainimag4 {
-  display: block;
+  opacity: 1;
 }
 .brainimag5 {
-  display: none;
+  opacity: 0;
 }
 
 .image3:hover .brainimag5 {
-  display: block;
+  opacity: 1;
 }
 .brainimag6 {
-  display: none;
+  opacity: 0;
 }
 
 .image5:hover .brainimag6 {
-  display: block;
+  opacity: 1;
 }
 .brainimag7 {
-  display: none;
+  opacity: 0;
 }
 
 .image2:hover .brainimag7 {
-  display: block;
+  opacity: 1;
 }
 .brainimag1 {
-  display: none;
+  opacity: 0;
 }
 
 .image6:hover .brainimag1 {
-  display: block;
+  opacity: 1;
+}
+
+
+@media only screen and (max-width: 1600px) {
+
+.image2 .main {
+  position: absolute;
+  left: 36.4%;
+  top: -22px;
+}
+.image5 .main {
+  position: absolute;
+  right: 35%;
+  top: -25px;
+}
+.image3 .main {
+  position: absolute;
+  left: 31%;
+  top: 84px;
+}
+.image4 .main {
+  position: absolute;
+  left: 35.2%;
+  top: 221px;
+}
+.image6 .main {
+  position: absolute;
+  right: 33%;
+  top: 141px;
+}
+.image7 .main {
+  position: absolute;
+  right: 36%;
+  top: 278px;
+}
+.image1 .main {
+  position: absolute;
+  top: 215px;
+  left: 46.2%;
+}
+
+}
+
+.collage9 {
+  position: absolute;
+  top: 181px;
+  left: 18%;
+  transition:left 2s ease-out;
+}
+.collage10 {
+  position: absolute;
+  top: 293px;
+  left: 19%;
+  transition:left 2s ease-out;
+}
+.collage11 {
+  position: absolute;
+  top: 379px;
+  left: 27%;
+  transition:left 2s ease-out;
+}
+
+.image1:hover .collage24 {
+  position: absolute;
+  left: 39%;
+  top: 493px;
+  transition:left 2s ease-out;
+}
+.image1:hover .collage25 {
+  position: absolute;
+  left: 47%;
+  transition:left 2s ease-out;
+  top: 491px;
 }
 
 
 .collage24 {
   position: absolute;
-  left: 46%;
-  top: 249px;
+  left: 0%;
+  top: 493px;
 }
-
 .collage25 {
   position: absolute;
-  left: 50%;
-  top: 249px;
+  left: 0%;
+  top: 491px;
 }
 
-.collage15 {
+
+
+.image7:hover .collage16 {
   position: absolute;
-  right: 33%;
-  top: 149px;
+  right: 26%;
+  top: 355px;
+  transition:right 2s ease-out;
 }
+
+.image7:hover .collage15 {
+  position: absolute;
+  right: 20%;
+  transition:right 2s ease-out;
+  top: 230px;
+}
+
 
 .collage16 {
   position: absolute;
-  right: 35%;
-  top: 198px;
+  right: 6%;
+  top: 355px;
+  transition:right 2s ease-out;
+}
+.collage15 {
+  position: absolute;
+  right: 10%;
+  transition:right 2s ease-out;
+  top: 230px;
 }
 
-.collage12 {
+
+
+
+.image6:hover .collage12 {
   position: absolute;
-  right: 31%;
+  right: 19%;
+  transition:right 2s ease-out;
   top: 38px;
 }
 
+.image6:hover .collage13 {
+  position: absolute;
+  right: 16%;
+  top: 177px;
+  transition:right 2s ease-out;
+}
+
+.image6:hover .collage14 {
+  position: absolute;
+  right: 22%;
+  top: 305px;
+  transition:right 2s ease-out;
+}
+
+
+.collage12 {
+  position: absolute;
+  right: 5%;
+  transition:right 2s ease-out;
+  top: 38px;
+}
 .collage13 {
   position: absolute;
-  right: 32%;
-  top: 113px;
+  right: 5%;
+  top: 177px;
+  transition:right 2s ease-out;
 }
-
 .collage14 {
   position: absolute;
-  right: 32%;
-  top: -29px;
+  right: 10%;
+  top: 305px;
+  transition:right 2s ease-out;
 }
 
-.collage3 {
+
+
+
+
+
+.image4:hover .collage9 {
   position: absolute;
-  right: 35%;
-  top: -67px;
+  top: 181px;
+  transition:left 2s ease-out;
+  left: 18%;
 }
 
-.collage4 {
+.image4:hover .collage10 {
   position: absolute;
-  right: 40%;
-  top: -70px;
+  top: 293px;
+  left: 19%;
+  transition:left 2s ease-out;
 }
 
-.collage5 {
-  position: absolute;
-  right: 31%;
-  top: -1px;
-}
 
-.collage {
+.image4:hover .collage11 {
   position: absolute;
-  left: 34%;
-}
-
-.collage1 {
-  position: absolute;
-  left: 44%;
-  top: -66px;
-}
-
-.collage2 {
-  position: absolute;
-  left: 37%;
-  top: -62px;
-}
-
-.collage6 {
-  position: absolute;
-  left: 34%;
-}
-
-.collage7 {
-  position: absolute;
-  left: 32%;
-  top: 70px;
-}
-
-.collage8 {
-  position: absolute;
-  left: 35%;
-  top: 141px;
+  top: 379px;
+  transition:left 2s ease-out;
+  left: 27%;
 }
 
 .collage9 {
   position: absolute;
-  top: 134px;
-  left: 36%;
+  top: 181px;
+  transition:left 2s ease-out;
+  left: 5%;
 }
 .collage10 {
   position: absolute;
-  top: 186px;
-  left: 39%;
+  top: 293px;
+  left: 5%;
+  transition:left 2s ease-out;
 }
 .collage11 {
   position: absolute;
-  top: 216px;
-  left: 44%;
+  top: 379px;
+  transition:left 2s ease-out;
+  left: 8%;
 }
+
+
+
+.image3:hover .collage8 {
+  position: absolute;
+  left: 18%;
+  transition:left 2s ease-out;
+  top: 220px;
+}
+
+.image3:hover .collage7 {
+  position: absolute;
+  left: 15%;
+  transition:left 2s ease-out;
+  top: 103px;
+}
+
+.image3:hover .collage6 {
+  position: absolute;
+  left: 19%;
+  transition:left 2s ease-out;
+}
+
+.collage8 {
+  position: absolute;
+  left: 5%;
+  transition:left 2s ease-out;
+  top: 220px;
+}
+
+.collage7 {
+  position: absolute;
+  left: 5%;
+  transition:left 2s ease-out;
+  top: 103px;
+}
+
+.collage6 {
+  position: absolute;
+  left: 5%;
+  transition:left 2s ease-out;
+}
+
+
+
+
+
+.image2:hover .collage {
+  position: absolute;
+  top: 39px;
+  left: 19%;
+  transition:left 2s ease-out;
+}
+.image2:hover .collage1 {
+  position: absolute;
+  left: 34%;
+  top: -97px;
+  transition:left 2s ease-out;
+}
+.image2:hover .collage2 {
+  position: absolute;
+  left: 21%;
+  top: -62px;
+  transition:left 2s ease-out;
+}
+.collage {
+  position: absolute;
+  top: 39px;
+  left: 0%;
+  transition:left 2s ease-out;
+}
+.collage1 {
+  position: absolute;
+  left: 0%;
+  top: -97px;
+  transition:left 2s ease-out;
+}
+.collage2 {
+  position: absolute;
+  left: 0%;
+  top: -62px;
+  transition:left 2s ease-out;
+}
+
+
+
+
+
+.image5:hover .collage3 {
+  position: absolute;
+  right: 20%;
+  top: -67px;
+  transition:right 2s ease-out;
+}
+.image5:hover .collage4 {
+  position: absolute;
+  right: 31%;
+  top: -94px;
+  transition:right 2s ease-out;
+}
+
+.image5:hover .collage5 {
+  position: absolute;
+  right: 16%;
+  transition:right 2s ease-out;
+  top: 59px;
+}
+
+.collage3 {
+  position: absolute;
+  right: 0%;
+  top: -67px;
+  transition:right 2s ease-out;
+}
+.collage4 {
+  position: absolute;
+  right: 1%;
+  top: -94px;
+  transition:right 2s ease-out;
+}
+.collage5 {
+  position: absolute;
+  right: 0%;
+  transition:right 2s ease-out;
+  top: 59px;
+}
+
+
 
 @media only screen and (max-width: 1054px) {
 
