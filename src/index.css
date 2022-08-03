@@ -182,9 +182,22 @@ img.contentimage1 {
 
 .brain {
   position: relative;
-  height: 700px;
+  height: 800px;
   margin-top: 100px;
+  padding-top: 100px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
+
+.brain .image1 .main:hover {
+  padding-bottom: 110px !important;
+  padding-left: 13px !important;
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+}
+
+
 @media only screen and (max-width: 1399px) {
   
 .image2 .main {
@@ -226,67 +239,81 @@ img.contentimage1 {
 }
 
 .brain .main:hover {
-  -ms-transform: scale(0.6);
-  -webkit-transform: scale(0.6);
-  transform: scale(0.6);
+  padding: 50px;
 }
 
 .brainimag1 {
   opacity: 0;
+  z-index: -999;
 }
 
 .image1:hover .brainimag1 {
   opacity: 1;
+  z-index: 9 !important;
 }
 
 .brainimag2 {
   opacity: 0;
+  z-index: -999;
 }
 
 .image7:hover .brainimag2 {
   opacity: 1;
+  z-index: 9 !important;
 }
 .brainimag3 {
   opacity: 0;
+  z-index: -999;
 }
 
 .image6:hover .brainimag3 {
   opacity: 1;
+  z-index: 9 !important;
 }
 .brainimag4 {
   opacity: 0;
+  z-index: -999;
 }
 
 .image4:hover .brainimag4 {
   opacity: 1;
+  z-index: 9 !important;
 }
 .brainimag5 {
   opacity: 0;
+  z-index: -999;
 }
 
 .image3:hover .brainimag5 {
   opacity: 1;
+  z-index: 9 !important;
 }
 .brainimag6 {
   opacity: 0;
+  z-index: -999;
 }
 
 .image5:hover .brainimag6 {
   opacity: 1;
+  z-index: 9 !important;
 }
 .brainimag7 {
+  z-index: -999;
   opacity: 0;
 }
 
 .image2:hover .brainimag7 {
   opacity: 1;
+  z-index: 9 !important;
 }
 .brainimag1 {
   opacity: 0;
+  z-index: -999;
 }
 
 .image6:hover .brainimag1 {
   opacity: 1;
+  z-index: 9 !important;
 }
 
 
@@ -353,24 +380,24 @@ img.contentimage1 {
   position: absolute;
   left: 39%;
   top: 493px;
-  transition:left 2s ease-out;
+  transition:left 1s ease-out;
 }
 .image1:hover .collage25 {
   position: absolute;
   left: 47%;
-  transition:left 2s ease-out;
+  transition:left 1s ease-out;
   top: 491px;
 }
 
 
 .collage24 {
   position: absolute;
-  left: 0%;
+  left: -50%;
   top: 493px;
 }
 .collage25 {
   position: absolute;
-  left: 0%;
+  left: -50%;
   top: 491px;
 }
 
@@ -393,13 +420,13 @@ img.contentimage1 {
 
 .collage16 {
   position: absolute;
-  right: 6%;
+  right: -50%;
   top: 355px;
   transition:right 2s ease-out;
 }
 .collage15 {
   position: absolute;
-  right: 10%;
+  right: -50%;
   transition:right 2s ease-out;
   top: 230px;
 }
@@ -431,19 +458,19 @@ img.contentimage1 {
 
 .collage12 {
   position: absolute;
-  right: 5%;
+  right: -50%;
   transition:right 2s ease-out;
   top: 38px;
 }
 .collage13 {
   position: absolute;
-  right: 5%;
+  right: -50%;
   top: 177px;
   transition:right 2s ease-out;
 }
 .collage14 {
   position: absolute;
-  right: 10%;
+  right: -50%;
   top: 305px;
   transition:right 2s ease-out;
 }
@@ -479,19 +506,19 @@ img.contentimage1 {
   position: absolute;
   top: 181px;
   transition:left 2s ease-out;
-  left: 5%;
+  left: -50%;
 }
 .collage10 {
   position: absolute;
   top: 293px;
-  left: 5%;
+  left: -50%;
   transition:left 2s ease-out;
 }
 .collage11 {
   position: absolute;
   top: 379px;
   transition:left 2s ease-out;
-  left: 8%;
+  left: -50%;
 }
 
 
@@ -518,21 +545,21 @@ img.contentimage1 {
 
 .collage8 {
   position: absolute;
-  left: 5%;
+  left: -50%;
   transition:left 2s ease-out;
   top: 220px;
 }
 
 .collage7 {
   position: absolute;
-  left: 5%;
+  left: -50%;
   transition:left 2s ease-out;
   top: 103px;
 }
 
 .collage6 {
   position: absolute;
-  left: 5%;
+  left: -50%;
   transition:left 2s ease-out;
 }
 
@@ -561,18 +588,18 @@ img.contentimage1 {
 .collage {
   position: absolute;
   top: 39px;
-  left: 0%;
+  left: -50%;
   transition:left 2s ease-out;
 }
 .collage1 {
   position: absolute;
-  left: 0%;
+  left: -50%;
   top: -97px;
   transition:left 2s ease-out;
 }
 .collage2 {
   position: absolute;
-  left: 0%;
+  left: -50%;
   top: -62px;
   transition:left 2s ease-out;
 }
@@ -603,21 +630,22 @@ img.contentimage1 {
 
 .collage3 {
   position: absolute;
-  right: 0%;
+  right: -50%;
   top: -67px;
   transition:right 2s ease-out;
 }
 .collage4 {
   position: absolute;
-  right: 1%;
+  right: -50%;
   top: -94px;
   transition:right 2s ease-out;
 }
 .collage5 {
   position: absolute;
-  right: 0%;
+  right: -50%;
   transition:right 2s ease-out;
   top: 59px;
+  
 }
 
 
