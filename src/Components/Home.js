@@ -4,8 +4,8 @@ import FlipCard from "./FlipCard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { universityData } from "../Data";
 
-import brain1 from '../images/Seeding Brains UI/imag1.png'
-import brain2 from '../images/Seeding Brains UI/imag2.png'
+import brain1 from '../images/Seeding Brains UI/line connect-01.png'
+import brain2 from '../images/Seeding Brains UI/HTBD-01.png'
 import brain3 from '../images/Seeding Brains UI/imag3.png'
 import brain4 from '../images/Seeding Brains UI/imag4.png'
 import brain5 from '../images/Seeding Brains UI/imag5.png'
@@ -141,7 +141,16 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
+            <div className="text-center col-12">
+              <div className="brain3">
+              <img src={brain1} height={'83px'}/>
+              <div className="brain-center">
+                <img src={brain2} height={'120px'}/>
+              </div>
+              </div>
           </div>
+          </div>
+          
         </div>
         {/* <div className="brain">
 

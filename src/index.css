@@ -483,3 +483,24 @@ img.contentimage1 {
   right: 0%;
   top: 87%;
 }
+
+.brain-center {
+  opacity: 0;
+}
+.brain-center img {
+  position: absolute;
+  left: -16%;
+}
+
+.brain3 {
+  height: 83px;
+}
+
+.brain3:hover .brain-center {
+  opacity: 1;
+}
+.brain3:hover .brain-center img {
+  bottom: 44px;
+  left: 43%;
+  transition: left 1s ease-out;
+}
