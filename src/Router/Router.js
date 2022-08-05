@@ -9,6 +9,7 @@ import Universityob from '../Components/Universityob';
  import Fdp from '../Components/Fdp';
  import Anglia from '../Components/Anglia';
 import British from '../Components/British';
+import BusinessD from '../Components/Business';
 
 const Routers = () => {
   return (
@@ -16,6 +17,7 @@ const Routers = () => {
         <Routes>
           <Route exact path="/" element={<HomePage/>} />
           <Route path="/university/Anglia" element={<Anglia/>} />
+          <Route path="/Business" element={<BusinessD/>} />
           <Route path="/university/Mcast" element={<Mcast/>} />
           <Route path="/university/Manipal" element={<Manipal/>} />
           <Route path="/university/Vishalscc" element={<Vishalscc/>} />
