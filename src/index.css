@@ -296,7 +296,11 @@ img.contentimage1 {
   top: -105px;
 }
 
+
+
 /* ---------------- Left second part  side images css ------------------ */
+
+
 
 
 .brain-left2:hover .collage6 {
@@ -365,7 +369,6 @@ img.contentimage1 {
   transition:left 1s ease-out;
 }
 
-
 .collage8 {
   position: absolute;
   top: 456px;
@@ -386,6 +389,9 @@ img.contentimage1 {
   top: 324px;
   left: -50%;
 }
+
+
+
 /* ---------------- right side images css ------------------*/
 
 .brain-right {
