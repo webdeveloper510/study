@@ -30,7 +30,7 @@ function FlipCard({ card }) {
       >
         <div className="card front">
           <div className="card-body   align-items-center">
-            <img src={card.imageName} height="100px"/>
+            <img src={card.imageName} height="100px" alt="" />
           </div>
         </div>
         <div className="card back">

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7f588c6f.css",
-    "main.js": "/static/js/main.d94a8a57.js",
+    "main.js": "/static/js/main.069ed730.js",
     "static/js/787.0ede400a.chunk.js": "/static/js/787.0ede400a.chunk.js",
     "static/media/ARU1.jpg": "/static/media/ARU1.c122685bfa29c84be5d6.jpg",
     "static/media/OMIX1.jpg": "/static/media/OMIX1.ada8b66550a5668d0f4e.jpg",
@@ -23,7 +23,6 @@
     "static/media/Leftbrainp3-01.png": "/static/media/Leftbrainp3-01.bef80d4b84cca8ac02fe.png",
     "static/media/LeftBrainP2-01.png": "/static/media/LeftBrainP2-01.68668cb216cc09391fd6.png",
     "static/media/leftbrainsP1-01.png": "/static/media/leftbrainsP1-01.6033e62bfd6847a3e8b7.png",
-    "static/media/SB.png": "/static/media/SB.2fdbc7b0f4651b0d64c4.png",
     "static/media/british-council.jpg": "/static/media/british-council.473a9d24ae1140588fa9.jpg",
     "static/media/Risk Management-01.png": "/static/media/Risk Management-01.82cea6be984661e9332d.png",
     "static/media/Project Mnagement-01.png": "/static/media/Project Mnagement-01.85b683d3fe596e0f1657.png",
@@ -45,33 +44,22 @@
     "static/media/AGI-01.png": "/static/media/AGI-01.fccd7123ec9e78f22334.png",
     "static/media/ESL-01.png": "/static/media/ESL-01.c754e7108883a431dc34.png",
     "static/media/ARU.png": "/static/media/ARU.611979212a3997ff799b.png",
-    "static/media/Stem2.png": "/static/media/Stem2.c8a635e0cc9263a5ae39.png",
     "static/media/vscc.png": "/static/media/vscc.8530c3e9f3fbbdb30e33.png",
     "static/media/line connect-01.png": "/static/media/line connect-01.8632c9f8c93dd3611c27.png",
     "static/media/Manipal.png": "/static/media/Manipal.d8a77c7884581ebe12e1.png",
-    "static/media/Stem1.png": "/static/media/Stem1.c77150db7e3b704ac001.png",
-    "static/media/imag5.png": "/static/media/imag5.7dd74d442d865158b60b.png",
     "static/media/British_Council.png": "/static/media/British_Council.e8f29337962b08282580.png",
     "static/media/FDP.png": "/static/media/FDP.1548a7ccdc98159400b0.png",
-    "static/media/global.png": "/static/media/global.76690983a9d82f387590.png",
     "static/media/Omnix.png": "/static/media/Omnix.3569df72bdcde014ed88.png",
-    "static/media/imag4.png": "/static/media/imag4.37c14004f2e4c8e34668.png",
-    "static/media/live-chat.png": "/static/media/live-chat.995a0c8a549cd5a5a78c.png",
-    "static/media/presentation.png": "/static/media/presentation.daa555e6b56e16ef9c14.png",
-    "static/media/imag6.png": "/static/media/imag6.36b0b07baf2d55c7e8a7.png",
-    "static/media/imag7.png": "/static/media/imag7.d2e4a46a44eb9fb7fdd0.png",
-    "static/media/imag3.png": "/static/media/imag3.7e274e8f01b0022c4fe3.png",
     "static/media/Business8.png": "/static/media/Business8.77a233a1391dbe397f9b.png",
     "static/media/Business5.png": "/static/media/Business5.c7c6f8903073a89052ae.png",
     "static/media/Business1.png": "/static/media/Business1.0d18b2c9d17eb115869e.png",
-    "static/media/copy.png": "/static/media/copy.2589547f4fc9a39f6ee7.png",
     "index.html": "/index.html",
     "main.7f588c6f.css.map": "/static/css/main.7f588c6f.css.map",
-    "main.d94a8a57.js.map": "/static/js/main.d94a8a57.js.map",
+    "main.069ed730.js.map": "/static/js/main.069ed730.js.map",
     "787.0ede400a.chunk.js.map": "/static/js/787.0ede400a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f588c6f.css",
-    "static/js/main.d94a8a57.js"
+    "static/js/main.069ed730.js"
   ]
 }

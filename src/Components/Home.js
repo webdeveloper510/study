@@ -6,11 +6,6 @@ import { universityData } from "../Data";
 
 import brain1 from '../images/Seeding Brains UI/line connect-01.png'
 import brain2 from '../images/Seeding Brains UI/HTBD-01.png'
-import brain3 from '../images/Seeding Brains UI/imag3.png'
-import brain4 from '../images/Seeding Brains UI/imag4.png'
-import brain5 from '../images/Seeding Brains UI/imag5.png'
-import brain6 from '../images/Seeding Brains UI/imag6.png'
-import brain7 from '../images/Seeding Brains UI/imag7.png'
 import image from '../images/Seeding Brains UI/AGI-01.png'
 import image1 from '../images/Seeding Brains UI/TWI-01.png'
 import image2 from '../images/Seeding Brains UI/AMS-01.png'
@@ -29,8 +24,6 @@ import image14 from '../images/Seeding Brains UI/Risk Management-01.png'
 import image15 from '../images/Seeding Brains UI/It Computing-01.png'
 import image16 from '../images/Seeding Brains UI/LOGO16.png'
 import image17 from '../images/Seeding Brains UI/LOGO17.png'
-import sam from '../images/Seeding Brains UI/Stem1.png'
-import sam1 from '../images/Seeding Brains UI/Stem2.png'
 
 import brainL from '../images/Seeding Brains UI/Leftbrainp3-01.png'
 import brainL1 from '../images/Seeding Brains UI/LeftBrainP2-01.png'
@@ -60,7 +53,7 @@ const HomePage = () => {
             <div class="col-md-6 text-right">
               <div className="left">
                 <div className="brain-left1">
-                  <img src={brainL} width={'250px'} />
+                  <img src={brainL} width={'250px'} alt="" />
                   <div className="brain-left">
                     <div className="collage1">
                       <img src={image16} height={'80px'} alt="" />
@@ -78,7 +71,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="brain-left2">
-                  <img src={brainL1} width={'271px'} />
+                  <img src={brainL1} width={'271px'} alt="" />
                   <div className="barin-left11">
                    
                    
@@ -94,7 +87,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="brain-left3">
-                  <img src={brainL2} width={'263px'}/>
+                  <img src={brainL2} width={'263px'} alt="" />
                   <div className="barin-left12">
                   <div className="collage7">
                       <img className="" src={image8} height={'150px'} alt="" />
@@ -115,7 +108,7 @@ const HomePage = () => {
 
             <div class="col-md-6">
               <div className="right">
-                <img src={brainR} width={'230px'} />
+                <img src={brainR} width={'230px'} alt="" />
                 <div className="brain-right">
                   <div className="collage4">
                     <img className="" src={image17} height={'80px'} alt="" />
@@ -143,9 +136,9 @@ const HomePage = () => {
             </div>
             <div className="text-center col-12">
               <div className="brain3">
-              <img src={brain1} height={'83px'}/>
+              <img src={brain1} height={'83px'} alt="" />
               <div className="brain-center">
-                <img src={brain2} height={'120px'}/>
+                <img src={brain2} height={'120px'} alt="" />
               </div>
               </div>
           </div>

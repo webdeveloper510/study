@@ -25,7 +25,7 @@ function Fdp() {
     </Navbar>
     <Container>
       <div class="text-right">
-          <img src={logo} width="420px" height="120px"/>
+          <img src={logo} width="420px" height="120px" alt="" />
       </div>
        <Breadcrumb >
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -33,7 +33,7 @@ function Fdp() {
         </Breadcrumb>
         <h3 className='my-5'>WANT TO DEVELOP YOUR PROFESSIONAL CAREER, GET THE FDP CERTIFCATE FROM THE RENOWED ARU AND GET THE BEST OUT OF THE LOT</h3>
       <div className='my-4'>
-        <img src={fdp} width="100%" height="600px"/>
+        <img src={fdp} width="100%" height="600px" alt="" />
       </div>
 
         <p><b>Certificates: </b> Faculty Development Program</p>

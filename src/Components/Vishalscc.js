@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/vscc.png'
 import images from '../images/VSCC.jpg'
-import images1 from '../images/SB.png'
 import image from '../images/VSCC1.jpg'
 import image1 from '../images/VSCC2.jpg'
 import image2 from '../images/VSCC3.jpg'
@@ -33,7 +32,7 @@ function Vishalscc() {
     </Navbar>
 <Container>
     <div class="text-right">
-        <img src={logo} width="420px" height="120px"/>
+        <img src={logo} width="420px" height="120px" alt="" />
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -42,7 +41,7 @@ function Vishalscc() {
 
         <h3>EXCLUSIVE COURSES FOR THE STUDENTS OF NORTH INDIA IN ASSOCIATION WITH THE UK AWARDING BODIES AND GET A CHANCE TO BUILD YOUR CAREER IN THE UK AND SETTLE.</h3>
         <div className='my-4'>
-        <img src={images} width="100%" height="600px"/>
+        <img src={images} width="100%" height="600px" alt="" />
     </div>
     
  
@@ -90,13 +89,13 @@ function Vishalscc() {
           </ol>
             </Col>
             <Col md={6}>
-              <img src={image} className="img-fluid"/>
+              <img src={image} className="img-fluid" alt="" />
             </Col>
             </Row>
            
             <Row className='my-3'>
            <Col md={6}>
-                <img src={image1} className="img-fluid"/>
+                <img src={image1} className="img-fluid" alt="" />
             </Col> 
             <Col md={6}>
             <p><b>Level 4 / 5 (IT & Computing)</b></p>
@@ -132,13 +131,13 @@ function Vishalscc() {
                 </ul>
              </Col>
              <Col md={6}>
-                  <img src={image2} className="img-fluid"/>
+                  <img src={image2} className="img-fluid" alt="" />
              </Col>
            </Row>
 
            <Row className='my-3'>
            <Col md={6}>
-                <img src={image3} className="img-fluid"/>
+                <img src={image3} className="img-fluid" alt="" />
              </Col>
              <Col md={6}>
              <p><b>Level 7 - (Extended Diploma in Computing Technologies) Year 1</b></p>

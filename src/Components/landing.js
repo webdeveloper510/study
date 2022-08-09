@@ -6,17 +6,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Button , Card } from 'react-bootstrap';
 import Logo from '../assets/deakin.webp'
 import LogoHome from '../assets/logoHome.png'
-import cv from '../assets/cv.png'
-import copy from '../assets/copy.png'
-import global from '../assets/global.png'
-import presentation from '../assets/presentation.png'
-import telephone from '../assets/telephone.png'
-import live from '../assets/live-chat.png'
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
 import { useParams } from "react-router-dom";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import { universityDetails } from '../UniversityData';
@@ -61,7 +52,7 @@ const universityDetail=(id)=>{
      
         <Container>
             <div className='text-right'>
-            <img src={LogoHome} className='img-fluid'/>
+            <img src={LogoHome} className='img-fluid' alt="" />
             </div>
         <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -73,7 +64,7 @@ const universityDetail=(id)=>{
            <ul>
                {uniData.certificate}
            </ul>
-           <img src={Logo} className="contentimage" />
+           <img src={Logo} className="contentimage" alt="" />
         
             <p className='mt-5'> <b>Certificate : </b> {uniData.certificate}</p>
             <p className='pb-5'><b>Faculty :</b>{uniData.instructor}</p>
@@ -114,7 +105,7 @@ const universityDetail=(id)=>{
         <Container>
             <h3>Benefits :</h3>
             <p>{uniData.benefits}</p>
-            <img src={Logo} className="contentimage"/>
+            <img src={Logo} className="contentimage" alt="" />
 
             <p> <b>Admission Process : </b> {uniData.admissionProcess} </p>
         </Container>

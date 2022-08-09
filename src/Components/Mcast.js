@@ -5,17 +5,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Button , Card } from 'react-bootstrap';
 import Logo from '../images/MCAST1.jpg'
 import LogoHome from '../images/MCAST.png'
-import cv from '../assets/cv.png'
-import copy from '../assets/copy.png'
-import global from '../assets/global.png'
-import presentation from '../assets/presentation.png'
 import telephone from '../images/MCAST2.jpg'
-import live from '../assets/live-chat.png'
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 function Mcast() {
@@ -41,7 +33,7 @@ function Mcast() {
      
         <Container>
             <div className='text-right'>
-            <img src={LogoHome} width="420px" height="120px"/>
+            <img src={LogoHome} width="420px" height="120px" alt="" />
             </div>
         <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -57,7 +49,7 @@ function Mcast() {
                <li>EE</li>
            </ul>
            <div className='my-4'>
-           <img src={Logo} width="100%" height="600px"/>
+           <img src={Logo} width="100%" height="600px" alt="" />
            </div>
 
         
@@ -127,7 +119,7 @@ function Mcast() {
             <p><b>Mode of Learning:</b>  Online / On Campus</p>
             </Col>
             <Col md={6}>
-              <img src={telephone} className="img-fluid"/>
+              <img src={telephone} className="img-fluid" alt="" />
             </Col>
           </Row>
           

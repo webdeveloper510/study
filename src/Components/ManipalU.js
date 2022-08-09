@@ -28,7 +28,7 @@ function ManipalU() {
     </Navbar>
     <Container>
     <div class="text-right">
-        <img src={logo} width="420px" height="120px"/>
+        <img src={logo} width="420px" height="120px" alt="" />
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -37,7 +37,7 @@ function ManipalU() {
 
         <h3>GET AN OPPORTUNITY TO GET AN INTERNATIONAL DIPLOMA WITH A UK DEGREE WHEN YOU JOIN MANIPAL UNIVERSITY</h3>
     <div className='my-4'>
-        <img src={image} width="100%" height="600px"/>
+        <img src={image} width="100%" height="600px" alt="" />
     </div>
     </Container>
     </div>
@@ -87,7 +87,7 @@ function ManipalU() {
           </ul>
           </Col>
           <Col md={6}>
-            <img src={image1} className="img-fluid" />
+            <img src={image1} className="img-fluid" alt="" />
           </Col>
         </Row>
        

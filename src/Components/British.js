@@ -30,7 +30,7 @@ function British() {
     </Navbar>
     <Container>
     <div class="text-right">
-        <img src={logo} width="420px" height="120px"/>
+        <img src={logo} width="420px" height="120px" alt=""/>
     </div>
     <Breadcrumb>
             <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
@@ -39,7 +39,7 @@ function British() {
 
         <h3 className='mt-5'>WANT TO APPLY FOR INTERNATIONAL UNIVERSITIES AND GET IMMIGRATION OPPORTUNITIES TO UK, US, CANADA. CLICK ON THE BANNER AND GET MORE INFORMATION</h3>
     <div className='my-4'>
-        <img src={image} width="100%" height="600px"/>
+        <img src={image} width="100%" height="600px" alt=""/>
     </div>
     </Container>
     </div>
@@ -76,7 +76,7 @@ function British() {
           <p><b>Fees:</b> TBD</p>
           </Col>
           <Col md={6}>
-           <img src={image1} className="img-fluid"/>
+           <img src={image1} className="img-fluid" alt=""/>
           </Col>
          </Row>
 
