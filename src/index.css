@@ -15,12 +15,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.Credentials, .home {
-  background: #bdc5a0;
-  padding-bottom: 4px;
+li.breadcrumb-item a {
+  color: white !important;
+  text-decoration: none;
 }
-
+.Credentials, .home {
+  background-image: url('images/MCAST1.jpg');
+  padding: 60px 0px;
+  color: white;
+}
+.breadcrumb-item.active {
+  color: #ffffff;
+}
+.home_logo img {
+   background: white;
+    border-radius: 9px;
+}
 .navbars {
   background-color: #bdc5a0!important;
 }
@@ -31,9 +41,34 @@ code {
   padding-right: 10px;
   margin-right: 10px;
 }
-
+.Credentials p {
+  font-size: 23px;
+  line-height: 44px;
+}
+li.breadcrumb-item {
+  font-size: 26px;
+}
+.breadcrumb-item.active {
+  color: #ffffff;
+}
 .text-right {
   text-align: right;
+}
+.Credentials p {
+  font-size: 23px;
+  line-height: 44px;
+}
+
+.offered {
+  padding: 60px 0px;
+}
+li {
+  list-style: none;
+}
+.programs {
+  box-shadow: 2px 3px 4px black;
+  padding: 33px;
+  font-size: 20px;
 }
 .Credentials ul {
   display: flex;
@@ -296,7 +331,10 @@ img.contentimage1 {
   top: -105px;
 }
 
-
+.header a.nav-link {
+  margin: 0px 42px;
+  font-weight: 700;
+}
 
 /* ---------------- Left second part  side images css ------------------ */
 
