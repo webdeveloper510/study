@@ -35,19 +35,46 @@ function Universityob() {
             <Breadcrumb.Item active>University Of Bolton</Breadcrumb.Item>
         </Breadcrumb>
 
-        <h3 className='mt-5'>IMMIGRATION AND WORK OPPORTUNITIES IN THE UK WHEN YOU COMPLETE YOUR MASTERS WITH UOB IN LESS THEN A YEAR</h3>
+        <h3 className='mt-5'>
+          IMMIGRATION AND WORK PLACEMENT OPPORTUNITIES IN THE UK WHEN YOU COMPLETE YOUR MASTERS WITH UNIVERSITY OF BOLTON
+        </h3>
         <div className='my-4'>
         <img src={image} width="100%" height="600px" alt="" />
     </div>
-    <p><b>Certificates: </b> MBA on Campus</p>
-    <p><b>Instructor:</b> <a href="https://rb.gy/1aaggv">https://rb.gy/1aaggv</a></p>
+    <h3> Qualification Offered: </h3>
+    <p>Combination Program (Level 7 Strategic Diploma + MBA)</p>
+    <h3>Mode of Learning: </h3>
+    <p>Online/ On Campus</p>
     </Container>
     </div>
     <div className='Universityob-world'>
       <Container>
        
          
-        <p><b>Program Structure: </b> </p>
+        <h3>Key Highlights </h3>
+        <Row>
+          <Col md={4}>
+           <ul>
+            <li>Flexible Intakes</li>
+            <li>Flexible Mode of Study</li>
+            <li>Assignment Based Assessment</li>
+           </ul>
+          </Col>
+          <Col md={4}>
+          <ul>
+            <li>Doubt Sessions</li>
+            <li>Real Time Case Studies</li>
+            <li>Industry Expert Live Session</li>
+           </ul>
+          </Col>
+          <Col md={4}>
+            <ul>
+              <li>Career Assistance</li>
+              <li>Duration - 2 Year</li>
+              <li>Credits - 180</li>
+            </ul>
+          </Col>
+        </Row>
           <p><b>Title: </b> MBA Top-Up</p>
           <p><b>Duration: </b> 9 Months</p>
           <p><b>Trimesters:</b>  3</p>

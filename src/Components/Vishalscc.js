@@ -5,186 +5,182 @@ import Container from 'react-bootstrap/Container';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/vscc.png'
 import images from '../images/VSCC.jpg'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import logo1 from '../images/Seeding Brains UI/logo.png'
 import image from '../images/VSCC1.jpg'
 import image1 from '../images/VSCC2.jpg'
 import image2 from '../images/VSCC3.jpg'
 import image3 from '../images/VSCC4.jpg'
-import { Col, Row } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 
 function Vishalscc() {
   return (
  <>
-   <div className='Vishalscc'>
-    <Navbar expand="lg" className='navbars'>
-      <Container className='p-0'>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto">
-            <Nav.Link href="#home">HOME </Nav.Link>
-            <Nav.Link href="#link">ABOUT US</Nav.Link>
-            <Nav.Link href="#link">SERVICE </Nav.Link>
-            <Nav.Link href="#link">COURSES </Nav.Link>
-            <Nav.Link href="#link">CONTACT US</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-<Container>
-    <div class="text-right">
-        <img src={logo} width="420px" height="120px" alt="" />
-    </div>
-    <Breadcrumb>
-            <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
-            <Breadcrumb.Item active>Vishal Saxena Commerce Classes</Breadcrumb.Item>
-        </Breadcrumb>
+         <div className='header'>
+        <Navbar bg="light" expand="lg">
+          <Container>
+            <Navbar.Brand href="#home"><img src={logo1} className="img-fluid" /></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="#home">HOME</Nav.Link>
+                <Nav.Link href="#link">ABOUT US</Nav.Link>
+                <Nav.Link href="#link">SERVICE</Nav.Link>
+                <Nav.Link href="#link">COURSES</Nav.Link>
+                <Nav.Link href="#link">CONTACT US</Nav.Link>
+                <Button variant="danger">Search</Button>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </div>
+      <div className='Credentials'>
 
-        <h3>EXCLUSIVE COURSES FOR THE STUDENTS OF NORTH INDIA IN ASSOCIATION WITH THE UK AWARDING BODIES AND GET A CHANCE TO BUILD YOUR CAREER IN THE UK AND SETTLE.</h3>
-        <div className='my-4'>
-        <img src={images} width="100%" height="600px" alt="" />
-    </div>
-    
- 
-        <p><b>Certificate: </b> </p>
-           <ul>
-                <li>Level 4/5 HIgher National Diploma in Business Management</li>
-                <li>Level 4/5 Higher National Diploma in Computing</li>
-                <li>Level 7 Diploma in Strategic Leadership & Management</li>
-                <li>Level 7 Diploma in Computing</li>
-           </ul>
-           <p><b>Instructor:</b> </p>
-          <ul>
-            <li>Dr Jatin Tekriwal - https://www.linkedin.com/in/jatin-tekriwal-a38410138/</li>
-            <li>Mr Amritesh P Singh - https://www.linkedin.com/in/amritesh-pratap-singh-892a9813/</li>
-            <li>Joy Eduviere</li>
-            <li>Mirian Eduviere</li>
-            <li>Shweta Sharma</li>
-            <li>Himanshi Manuja - https://www.linkedin.com/in/himanshi-manuja-b61bbb13a/</li>
-            <li>Dorothy</li>
-            <li>Hema Sajnani - https://www.linkedin.com/in/hema-sajnani-a4b47a129/</li>
-            <li>Shubham</li>
-          </ul>
+        <Container>
+          <div className="">
+            <Breadcrumb>
+              <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+              <Breadcrumb.Item active>VSCC</Breadcrumb.Item>
+            </Breadcrumb>
+            <h3 className='my-5'>Vishal Saxena Commerce Classes </h3>
+            <div className='home_logo my-5'>
+              <img src={logo} width="420px" height="120px" alt="" />
+            </div>
+          </div>
+          <h2>Overview</h2>
+          <p>EXCLUSIVE COURSES FOR THE STUDENTS OF NORTH INDIA IN ASSOCIATION WITH THE UK AWARDING BODIES AND GET A CHANCE TO BUILD YOUR CAREER & SETTLE IN THE UK
+          </p>
+          <Button variant="danger">Apply Now</Button>
+
         </Container>
       </div>
-      <div className='Vishalscc-world'>
+      <div className='offered'>
         <Container>
-       
-          <p><b>Program Structure:</b></p>
-          <Row className='my-3'>
-            <Col md={6}>
-            <p><b>Level 4 / 5 - (Business Management)</b></p>
-          <ol>
-            <li>Communications in Organisations</li>
-            <li>Leadership and the Organisation</li>
-            <li>Financial Awareness</li>
-            <li>Managing Change</li>
-            <li>Business Operations</li>
-            <li>Developing Teams</li>
-            <li>Responding to the Changing Business Environment</li>
-            <li>Effective Decision Making</li>
-            <li>Business Development</li>
-            <li>Business Models and Growing Organisations</li>
-            <li>Customer Management</li>
-            <li>Risk Management and Organisations</li>
-          </ol>
-            </Col>
-            <Col md={6}>
-              <img src={image} className="img-fluid" alt="" />
-            </Col>
-            </Row>
-           
-            <Row className='my-3'>
-           <Col md={6}>
-                <img src={image1} className="img-fluid" alt="" />
-            </Col> 
-            <Col md={6}>
-            <p><b>Level 4 / 5 (IT & Computing)</b></p>
-          <ol>
-            <li>Information Technology and IT Ethics</li>
-            <li>Mathematics and Statistics for IT</li>
-            <li>PC Maintenance and Operating Systems</li>
-            <li>Computer Graphics Editing and Database Concepts</li>
-            <li>Logical IT Networking</li>
-            <li>Physical IT Networking</li>
-            <li>Technopreneurship</li>
-            <li>Network Security</li>
-            <li>C#.NET Programming</li>
-            <li>System Administration</li>
-            <li>Network Routing and Switching</li>
-            <li>Network Design and Administration</li>
-          </ol>
-            </Col>
-                
-           </Row>
-           <Row className='my-3'>
-             <Col md={6}>
-                <p><b>Fees: Level 4 / 5 -</b> TBD </p>
-                <p><b>Level 7 - (DIPLOMA IN STRATEGIC MANAGEMENT AND INNOVATION)</b></p>
+          <Row>
+            <Col md="6">
+              <div className=''>
+                <h2 className='mb-5'>Qualifications Offered</h2>
                 <ul>
-                  <li>Finance for Managers</li>
-                  <li>Strategic Direction</li>
-                  <li>Strategic Marketing</li>
-                  <li>Human Resource Planning</li>
-                  <li>Marketing Strategy for Social Enterprise</li>
-                  <li>Global Marketing</li>
-                  <li>Strategic Management</li>
+                  <li>1) Level 4/5 Higher National Diploma in Business Management 
+                  </li>
+                  <li>2) Level 7 Diploma in Strategic Leadership & Management
+                  </li>
+                 
                 </ul>
-             </Col>
-             <Col md={6}>
-                  <img src={image2} className="img-fluid" alt="" />
-             </Col>
-           </Row>
-
-           <Row className='my-3'>
-           <Col md={6}>
-                <img src={image3} className="img-fluid" alt="" />
-             </Col>
-             <Col md={6}>
-             <p><b>Level 7 - (Extended Diploma in Computing Technologies) Year 1</b></p>
-          <ol>
-            <li>Managing Innovation and Change in Computing</li>
-            <li>Systems Development and User Experience (UX)</li>
-            <li>Implementing and Managing Cyber Security</li>
-            <li>Business Intelligence Systems</li>
-            <li>Independent Project</li>
-            <li>Agile Transformation</li>
-            <li>Enterprise Resources Planning Systems (ERP Systems)</li>
-            <li>Mobile Application Development</li>
-          </ol>
-             </Col>
+              </div>
+            </Col>
+            <Col md="6">
              
-           </Row>
-         
-         
-          <p><b>Fees: </b> Level 7 TBD</p>
-          <p><b>Bolton University TopUp Year 2</b></p>
-          <p> <b>Program: </b> MBA Top-Up</p>
-          <p> <b>Duration: </b> 9 Months</p>
-          <p> <b>Trimesters: </b> 3</p>
-          <p><b>Unit Structure</b></p>   
-          <ol>
-            <li>Leadership & Management</li>
-            <li>Marketing & Operations</li>
-            <li>Financial Mgmt & Decision Making</li>
-            <li>Strategy</li>
-            <li>Organizational Behaviour</li>
-            <li>Strategic HRM</li>
-            <li>Professional Project</li>
-            <li>Academic Skills & Proffesional Practice</li>
-          </ol>
-          <p><b>Benefits:</b></p>
-          <ul>
-            <li>Students will get Dual Certification</li>
-            <li>Transcript will show 180 credits including exemptions</li>
-            <li>Student is getting the placement year</li>
-            <li>Students would be eligible for 1 year PSWV and additional 1 year extended visa by</li>
-            <li>paying 1000GBP to the university</li>
-            <li>Students are eligible for the Spouse visa for the partners</li>
-          </ul>
-          <p><b>Mode of Study: </b> Online</p>
-          <p><b>Fees: </b>9000 Pounds </p>
-          </Container>
-    </div>
+            </Col>
+          </Row>
+          <p>Mode of Learning: Online / On Campus</p>
+        </Container>
+      </div>
+      <div className='Masters'>
+        <Container>
+          <h4 className="business">Level 4 & 5 HND in Business Management Pathway Picture to be Put Up</h4>
+          <h2 className="mt-5">Key Highlights</h2>
+          <Row className="mt-5">
+            <Col md="4">
+              <div className='key'>
+                <ol>
+                  <li>1) Flexible Intakes</li>
+                  <li>2) Flexible Mode of Study</li>
+                
+                  <li>3) Assignment Based Assessment</li>
+                  <li>4) Doubt Sessions </li>
+                </ol>
+              </div>
+            </Col>
+            <Col md="4">
+              <div className='key'>
+                <ol>
+                  <li>5) Real Time Case Studies</li>
+                  <li>6) Industry Expert Live Session</li>
+                  <li>7) Career Assistance</li>
+                  <li>8) Duration - 8 Months</li>
+                  <li>9) Credits - 360</li>
+                </ol>
+              </div>
+
+            </Col>
+            <Col md="4">
+              <div className='entry'>
+                <h3>
+                  Entry Requirements
+                </h3>
+                <p>British Awarding Body Level 3 qualification in Business</p>
+                <p>Other related Level 3 qualifications</p>
+                <p>An Access to Higher Education Diploma from an approved further education institution</p>
+                <p>Relevant work experience or An international equivalent to the above qualifications</p>
+              </div>
+            </Col>
+          </Row>
+          <div className=''>
+            <h3>Course Overview</h3>
+            <p>To develop students' enquiring minds, abilities to work across various business functions, and confidence to lead, manage, respond to change, and tackle a variety of complex business situations.
+               </p>
+          </div>
+          <Row>
+            <Col md="9">
+              <h3>Learning Outcomes</h3>
+              <h5>Upon successful completion of this Masters Programme the learners will be able to: </h5>
+              <p> - Understand and satisfy the business needs and requirements of micro and small businesses within local industry.
+              </p>
+              <p> - Identify innovation possibilities and growth potentials within choice companies, and act to address these possibilities.</p>
+              <p> - Develop critical thinking abilities and foster analytical skills to address today’s toughest business challenges.</p>
+              <p> - Act as a business leader who is capable of leading, motivating and operating within a small business venture</p>
+            </Col>
+            <Col md="3">
+               <img src='' className='img-fluid'/>
+            </Col>
+          </Row>
+          <div className='Instructors'>
+            <h4>Instructors: https://intranet.mcast.edu.mt/</h4>
+          </div>
+          <h3>Program Structure:</h3>
+           <div className="program">
+                  
+                  <h4> - Academic Year 1 (Semesters 1 & 2: 30 ECTS) – Exit Option: Post Graduate Certificate</h4>
+                <Row>
+                  <Col md={6}>
+                  <ul>
+                    <li>Applied Research and Development</li>
+                    <li>Business Analytics</li>
+                  </ul>
+                  </Col>
+                  <Col md={6}>
+                  <ul>
+                    <li>Strategy and Small Business Growth</li>
+                    <li>Lean Start-up</li>
+                    <li>Accounting for Managers</li>
+                  </ul>
+                  </Col>
+                </Row>
+                
+                  <h4> - Academic Year 2 (Semesters 3 & 4: 30 ECTS) – Exit Option: Post Graduate Diploma</h4>
+                  <ol>
+                    <li>Entrepreneurship & Innovation Management</li>
+                    <li>Development Economics</li>
+                    <li>Small Business Marketing</li>
+                  </ol>
+                  <ol>
+                    <li> Elective Advanced Professional Studies - (Any 2 Modules)</li>
+                    <li>Basics of Project Management</li>
+                    <li>Financial Analysis</li>
+                    <li>Lean Leadership</li>
+                  </ol>
+                <h4> - Academic Year 3 (Semester 5: 30 ECTS) – Final Exit: Masters</h4>
+                <ol>
+                  <li>Dissertation</li>
+                </ol>
+             </div>
+             <h4 className="mt-4">Fee Structure: </h4>
+        </Container>
+      </div>
+
     </>
   )
 }

@@ -89,31 +89,31 @@ function Mcast() {
           <p>Mode of Learning : Online / On Campus</p>
         </Container>
       </div>
-      <div className='Syllabus'>
+      <div className='Masters'>
         <Container>
-          <h3>Home > MCAST > MBA</h3>
-          <h4>Masters of Business Administration (MBA) for the SMALL BUSINESS</h4>
-          <h2>Key Highlights</h2>
-          <Row>
+          <h3 className="mb-5">Home > MCAST > MBA</h3>
+          <h4 className="business">Masters of Business Administration (MBA) for the SMALL BUSINESS</h4>
+          <h2 className="mt-5">Key Highlights</h2>
+          <Row className="mt-5">
             <Col md="4">
               <div className='key'>
                 <ol>
-                  <li>Flexible Intakes</li>
-                  <li>Flexible Mode of Study</li>
-                  <li>Fast Track</li>
-                  <li>Assignment Based Assessment</li>
-                  <li> Doubt Sessions </li>
+                  <li>1) Flexible Intakes</li>
+                  <li>2) Flexible Mode of Study</li>
+                  <li>3) Fast Track</li>
+                  <li>4) Assignment Based Assessment</li>
+                  <li>5) Doubt Sessions </li>
                 </ol>
               </div>
             </Col>
             <Col md="4">
               <div className='key'>
                 <ol>
-                  <li>Real Time Case Studies</li>
-                  <li>Industry Expert Live Session</li>
-                  <li>Career Assistance</li>
-                  <li>Duration - 2 Years</li>
-                  <li>Credits - 90 ECTS</li>
+                  <li>6) Real Time Case Studies</li>
+                  <li>7) Industry Expert Live Session</li>
+                  <li>8) Career Assistance</li>
+                  <li>9) Duration - 2 Years</li>
+                  <li>10) Credits - 90 ECTS</li>
                 </ol>
               </div>
 
@@ -150,42 +150,44 @@ function Mcast() {
           <div className='Instructors'>
             <h4>Instructors: https://intranet.mcast.edu.mt/</h4>
           </div>
-
-              <h3>Program Structure:</h3>
-              <h4> - Academic Year 1 (Semesters 1 & 2: 30 ECTS) – Exit Option: Post Graduate Certificate</h4>
-             <Row>
-              <Col md={6}>
-              <ul>
-                <li>Applied Research and Development</li>
-                <li>Business Analytics</li>
-              </ul>
-              </Col>
-              <Col md={6}>
-              <ul>
-                <li>Strategy and Small Business Growth</li>
-                <li>Lean Start-up</li>
-                <li>Accounting for Managers</li>
-              </ul>
-              </Col>
-             </Row>
-             
-              <h4> - Academic Year 2 (Semesters 3 & 4: 30 ECTS) – Exit Option: Post Graduate Diploma</h4>
-              <ol>
-                <li>Entrepreneurship & Innovation Management</li>
-                <li>Development Economics</li>
-                <li>Small Business Marketing</li>
-              </ol>
-              <ol>
-                <li> Elective Advanced Professional Studies - (Any 2 Modules)</li>
-                <li>Basics of Project Management</li>
-                <li>Financial Analysis</li>
-                <li>Lean Leadership</li>
-              </ol>
-             <h4> - Academic Year 3 (Semester 5: 30 ECTS) – Final Exit: Masters</h4>
-             <ol>
-               <li>Dissertation</li>
-             </ol>
-             <h4>Fee Structure: </h4>
+          <h3>Program Structure:</h3>
+           <div className="program">
+                  
+                  <h4> - Academic Year 1 (Semesters 1 & 2: 30 ECTS) – Exit Option: Post Graduate Certificate</h4>
+                <Row>
+                  <Col md={6}>
+                  <ul>
+                    <li>Applied Research and Development</li>
+                    <li>Business Analytics</li>
+                  </ul>
+                  </Col>
+                  <Col md={6}>
+                  <ul>
+                    <li>Strategy and Small Business Growth</li>
+                    <li>Lean Start-up</li>
+                    <li>Accounting for Managers</li>
+                  </ul>
+                  </Col>
+                </Row>
+                
+                  <h4> - Academic Year 2 (Semesters 3 & 4: 30 ECTS) – Exit Option: Post Graduate Diploma</h4>
+                  <ol>
+                    <li>Entrepreneurship & Innovation Management</li>
+                    <li>Development Economics</li>
+                    <li>Small Business Marketing</li>
+                  </ol>
+                  <ol>
+                    <li> Elective Advanced Professional Studies - (Any 2 Modules)</li>
+                    <li>Basics of Project Management</li>
+                    <li>Financial Analysis</li>
+                    <li>Lean Leadership</li>
+                  </ol>
+                <h4> - Academic Year 3 (Semester 5: 30 ECTS) – Final Exit: Masters</h4>
+                <ol>
+                  <li>Dissertation</li>
+                </ol>
+             </div>
+             <h4 className="mt-4">Fee Structure: </h4>
         </Container>
       </div>
 
