@@ -36,8 +36,8 @@ function Vishalscc() {
           </Container>
         </Navbar>
       </div>
-      <div className='Credentials'>
-
+      <div className='vscc'>
+        <div className='overlay'>
         <Container>
           <div className="">
             <Breadcrumb>
@@ -55,6 +55,7 @@ function Vishalscc() {
           <Button variant="danger">Apply Now</Button>
 
         </Container>
+      </div>
       </div>
       <div className='offered'>
         <Container>

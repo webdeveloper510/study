@@ -19,6 +19,49 @@ li.breadcrumb-item a {
   color: white !important;
   text-decoration: none;
 }
+.omnix {
+  background-image: url('images/OMIX1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vscc {
+  background-image: url('images/VSCC.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.british {
+  background-image: url('images/BC-01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Manipal {
+  background-image: url('images/MU-01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.anglia {
+  background-image: url('images/ARU-01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  background: #1e1c1cb5;
+  padding: 60px 0px !important;
+  color: white;
+}
+.fdp {
+background-image: url('images/FDP-01.png');
+background-position: center;
+background-repeat: no-repeat;
+padding: 60px 0px !important;
+background-size: cover;
+color: white;
+}
 .Credentials, .home {
   background-image: url('images/MCAST1.jpg');
   padding: 60px 0px;
@@ -62,7 +105,7 @@ li.breadcrumb-item a {
 
 .program {
   background-color: #abd367;
-  padding: 30px;
+  padding: 30px 120px;
 }
 
 .program h4 {

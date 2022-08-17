@@ -30,7 +30,7 @@ function Fdp() {
           </Container>
         </Navbar>
       </div>
-      <div className='Credentials'>
+      <div className='fdp'>
 
         <Container>
           <div className="">

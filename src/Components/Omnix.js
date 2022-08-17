@@ -30,8 +30,8 @@ function Omnix() {
           </Container>
         </Navbar>
       </div>
-      <div className='Credentials'>
-
+      <div className='omnix'>
+       <div className='overlay'>
         <Container>
           <div className="">
             <Breadcrumb>
@@ -48,6 +48,7 @@ function Omnix() {
           <Button variant="danger">Apply Now</Button>
 
         </Container>
+        </div>
       </div>
       <div className='offered'>
         <Container>

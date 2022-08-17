@@ -7,7 +7,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LogoHome from '../images/MCAST.png'
-import telephone from '../images/MCAST2.jpg'
+import photo from '../images/mcast-02.png'
+import photo1 from '../images/mcast-03.png'
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import logo from '../images/Seeding Brains UI/logo.png'
 import { Button } from 'react-bootstrap';
@@ -80,6 +81,7 @@ function Mcast() {
             </Col>
             <Col md="6">
               <div className='programs'>
+                <img src={photo1} height={'100px'} width={'100px'}/>
                 <p>Our MBA program seeks to build confident, forward- thinking executives who can mix strategic
                   thinking with excellent operational focus in prder to meet the evidence-based requirement for qualified managers.
                 </p>
@@ -144,7 +146,7 @@ function Mcast() {
               <p> - Act as a business leader who is capable of leading, motivating and operating within a small business venture</p>
             </Col>
             <Col md="3">
-               <img src='' className='img-fluid'/>
+               <img src={photo} className='img-fluid'/>
             </Col>
           </Row>
           <div className='Instructors'>

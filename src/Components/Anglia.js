@@ -30,8 +30,8 @@ function Anglia() {
           </Container>
         </Navbar>
       </div>
-      <div className='Credentials'>
-
+      <div className='anglia'>
+    <div className='overlay'>
         <Container>
           <div className="">
             <Breadcrumb>
@@ -47,6 +47,7 @@ function Anglia() {
           <Button variant="danger">Apply Now</Button>
 
         </Container>
+        </div>
       </div>
       <div className='offered'>
         <Container>
@@ -134,11 +135,11 @@ function Anglia() {
             </Col>
           </Row>
           <div className='Instructors'>
-            <h4>Instructors:Nancy Singhal - https://www.linkedin.com/in/naina-tekriwal-51663482/</h4>
-            <h4>Christian Damanka - https://www.linkedin.com/in/revd-christian-damanka-ma-pgcert-hcc-edsml-ba-dtlls-fcmi-mset-3b5bb730</h4>
-            <h4>Ansea Isufi</h4>
-            <h4>Lydia Meriku</h4>
-            <h4>Alfred Mensah - https://www.linkedin.com/in/alfred-mensah-a9048428</h4>
+            <h4>Instructors:Nancy Singhal - https://www.linkedin.com/in/naina-tekriwal-51663482/</h4><br/>
+            <h4>Christian Damanka - https://www.linkedin.com/in/revd-christian-damanka-ma-pgcert-hcc-edsml-ba-dtlls-fcmi-mset-3b5bb730</h4><br/>
+            <h4>Ansea Isufi</h4><br/>
+            <h4>Lydia Meriku</h4><br/>
+            <h4>Alfred Mensah - https://www.linkedin.com/in/alfred-mensah-a9048428</h4><br/>
             <h4>Samuel Dobor</h4>
           </div>
           <h3>Program Structure / Types of Programs:</h3>
