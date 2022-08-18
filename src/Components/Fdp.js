@@ -109,7 +109,7 @@ function Fdp() {
 
             </div>
           <div className='Instructors my-3'>
-            <h4>Instructors: https://www.linkedin.com/in/simon-evans-2b730b110/</h4>
+            <h4>Instructors: <a href="https://www.linkedin.com/in/simon-evans-2b730b110/">https://www.linkedin.com/in/simon-evans-2b730b110/</a></h4>
           </div>
              <h4>Dr Simon Evans (Director International Partnership) <br/>
              Faculty of Business & Law (Anglia Ruskin University)</h4>

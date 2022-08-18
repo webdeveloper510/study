@@ -120,7 +120,7 @@ function ManipalU() {
             </ul>
           </div>
           <div className='Instructors'>
-            <h4>Instructors: https://www.manipaldubai.com/sob/faculty/faculty-list.html</h4>
+            <h4>Instructors: <a href='https://www.manipaldubai.com/sob/faculty/faculty-list.html'>https://www.manipaldubai.com/sob/faculty/faculty-list.html</a></h4>
           </div>
           <h3>Program Structure:</h3>
            <div className="program">

@@ -150,7 +150,7 @@ function Mcast() {
             </Col>
           </Row>
           <div className='Instructors'>
-            <h4>Instructors: https://intranet.mcast.edu.mt/</h4>
+            <h4>Instructors: <a href="https://intranet.mcast.edu.mt/">https://intranet.mcast.edu.mt/</a></h4>
           </div>
           <h3>Program Structure:</h3>
            <div className="program">

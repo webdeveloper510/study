@@ -100,11 +100,11 @@ Additionally, it enables you to quickly and reliably test the skills necessary t
             </Col>
           </Row>
           <div className='Instructors'>
-            <h4>Instructors:Nancy Singhal - https://www.linkedin.com/in/naina-tekriwal-51663482/</h4> <br/>
-            <h4>Christian Damanka - https://www.linkedin.com/in/revd-christian-damanka-ma-pgcert-hcc-edsml-ba-dtlls-fcmi-mset-3b5bb730</h4><br/>
+            <h4>Instructors:Nancy Singhal - <a href="https://www.linkedin.com/in/naina-tekriwal-51663482/">https://www.linkedin.com/in/naina-tekriwal-51663482/</a></h4> <br/>
+            <h4>Christian Damanka - <a href="https://www.linkedin.com/in/revd-christian-damanka-ma-pgcert-hcc-edsml-ba-dtlls-fcmi-mset-3b5bb730">https://www.linkedin.com/in/revd-christian-damanka-ma-pgcert-hcc-edsml-ba-dtlls-fcmi-mset-3b5bb730</a></h4><br/>
             <h4>Ansea Isufi</h4><br/>
             <h4>Lydia Meriku</h4><br/>
-            <h4>Alfred Mensah - https://www.linkedin.com/in/alfred-mensah-a9048428</h4><br/>
+            <h4>Alfred Mensah - <a href='https://www.linkedin.com/in/alfred-mensah-a9048428'>https://www.linkedin.com/in/alfred-mensah-a9048428</a></h4><br/>
             <h4>Samuel Dobor</h4>
           </div>
           <h3>Program Structure / Types of Programs:</h3>
