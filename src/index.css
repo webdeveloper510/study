@@ -663,3 +663,8 @@ img.contentimage1 {
   overflow: hidden;
 }
 }
+
+.carousel-caption {
+  left: 5% !important;
+  text-align: left !important;
+}

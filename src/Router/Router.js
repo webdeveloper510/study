@@ -10,6 +10,7 @@ import Universityob from '../Components/Universityob';
  import Anglia from '../Components/Anglia';
 import British from '../Components/British';
 import BusinessD from '../Components/Business';
+import News from '../Components/news';
 
 const Routers = () => {
   return (
@@ -25,6 +26,7 @@ const Routers = () => {
           <Route path="/university/Omnix" element={<Omnix/>} />
           <Route path="/university/Fdp" element={<Fdp/>} />
           <Route path="/university/British" element={<British/>} />
+          <Route path="/news" element={<News/>} />
         </Routes>
       </Router>
   )
