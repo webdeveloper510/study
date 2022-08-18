@@ -89,7 +89,6 @@ function Vishalscc() {
                 <ol>
                   <li>1) Flexible Intakes</li>
                   <li>2) Flexible Mode of Study</li>
-                
                   <li>3) Assignment Based Assessment</li>
                   <li>4) Doubt Sessions </li>
                 </ol>
@@ -119,7 +118,7 @@ function Vishalscc() {
               </div>
             </Col>
           </Row>
-          <div className=''>
+          <div className='my-4'>
             <h3>Course Overview</h3>
             <p>To develop students' enquiring minds, abilities to work across various business functions, and confidence to lead, manage, respond to change, and tackle a variety of complex business situations.
                </p>

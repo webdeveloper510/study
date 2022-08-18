@@ -112,7 +112,7 @@ function Anglia() {
               </div>
             </Col>
           </Row>
-          <div className=''>
+          <div className='my-4'>
             <h3>Course Overview</h3>
             <p>Advance your understanding of business management and develop the skills, knowledge and confidence to launch a fulfilling career as a business leader with our 100% online bachelor’s degree.</p>
             <p>Improve your knowledge of modern business theories and practices that support successful organizations across all structures, sizes, and sectors.</p>

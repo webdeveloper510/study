@@ -8,7 +8,6 @@ export const universityData = [
       variant: "hover",
       tagLine:"if Europe is on your mind MCAST is a ray of Shine",
       route:'MCAST'
-
     },
     {
       id:'2',

@@ -636,3 +636,30 @@ img.contentimage1 {
   left: 43%;
   transition: left 1s ease-out;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 768px) {
+
+  .program {
+    background-color: #abd367;
+    padding: 30px 20px;
+}
+.home_logo.my-5 img {
+  width: 93% !important;
+  height: 102px !important;
+}
+
+
+.Instructors h4 {
+  font-style: italic;
+  background: #abd367;
+  display: block;
+  padding: 8px;
+  box-shadow: 3px 13px 3px #00000078;
+  border-radius: 5px;
+  margin-bottom: 38px;
+  width: 100% !important;
+  overflow: hidden;
+}
+}

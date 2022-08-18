@@ -59,7 +59,7 @@ function Mcast() {
       </div>
       <div className='offered'>
         <Container>
-          <Row>
+          <Row className='mb-3'>
             <Col md="6">
               <div className=''>
                 <h2 className='mb-5'>Qualifications Offered</h2>
@@ -96,7 +96,7 @@ function Mcast() {
           <h3 className="mb-5">Home > MCAST > MBA</h3>
           <h4 className="business">Masters of Business Administration (MBA) for the SMALL BUSINESS</h4>
           <h2 className="mt-5">Key Highlights</h2>
-          <Row className="mt-5">
+          <Row className="mt-5 mb-3">
             <Col md="4">
               <div className='key'>
                 <ol>
@@ -135,7 +135,7 @@ function Mcast() {
             <p>The MBA for the Small Business programme focuses on the theoretical knowledge, application-oriented experiences, and identification of innovation possibilities and growth potentials of the small business or strategic business units. Learners will be able to understand the fundamental concepts of business management, business development, as well as operations and project management within a small business. MCAST works very closely with small businesses to design and continuously develop this MBA programme that comprises 10 modules and a Master’s Dissertation.
             </p>
           </div>
-          <Row>
+          <Row className='mb-3'>
             <Col md="9">
               <h3>Learning Outcomes</h3>
               <h5>Upon successful completion of this Masters Programme the learners will be able to: </h5>
@@ -156,7 +156,7 @@ function Mcast() {
            <div className="program">
                   
                   <h4> - Academic Year 1 (Semesters 1 & 2: 30 ECTS) – Exit Option: Post Graduate Certificate</h4>
-                <Row>
+                <Row className='mb-3'>
                   <Col md={6}>
                   <ul>
                     <li>Applied Research and Development</li>

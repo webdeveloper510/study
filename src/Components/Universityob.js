@@ -111,7 +111,7 @@ function Universityob() {
               </div>
             </Col>
           </Row>
-          <div className=''>
+          <div className='my-4'>
             <h3>Course Overview</h3>
             <p>The Degree prepares students for a variety of vocations and includes important management topics like finance, human resources, marketing, and personal development. Additionally, it gives students access to top-up MBA programs at our Bolton University Campus in the UK. The qualification, which many 
               see as a flagship offering, normally requires 9 months of full-time study to complete.</p>
