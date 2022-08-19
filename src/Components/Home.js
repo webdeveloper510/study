@@ -47,6 +47,9 @@ const HomePage = () => {
   const [uniData, setUniData] = useState(universityData)
   return (
     <div>
+      <div className="text-right container py-3">
+        <button className="btn btn-primary" type="button"> News</button>
+      </div>
       <div className="container">
         <div className="brain">
           <div className="row">

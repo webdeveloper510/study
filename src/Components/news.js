@@ -46,21 +46,7 @@ export default function componentName() {
                     </Row>
                 </Container>
             </div>
-            <div className='bodys py-3'>
-            <Container>
-                <Nav>
-                    <Nav.Item>
-                        <Nav.Link href="/home">Active</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-1">Link</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link eventKey="link-2">Link</Nav.Link>
-                    </Nav.Item>
-                </Nav>
-            </Container>
-            </div>
+           
            
             <div className='bodys pb-4'>
                 <Container>
