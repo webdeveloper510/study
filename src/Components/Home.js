@@ -3,6 +3,7 @@ import "../App.scss";
 import FlipCard from "./FlipCard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { universityData } from "../Data";
+import { useNavigate } from 'react-router-dom';
 
 import brain1 from '../images/Seeding Brains UI/line connect-01.png'
 import brain2 from '../images/Seeding Brains UI/HTBD-01.png'
@@ -41,14 +42,18 @@ const cards = [
 
 
 const HomePage = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     console.log('uni', uniData)
   }, [])
   const [uniData, setUniData] = useState(universityData)
+  function newsPage(){
+    navigate(`/news`);
+  }
   return (
     <div>
       <div className="text-right container py-3">
-        <button className="btn btn-primary" type="button"> News</button>
+        <button className="btn btn-primary" type="button"onClick={()=>newsPage()} > News</button>
       </div>
       <div className="container">
         <div className="brain">
