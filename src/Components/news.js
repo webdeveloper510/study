@@ -14,38 +14,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 export default function componentName() {
     return (
         <>
-            <div className='header'>
-                <Container fluid>
-                    <Row>
-                        <Col md={3}>
-                           <img src="" className='img-fluid' alt='logo'/>
-                        </Col>
-                        <Col md={6}>
-                            <div className=''>
-                                <InputGroup className="mb-3">
-                                    <Form.Control
-                                        placeholder="Recipient's username"
-                                        aria-label="Recipient's username"
-                                        aria-describedby="basic-addon2"
-                                    />
-                                    <Button variant="primary" id="button-addon2">
-                                    <span class="material-symbols-outlined">search</span>
-                                    </Button>
-                                </InputGroup>
-                            </div>
-                        </Col>
-                        <Col md={3}>
-                            <div className='signin'>
-                                <ul>
-                                    <li> Sign in <span class="material-symbols-sharp">person_add</span></li>
-                                    <li><span class="material-symbols-sharp">settings</span></li>
-                                    <li><span class="material-symbols-sharp">language</span></li>
-                                </ul>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
+           
            
            
             <div className='bodys pb-4'>
