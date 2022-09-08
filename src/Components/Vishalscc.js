@@ -62,7 +62,7 @@ function Vishalscc() {
           <Row>
             <Col md="6">
               <div className=''>
-                <h2 className='mb-5'>Qualifications Offered</h2>
+                <h2 className='mb-3'>Qualifications Offered</h2>
                 <ul>
                   <li>1) Level 4/5 Higher National Diploma in Business Management 
                   </li>
@@ -82,8 +82,8 @@ function Vishalscc() {
       <div className='Masters'>
         <Container>
           <h4 className="business">Level 4 & 5 HND in Business Management Pathway Picture to be Put Up</h4>
-          <h2 className="mt-5">Key Highlights</h2>
-          <Row className="mt-5">
+          <h2 className="mt-3">Key Highlights</h2>
+          <Row className="mt-3">
             <Col md="4">
               <div className='key'>
                 <ol>
@@ -104,9 +104,8 @@ function Vishalscc() {
                   <li>9) Credits - 360</li>
                 </ol>
               </div>
-
             </Col>
-            <Col md="4">
+            <Col md="12">
               <div className='entry'>
                 <h3>
                   Entry Requirements

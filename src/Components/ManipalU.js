@@ -57,21 +57,24 @@ function ManipalU() {
           <Row>
             <Col md="6">
               <div className=''>
-                <h2 className='mb-5'>Qualifications Offered</h2>
-               <p>Combination Program (PGDBA + MBA)</p>
+                <h2 className='mb-3'>Qualifications Offered</h2>
+                <ul>
+                  <li>Combination Program (PGDBA + MBA)</li>
+                </ul>
+               <p></p>
               </div>
             </Col>
             <Col md="6">
              
             </Col>
           </Row>
-          <p>Mode of Learning :  Online / On Campus / Distance Learning</p>
+          <h4 className='my-3'><b>Mode of Learning :</b>  Online / On Campus / Distance Learning</h4>
         </Container>
       </div>
       <div className='Masters'>
         <Container>
-          <h2 className="mt-5">Key Highlights</h2>
-          <Row className="mt-5">
+          <h2 className="mt-3">Key Highlights</h2>
+          <Row className="mt-3">
             <Col md="4">
               <div className='key'>
                 <ol>
@@ -85,7 +88,7 @@ function ManipalU() {
             <Col md="4">
               <div className='key'>
                 <ol>
-                <li>4)Real Time Case Studies</li>
+                  <li>4) Real Time Case Studies</li>
                   <li>5) Doubt Sessions </li>
                   <li>6) Industry Expert Live Session</li>
                 </ol>
@@ -104,10 +107,10 @@ function ManipalU() {
           </Row>
           <div className="">
              <h3>Entry Requirements:</h3>
-             <h3>(Post Graduate Diploma in Business Administration)</h3>
+             <h5>(Post Graduate Diploma in Business Administration)</h5>
              <p>For admission the candidate must have a Bachelor’s degree from a recognized University with minimum 50 % aggregate marks</p>
             </div>
-          <div className=''>
+          <div className='key'>
             <h3>Course Overview</h3>
            <ul>
              <li>Curated for working professionals looking to enhance their career</li>

@@ -82,7 +82,6 @@ color: white;
   padding: 18px;
   background-color: #abd367;
   border-radius:5px;
-  line-height: 35px;
 }
 
 .offered li {
@@ -129,10 +128,7 @@ h4.business {
   padding-right: 10px;
   margin-right: 10px;
 }
-.Credentials p {
-  font-size: 23px;
-  line-height: 44px;
-}
+
 li.breadcrumb-item {
   font-size: 26px;
 }
@@ -142,13 +138,9 @@ li.breadcrumb-item {
 .text-right {
   text-align: right;
 }
-.Credentials p {
-  font-size: 23px;
-  line-height: 44px;
-}
 
 .offered {
-  padding: 60px 0px;
+  padding-top: 60px;
 }
 li {
   list-style: none;
@@ -748,7 +740,7 @@ span.material-symbols-outlined {
 }
 
 .header {
-  padding: 20px;
+
   width: 100%;
   position: sticky;
   box-shadow: 0 0.32rem 0.32rem 0 rgb(0 0 0 / 10%);

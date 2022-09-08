@@ -56,7 +56,7 @@ function Fdp() {
           <Row>
             <Col md="6">
               <div className=''>
-                <h2 className='mb-5'>Qualifications Offered</h2>
+                <h2 className='mb-3'>Qualifications Offered</h2>
                <p>Faculty Development Program</p>
               </div>
             </Col>
@@ -69,8 +69,8 @@ function Fdp() {
       </div>
       <div className='Masters'>
         <Container>
-          <h2 className="mt-5">Key Highlights</h2>
-          <Row className="mt-5">
+          <h2 className="mt-3">Key Highlights</h2>
+          <Row className="mt-3">
             <Col md="4">
               <div className='key'>
                 <ol>
@@ -87,16 +87,13 @@ function Fdp() {
                teaching, and administration, contributes to personal growth and self-improvement, enabling lifetime achievement.</p>
           </div>
           <Row>
-            <Col md="9">
+            <Col md="12">
               <h3>Learning Outcomes</h3>
              
-              <p> - Create a welcoming, encouraging, and inclusive learning atmosphere for postsecondary education by using rapport-building strategies.              </p>
-              <p> - Deliver a lesson that closes the knowledge gap between you and your students in a powerful, memorable way.</p>
-              <p> - By employing efficient third-level education teaching strategies, you can improve your institutional reputation as a reflective teacher.</p>
-              <p> - Implement useful techniques for lesson planning and classroom management</p>
-            </Col>
-            <Col md="3">
-               <img src='' className='img-fluid'/>
+              <p className='m-0'> - Create a welcoming, encouraging, and inclusive learning atmosphere for postsecondary education by using rapport-building strategies.              </p>
+              <p className='m-0'> - Deliver a lesson that closes the knowledge gap between you and your students in a powerful, memorable way.</p>
+              <p className='m-0'> - By employing efficient third-level education teaching strategies, you can improve your institutional reputation as a reflective teacher.</p>
+              <p className='m-0'> - Implement useful techniques for lesson planning and classroom management</p>
             </Col>
           </Row>
           <div className="

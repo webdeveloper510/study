@@ -54,7 +54,7 @@ function Anglia() {
           <Row>
             <Col md="6">
               <div className=''>
-                <h2 className='mb-5'>Qualifications Offered</h2>
+                <h2 className='mb-3'>Qualifications Offered</h2>
                 <ul>
                   <li>1) Bachelors Degree (TopUp)
                   </li>
@@ -73,8 +73,8 @@ function Anglia() {
       <div className='Masters'>
         <Container>
         <h4 className="business">Bachelors Top-Up Degree</h4>
-          <h2 className="mt-5">Key Highlights</h2>
-          <Row className="mt-5">
+          <h2 className="mt-3">Key Highlights</h2>
+          <Row className="mt-3">
             <Col md="4">
               <div className='key'>
                 <ol>
@@ -98,8 +98,8 @@ function Anglia() {
               </div>
 
             </Col>
-            <Col md="4">
-              <div className='entry'>
+            <Col md="12">
+              <div className='entry my-4'>
                 <h3>
                   Entry Requirements
                 </h3>
@@ -114,60 +114,113 @@ function Anglia() {
           </Row>
           <div className='my-4'>
             <h3>Course Overview</h3>
-            <p>Advance your understanding of business management and develop the skills, knowledge and confidence to launch a fulfilling career as a business leader with our 100% online bachelor’s degree.</p>
-            <p>Improve your knowledge of modern business theories and practices that support successful organizations across all structures, sizes, and sectors.</p>
-            <p>Study with a job-based methodology that enables you to build useful skills to have an influence at work while you study.</p>
-            <p>You have the option to arrange your studies around your personal and professional schedules with 100 percent online learning.</p>
-          </div><h3>Program Structure: BSc Hons Management (TopUp)</h3>
-          
-          <Row>
-            <Col md="9">
-              <h3>Learning Outcomes</h3>
-              <h5>Upon successful completion of this Masters Programme the learners will be able to: </h5>
-              <p> - Understand and satisfy the business needs and requirements of micro and small businesses within local industry.
-              </p>
-              <p> - Identify innovation possibilities and growth potentials within choice companies, and act to address these possibilities.</p>
-              <p> - Develop critical thinking abilities and foster analytical skills to address today’s toughest business challenges.</p>
-              <p> - Act as a business leader who is capable of leading, motivating and operating within a small business venture</p>
+            <p>- Advance your understanding of business management and develop the skills, knowledge and confidence to launch a fulfilling career as a business leader with our 100% online bachelor’s degree.</p>
+            <p>- Improve your knowledge of modern business theories and practices that support successful organizations across all structures, sizes, and sectors.</p>
+            <p>- Study with a job-based methodology that enables you to build useful skills to have an influence at work while you study.</p>
+            <p>- You have the option to arrange your studies around your personal and professional schedules with 100 percent online learning.</p>
+          </div>
+
+          <h3>Core Units:</h3>
+
+          <ul>
+            <li>1) Strategic Management</li>
+            <li>2) Work Based Major Project</li>
+            <li>3) Work Based Project Impact and Review</li>
+            <li>4) Reflections on Practice and Career Progression.</li>
+          </ul>
+
+          <div className='Instructors'>
+          <h4>Instructors - <a href="https://london.aru.ac.uk/about-us/academic-staff">https://london.aru.ac.uk/about-us/academic-staff </a> </h4>
+            </div>
+
+            <hr/>
+            
+         <h4 className='business'>Masters of Business Administration (Top Up)</h4>
+         <h2 className="mt-3">Key Highlights</h2>
+          <Row className="mt-3">
+            <Col md="4">
+              <div className='key'>
+                <ol>
+                  <li>1) Flexible Intakes</li>
+                  <li>2) Flexible Mode of Study</li>
+                  <li>3) Real Time Case Studies</li>
+                  <li>4) Assignment Based Assessment</li>
+                  <li>5) Doubt Sessions </li>
+                </ol>
+              </div>
             </Col>
-            <Col md="3">
-               <img src='' className='img-fluid'/>
+            <Col md="4">
+              <div className='key'>
+                <ol>
+                  <li>6) Industry Expert Live Session</li>
+                  <li>7) Career Assistance</li>
+                  <li>8) Duration - 8 Months</li>
+                  <li>9) Credits - 60 </li>
+                </ol>
+              </div>
+
+            </Col>
+            <Col md="12">
+              <div className='entry my-4'>
+                <h3>
+                  Entry Requirements
+                </h3>
+                <ul>
+                    <li>A degree from a UK university, normally at a minimum of lower second class honours; or equivalent from a non-UK university.</li>
+                     <li>Or an equivalent professional qualification.</li>
+                     <li> Or work experience at an appropriate and relevant level for an MBA course, such as a post of management of professional responsibility over an extended period of time.</li>
+                     <li>If English is not your first language, you will be expected to demonstrate a certificated level of proficiency of at least IELTS 6.5 or equivalent.</li>
+                     <li>As a distance learner, you'll also need a suitable computer with internet connection, together with sufficient IT competence to make effective use of our online learning management system (LMS) with high-speed internet and email.</li>
+                  </ul>
+           
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col md="12">
+              <h3>Course Overview</h3>
+               <p> - Our online CMI accredited Master of Business Administration (MBA) is a prestigious management qualification designed to provide you with the skills and expertise to advance your management and leadership career aspirations.
+              </p>
+              <p> - With a strong entrepreneurial and innovative focus, our MBA is ideal if you’re new to a management role, aspiring to work in management or looking to start your own business.</p>
+              <p> - Studying online will give you the flexibility to advance your career around your other commitments.</p>
+              <p> - Globally recognised prestigious management qualification accredited by the Chartered Management Institute (CMI)</p>
+              <p> - Develop the knowledge and skills to advance your management career and achieve your ambitions.</p>
+              <p> - 100% online learning gives you the flexibility to fit learning around other commitments</p>
             </Col>
           </Row>
           <div className='Instructors'>
-            <h4>Instructors:Nancy Singhal - <a href="https://www.linkedin.com/in/naina-tekriwal-51663482/">https://www.linkedin.com/in/naina-tekriwal-51663482/</a></h4><br/>
-            <h4>Christian Damanka -<a href="https://www.linkedin.com/in/revd-christian-damanka-ma-pgcert-hcc-edsml-ba-dtlls-fcmi-mset-3b5bb730">https://www.linkedin.com/in/revd-christian-damanka-ma-pgcert-hcc-edsml-ba-dtlls-fcmi-mset-3b5bb730</a> </h4><br/>
-            <h4>Ansea Isufi</h4><br/>
-            <h4>Lydia Meriku</h4><br/>
-            <h4>Alfred Mensah - <a href='https://www.linkedin.com/in/alfred-mensah-a9048428'>https://www.linkedin.com/in/alfred-mensah-a9048428</a></h4><br/>
-            <h4>Samuel Dobor</h4>
+            <h4>Instructors:<a href="https://london.aru.ac.uk/about-us/academic-staff"> https://london.aru.ac.uk/about-us/academic-staff</a></h4>
           </div>
-          <h3>Program Structure / Types of Programs:</h3>
+          <h3>Program Structure:</h3>
            <div className="program">
+                <p>Here you will undertake a major project that focuses on your understanding and execution of entrepreneurial management in an area of specific interest to your or your organisation, such as:</p>
+
+                <h4>Core Units:</h4>
+
                 <Row>
                   <Col md={6}>
-                    <h3>APTIS</h3>
-                  <ul>
-                    <li>Aptis variants</li>
-                    <li>Aptis General</li>
-                    <li>Aptis Advanced</li>
-                    <li>Aptis for Teachers</li>
-                    <li>Aptis for Teens</li>
-                  </ul>
+                    <ul>
+                      <li>An applied or engaged research project</li>
+                      <li>An enterprise consultancy project</li>
+                    </ul>
                   </Col>
                   <Col md={6}>
-                    <h3>IELTS</h3>
-                  <ul>
-                    <li>Reading</li>
-                    <li>Writing</li>
-                    <li>Listening</li>
-                    <li>Speaking</li>
-                  </ul>
+                    <ul>
+                      <li>Taking a new business proposition through to proof of concept</li>
+                      <li>This is a 15,000 words dissertation.</li>
+                    </ul>
                   </Col>
                 </Row>
                 </div>
-                
+                 <h4 className='mt-4'>Benefits:</h4>
+                 <ul>
+                  <li>1) Dual Certification</li>
+                  <li>2) Post Study Work Visa</li>
+                 </ul>
              <h4 className="mt-4">Fees: TBD </h4>
+             <p>Online: GBP 3500 <br/>
+Fulltime: GBP 15,000
+</p>
         </Container>
       </div>
     </>

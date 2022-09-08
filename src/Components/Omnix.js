@@ -55,7 +55,7 @@ function Omnix() {
           <Row>
             <Col md="6">
               <div className=''>
-                <h2 className='mb-5'>Qualifications Offered:</h2>
+                <h2 className='mb-3'>Qualifications Offered:</h2>
                 <ul>
                   <li>1) BIM
                   </li>

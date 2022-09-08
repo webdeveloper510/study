@@ -4,7 +4,7 @@ export const universityData = [
       universityName:'MCAST',
       backTile:'If you Europe in your mind, MCAST is the destination to be and have schengen visa',
       universityWebsite:'https://www.mcast.edu.mt/',
-      imageName:'/static/media/LIIMS-01.85c326e1a9c97bccbbc0.png',
+      imageName:'https://www.linkpicture.com/q/image4-3.png',
       variant: "hover",
       tagLine:"if Europe is on your mind MCAST is a ray of Shine",
       route:'MCAST'
