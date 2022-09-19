@@ -198,14 +198,11 @@ function Anglia() {
                 <h4>Core Units:</h4>
 
                 <Row>
-                  <Col md={6}>
+                  <Col md={12}>
                     <ul>
                       <li>An applied or engaged research project</li>
                       <li>An enterprise consultancy project</li>
-                    </ul>
-                  </Col>
-                  <Col md={6}>
-                    <ul>
+                    
                       <li>Taking a new business proposition through to proof of concept</li>
                       <li>This is a 15,000 words dissertation.</li>
                     </ul>

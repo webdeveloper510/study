@@ -125,16 +125,13 @@ function Universityob() {
                   
                   <h4> - Year 1 Core Units: Level 7 Strategic Management & Leadership Diploma</h4>
                 <Row>
-                  <Col md={6}>
+                  <Col md={12}>
                   <ul>
                     <li>Strategic Planning</li>
                     <li>Finance for Strategic Managers</li>
                     <li>Research for Strategic Development</li>
                     <li>Organisational Behaviour</li>
-                  </ul>
-                  </Col>
-                  <Col md={6}>
-                  <ul>
+                  
                     <li>Personal Development for Leadership and Strategic Management</li>
                     <li>International Business Environment</li>
                     <li>International Marketing</li>
@@ -145,16 +142,13 @@ function Universityob() {
                 
                   <h4> - Year 2 Core Units: MBA</h4>
                   <Row>
-                    <Col md={6}>
+                    <Col md={12}>
                     <ol>
                     <li>Leadership & Management</li>
                     <li>Marketing & Operations</li>
                     <li>Financial Mgmt & Decision Making</li>
                     <li>Strategy</li>
-                  </ol>
-                    </Col>
-                    <Col md={6}>
-                    <ol>
+                 
                     <li> Organizational Behaviour</li>
                     <li>Strategic HRM</li>
                     <li>Professional Project</li>

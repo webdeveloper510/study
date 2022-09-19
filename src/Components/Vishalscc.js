@@ -144,14 +144,11 @@ function Vishalscc() {
                   
                   <h4> - Academic Year 1 (Semesters 1 & 2: 30 ECTS) – Exit Option: Post Graduate Certificate</h4>
                 <Row>
-                  <Col md={6}>
+                  <Col md={12}>
                   <ul>
                     <li>Applied Research and Development</li>
                     <li>Business Analytics</li>
-                  </ul>
-                  </Col>
-                  <Col md={6}>
-                  <ul>
+                  
                     <li>Strategy and Small Business Growth</li>
                     <li>Lean Start-up</li>
                     <li>Accounting for Managers</li>

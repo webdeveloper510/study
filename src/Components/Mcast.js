@@ -266,17 +266,14 @@ function Mcast() {
                   
                   <h4> - Academic Year 1</h4>
                 <Row className='mb-3'>
-                  <Col md={6}>
+                  <Col md={12}>
                   <ul>
                     <li>Information Systems and Management</li>
                     <li>Operating Systems and Cloud Computing</li>
                     <li>Network Protocols and Network Automation</li>
                     <li>Data Science and Predictive Analysis</li>
                     <li>Foundations of Cyber Security</li>
-                  </ul>
-                  </Col>
-                  <Col md={6}>
-                  <ul>
+                  
                     <li>Web Technologies and Secure E-Commerce</li>
                     <li>Mobile Computing and 5G Networking</li>
                     <li>Internet of Things (IoT)</li>

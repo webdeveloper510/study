@@ -130,11 +130,9 @@ function ManipalU() {
                   
                   <h4> - Year 1: PGDBA</h4>
                 <Row>
-                  <Col md={6}>
+                  <Col md={12}>
                   <p>The curriculum is meant to equip graduates for management careers in a variety of industries. The program was created to meet the needs of working individuals who want to advance their education or change careers but do not have the time or motivation to enroll in a two-year Masters program.</p>
 
-                  </Col>
-                  <Col md={6}>
                     <p>The curriculum also allows students to pursue a specialization in one of the following streams: </p>
                   <ul>
                     <li>Management</li>
@@ -146,8 +144,8 @@ function ManipalU() {
                 </Row>
                 
                   <h4> Year 2: Masters of Business Administration (Anglia Ruskin University)</h4>
+                  <p>Gaining an international perspective is one of the things that an MBA from Anglia Ruskin University will assist students with.</p>
                   <ol>
-                    <li>Gaining an international perspective is one of the things that an MBA from Anglia Ruskin University will assist students with.</li>
                     <li>Develop important management abilities.</li>
                     <li>Increase your employability.</li>
                     <li>Consolidate your business knowledge while resolving practical problems.</li>
