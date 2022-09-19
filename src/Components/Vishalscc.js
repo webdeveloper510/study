@@ -161,8 +161,6 @@ function Vishalscc() {
                     <li>Entrepreneurship & Innovation Management</li>
                     <li>Development Economics</li>
                     <li>Small Business Marketing</li>
-                  </ol>
-                  <ol>
                     <li> Elective Advanced Professional Studies - (Any 2 Modules)</li>
                     <li>Basics of Project Management</li>
                     <li>Financial Analysis</li>
