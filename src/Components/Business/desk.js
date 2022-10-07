@@ -13,7 +13,7 @@ function desk() {
   return (
     <>
       <section className='bodys'>
-        <div className='header'>
+        <div className='header1'>
           <Navbar bg="blue" expand="lg">
             <Container>
               <Navbar.Brand href="#home"><img src={Logo} className="img-fluid" /></Navbar.Brand>

@@ -6,12 +6,12 @@
     background-attachment: fixed;
 }
 
-.header {
+.header1 {
     background-color: #021a227d;
     position: inherit;
 }
 
-.header a {
+.header1 a {
     color: white !important;
 }
 
