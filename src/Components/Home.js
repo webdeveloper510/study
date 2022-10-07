@@ -50,10 +50,13 @@ const HomePage = () => {
   function newsPage(){
     navigate(`/news`);
   }
+  function demoPage(){
+    navigate(`/businessPage`);
+  }
   return (
     <div>
       <div className="text-right container py-3">
-        <button className="btn btn-primary" type="button"onClick={()=>newsPage()} > News</button>
+        <button className="btn btn-primary" type="button" onClick={()=>newsPage()} > News</button>
       </div>
       <div className="container">
         <div className="brain">
@@ -122,7 +125,7 @@ const HomePage = () => {
                     <img className="" src={image17} height={'80px'} alt="" />
                   </div>
                   <div className="collage3">
-                    <img className="" src={image10} height={'120px'} alt="" />
+                    <img className="" src={image10}  height={'120px'} onClick={()=>demoPage()} alt="" />
                   </div>
                   <div className="collage5">
                     <img className="" src={image12} height={'120px'} alt="" />
