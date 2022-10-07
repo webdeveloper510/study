@@ -1,0 +1,97 @@
+.bodys {
+    background-image: url(../background_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: #021a227d;
+    position: inherit;
+}
+
+.header a {
+    color: white !important;
+}
+
+.overlay {
+    background: #28372261;
+    padding: 0px 0px !important;
+    color: white;
+}
+
+h3.title {
+    border-bottom: solid;
+    display: initial;
+}
+.overlay .title {
+    color: #b7d66c;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.overlay p {
+    font-size: 17px;
+}
+
+input.me-2.form-control {
+    border-radius: 21px;
+    background: transparent;
+    color: white !important;
+}
+
+input.me-2.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  input.me-2.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  input.me-2.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+  a.nav-link.active {
+    border-bottom: 2px solid #d5eeb1;
+}
+  
+.price {
+    padding: 21px;
+    border: 2px solid #b9d476;
+    border-radius: 22px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 19px;
+}
+  
+.fa-skype {
+    background: #00aff0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.footer {
+    background-color: #021a227d;
+    position: inherit;
+}
