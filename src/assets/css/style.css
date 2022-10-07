@@ -25,13 +25,13 @@ h3.title {
     border-bottom: solid;
     display: initial;
 }
-.overlay .title {
+.overlay1 .title {
     color: #b7d66c;
     margin-top: 20px;
     font-weight: 600;
 }
 
-.overlay p {
+.overlay1 p {
     font-size: 17px;
 }
 
