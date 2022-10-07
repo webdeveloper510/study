@@ -1,4 +1,4 @@
-.bodys {
+.bodys1 {
     background-image: url(../background_image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     color: white !important;
 }
 
-.overlay {
+.overlay1 {
     background: #28372261;
     padding: 0px 0px !important;
     color: white;

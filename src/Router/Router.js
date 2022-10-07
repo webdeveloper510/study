@@ -11,8 +11,8 @@ import Universityob from '../Components/Universityob';
 import British from '../Components/British';
 import BusinessD from '../Components/Business';
 import News from '../Components/news';
-import BusinessPage1 from '../Components/Business/innovation';
-import Desk1 from '../Components/Business/desk';
+import BusinessPage1 from '../Components/innovation';
+import Desk1 from '../Components/desk';
 
 const Routers = () => {
   return (

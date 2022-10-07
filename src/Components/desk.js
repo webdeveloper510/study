@@ -4,15 +4,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Logo from '../../images/Seeding Brains UI/logo.png'
+import Logo from '../images/Seeding Brains UI/logo.png'
 import { Row, Col } from 'react-bootstrap';
-import '../../assets/css/style.css';
+import '../assets/css/style.css';
 
 
 function desk() {
   return (
     <>
-      <section className='bodys'>
+      <section className='bodys1'>
         <div className='header1'>
           <Navbar bg="blue" expand="lg">
             <Container>
@@ -39,7 +39,7 @@ function desk() {
           </Navbar>
 
         </div>
-        <div className='overlay pt-5'>
+        <div className='overlay1 pt-5'>
           <Container>
           <Row>
 <Col md={6}>
