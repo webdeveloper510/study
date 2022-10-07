@@ -20,7 +20,7 @@ const Routers = () => {
         <Routes>
           <Route exact path="/" element={<HomePage/>} />
           <Route path="/university/Anglia" element={<Anglia/>} />
-          <Route path="/Business" element={<BusinessD/>} />
+          <Route path="/business" element={<BusinessD/>} />
           <Route path="/university/Mcast" element={<Mcast/>} />
           <Route path="/university/Manipal" element={<Manipal/>} />
           <Route path="/university/Vishalscc" element={<Vishalscc/>} />
@@ -28,8 +28,8 @@ const Routers = () => {
           <Route path="/university/Omnix" element={<Omnix/>} />
           <Route path="/university/Fdp" element={<Fdp/>} />
           <Route path="/university/British" element={<British/>} />
-          <Route path="/BusinessPage" element={<BusinessPage1/>} />
-          <Route path="/Desk" element={<Desk1/>} />
+          <Route path="/businessPage" element={<BusinessPage1/>} />
+          <Route path="/desk" element={<Desk1/>} />
           <Route path="/news" element={<News/>} />
         </Routes>
       </Router>
