@@ -21,7 +21,7 @@ function innovation() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
                   <Nav.Link className='active' href="/business/BusinessPage">Home</Nav.Link>
-                  <Nav.Link href="/business/desk">Destination</Nav.Link>
+                  <Nav.Link href="/business/Desk">Destination</Nav.Link>
                   <Nav.Link href="#link">About</Nav.Link>
 
                 </Nav>

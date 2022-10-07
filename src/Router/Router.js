@@ -11,8 +11,8 @@ import Universityob from '../Components/Universityob';
 import British from '../Components/British';
 import BusinessD from '../Components/Business';
 import News from '../Components/news';
-import BusinessPage1 from '../Components/Business/innovation'
-import Desk1 from '../Components/Business/desk'
+import BusinessPage1 from '../Components/Business/innovation';
+import Desk1 from '../Components/Business/desk';
 
 const Routers = () => {
   return (
@@ -29,7 +29,7 @@ const Routers = () => {
           <Route path="/university/Fdp" element={<Fdp/>} />
           <Route path="/university/British" element={<British/>} />
           <Route path="/business/BusinessPage" element={<BusinessPage1/>} />
-          <Route path="/business/desk" element={ <Desk1/> } />
+          <Route path="/business/Desk" element={<Desk1/>} />
           <Route path="/news" element={<News/>} />
         </Routes>
       </Router>
