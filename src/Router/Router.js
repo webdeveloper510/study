@@ -28,7 +28,7 @@ const Routers = () => {
           <Route path="/university/Omnix" element={<Omnix/>} />
           <Route path="/university/Fdp" element={<Fdp/>} />
           <Route path="/university/British" element={<British/>} />
-          <Route path="/business/BusinessPage1" element={<BusinessPage1/>} />
+          <Route path="/business/BusinessPage" element={<BusinessPage1/>} />
           <Route path="/business/desk" element={ <Desk1/> } />
           <Route path="/news" element={<News/>} />
         </Routes>
