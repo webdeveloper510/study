@@ -4,9 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Logo from '../images/Seeding Brains UI/logo.png'
+import Logo from '../../images/Seeding Brains UI/logo.png'
 import { Row, Col } from 'react-bootstrap';
-import '../assets/css/style.css';
+import '../../assets/css/style.css';
 
 
 function desk() {
@@ -45,27 +45,24 @@ function desk() {
 <Col md={6}>
   <div className='mt-5'>
     <h4 className='title'>learning outcomes</h4>
-    <p>-Investigate how innovation is sourced and supported within
-      different types of organisations</p>
-    <p>-Explore the processing of different types of innovation within
-      organisations</p>
-    <p>-Apply the process required to commercialise innovation within
-      an organisatioN</p>
-    <p>-Evaluate the range of methods for protecting innovation within
-      organisations.</p>
+    <p>-Analyse how a brand is built and managed over time.</p>
+    <p>-Create a brand portfolio strategy to organise portfolios and manage brand hierarchies.</p>
+    <p>-Evaluate how brands are leveraged/ extended over time domestically and internationally</p>
+    <p>-Apply techniques for measuring and managing brand value over a period of time.</p>
     <h4 className='title'>LinkedIn Jobs (certifyme API)</h4>
     <h4 className='title'>Entry requirements</h4>
     <p>-Relevant work experience in the field/ High school level
       qualification</p>
     <h4 className='title'>Course Content</h4>
-    <p>-Turning invention into innovation and sources of innovation</p>
-    <p>-Creating a structure and culture of innovation.</p>
-    <p>-Developing innovation vision and leadership, entrepreneurial
-      teams and innovation networks.</p>
-    <p>-Fostering innovation in different organisations, including SMEs,
-      large and multinational organisations.</p>
-    <p>-Disruptive and incremental innovation</p>
-    <p>-Product innovation, process and platform innovation.</p>
+    <p>-Brand development</p>
+    <p>-Advantages of branding.</p>
+    <p>-Brand equity.</p>
+    <p>-Strategies that organisations use to develop and grow brand equity.</p>
+    <p>-The role of marketing in building brand equity, brand positioning and techniques</p>
+    <p>-How to strengthen brand equity, brand extensions, reinforcing and revitalising brands through innovation.</p>
+    <p>-Overcoming brand crisis</p>
+    <p>-Brand portfolio strategy.</p>
+    <p>-Relationship between branding and finance.</p>
   </div>
 </Col>
 <Col md={6}>

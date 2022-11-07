@@ -4,9 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Logo from '../images/Seeding Brains UI/logo.png'
+import Logo from '../../images/Seeding Brains UI/logo.png'
 import { Row, Col } from 'react-bootstrap';
-import '../assets/css/style.css';
+import '../../assets/css/style.css';
 
 
 function innovation() {
@@ -44,26 +44,13 @@ function innovation() {
             <Row>
               <Col md={7}>
                 <div className='mt-4'>
-                  <h3 className='title'>INNOVATION AND COMMERCIALISATION</h3>
+                  <h3 className='title'>MANAGING A SUCCESSFUL BUSINESS PROJECT</h3>
                   <h4 className='title'>Why get the RSD?</h4>
-                  <p>-This RSD aims to give learners a comprehensive understanding of innovation and commercialization.</p>
-                  <p>-In today’s competitive landscape it is critical that organisations
-                    continually innovate both their product offering and processes to
-                    ensure that they remain competitive in the market.Adopting a more commercially driven approach is vital to
-                    maximize the Return on Investment (ROD).</p>
-                  <p>-In this RSD, learners will look at a number of tools and
-                    techniques that organisations use to drive innovation and
-                    become more commercial in their approach.O The unit gives students cutting-edge knowledge as well as
-                    practical application of the key ways in which organisations
-                    become more innovative while remaining commercially driven.</p>
-                  <p>-By the end of the RSD, learners will have gained an
-                    understanding of how innovation is fostered, harnessed, and
-                    managed in organizations.</p>
-                  <p>-They will learn the value of innovation and its importance in
-                    supporting commercial growth.</p>
-                  <p>-They will also acquire knowledge that will enable them to
-                    develop a creative and innovative approach that will benefit
-                    them throughout their career.</p>
+                  <p>-It will be based on a theme that will enable students to explore and examine a relevant and current topical aspect of business in the concept of the business environment.</p>
+                  <p>-It is aimed to develop skills of project management that are highly sought after by employers in all areas of business.</p>
+                  <p>-The students will get an opportunity to demonstrate the skills required for managing and implementing a small-scale business project.</p>
+                  <p>-On successful completion of this unit, students will have the confidence to engage in decision making, problem solving and research activities using project-management skills.</p>
+                  <p>-Students will acquire the fundamental knowledge and skills to enable them to investigate and examine relevant business concepts in a work-related context, determine appropriate outcomes, decisions or solutions and present evidence to various stakeholders in an acceptable and understandable format.</p>
                 </div>
               </Col>
               <Col md={5} className="mt-5">
