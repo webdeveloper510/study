@@ -9,7 +9,7 @@ import { Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 
 
-function desk() {
+function cyber_content() {
   return (
     <>
       <section className='bodys1'>
@@ -100,4 +100,4 @@ function desk() {
   )
 }
 
-export default desk
+export default cyber_content

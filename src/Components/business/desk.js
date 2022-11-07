@@ -53,7 +53,12 @@ function desk() {
     <h4 className='title'>Entry requirements</h4>
     <p>-Relevant work experience in the field/ High school level
       qualification</p>
-    <h4 className='title'>Course Content</h4>
+   
+  </div>
+</Col>
+<Col md={6}>
+  <div className='mt-5'>
+  <h4 className='title'>Course Content</h4>
     <p>-Brand development</p>
     <p>-Advantages of branding.</p>
     <p>-Brand equity.</p>
@@ -63,10 +68,6 @@ function desk() {
     <p>-Overcoming brand crisis</p>
     <p>-Brand portfolio strategy.</p>
     <p>-Relationship between branding and finance.</p>
-  </div>
-</Col>
-<Col md={6}>
-  <div className='mt-5'>
     <p>-Open and closed approaches to innovation</p>
     <p>-Market pull vs technology push.</p>
     <p>-Diffusion theory</p>

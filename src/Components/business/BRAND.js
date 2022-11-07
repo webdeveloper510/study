@@ -9,7 +9,7 @@ import { Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 
 
-function innovation() {
+function Brand() {
   return (
     <>
       <section className='bodys1'>
@@ -101,4 +101,4 @@ function innovation() {
   )
 }
 
-export default innovation
+export default Brand

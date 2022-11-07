@@ -9,7 +9,7 @@ import { Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 
 
-function innovation() {
+function data_analysis_info() {
   return (
     <>
       <section className='bodys1'>
@@ -54,30 +54,29 @@ function innovation() {
               <Col md={5} className="mt-5">
 
                 <div className='price mt-5'>
-                  <img src="" className='img-fluid' alt='prize'/>
-                   <h3 className='text-center'>Learn Storytelling </h3>
-                   <h5 className='text-center'>Zakir Khan</h5>
-                   <p> Get 13 lessons in 2 hours</p>
-                   <p>Daily guided exercises</p>
-                   <p>Access to 50k+ community </p>
-                   <p>Regular exert feedback </p>
-                   <h3 className='text-center'>$47</h3>
-                   <h5 className='text-center'>Offer Expires in <span className="title">11:27:19 </span> </h5>
-                   <div className='text-center'>
-                   <Button>BUY NOW</Button>
-                     </div>
+                  <img src="" className='img-fluid' alt='prize' />
+                  <h3 className='text-center'>Learn Storytelling </h3>
+                  <h5 className='text-center'>Zakir Khan</h5>
+                  <p> Get 13 lessons in 2 hours</p>
+                  <p>Daily guided exercises</p>
+                  <p>Access to 50k+ community </p>
+                  <p>Regular exert feedback </p>
+                  <h3 className='text-center'>$47</h3>
+                  <h5 className='text-center'>Offer Expires in <span className="title">11:27:19 </span> </h5>
+                  <div className='text-center'>
+                    <Button>BUY NOW</Button>
+                  </div>
                 </div>
               </Col>
             </Row>
-           
 
           </Container>
         </div>
         <div className='footer py-2 text-right'>
           <div className='container'>
-          <a href="#" class="fa fa-facebook me-2"></a>
-          <a href="#" class="fa fa-instagram me-2"></a>
-          <a href="#" class="fa fa-skype"></a>
+            <a href="#" class="fa fa-facebook me-2"></a>
+            <a href="#" class="fa fa-instagram me-2"></a>
+            <a href="#" class="fa fa-skype"></a>
           </div>
         </div>
       </section>
@@ -86,4 +85,4 @@ function innovation() {
   )
 }
 
-export default innovation
+export default data_analysis_info

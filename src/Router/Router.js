@@ -12,7 +12,7 @@ import British from '../Components/British';
 import BusinessD from '../Components/Business';
 import News from '../Components/news';
 import BusinessPage1 from '../Components/business/innovation';
-import BusinessPage2 from '../Components/business/BRAND';
+import BusinessPage2 from '../Components/business/Brand';
 import Desk1 from '../Components/business/desk';
 import IT from '../Components/business/it_info';
 import IT_learn from '../Components/business/it_learning';
@@ -40,6 +40,14 @@ import ENTERPRISES_CONTENT from '../Components/IT/enterprises_content';
 import CYBER_CONTENT from '../Components/IT/cyber_content';
 import IOT_INFO from '../Components/IT/iot_info';
 import IOT_CONTENT from '../Components/IT/iot_content';
+import MobileApp_content from '../Components/IT/MobileApp_content';
+import MobileApp_info from '../Components/IT/MobileApp_info';
+import Managing_content from '../Components/IT/Managing_content';
+import Managing_info from '../Components/IT/Managing_info';
+import Networking_content from '../Components/IT/Networking_content';
+import Networking_info from '../Components/IT/Networking_info';
+import System_development_content from '../Components/IT/System_development_content';
+import System_development_info from '../Components/IT/System_development_info';
 
 const Routers = () => {
   return (
@@ -72,6 +80,7 @@ const Routers = () => {
           <Route path="/marketing_content" element={<Market_learn/>} />
           <Route path="/artificial_info" element={<ARTIFICIAL_INFO/>} />
           <Route path="/agile_info" element={<AGILE_TRANS/>} />
+          <Route path="/agile_content" element={<AGILE_CONTENT/>} />
           <Route path="/business_manage" element={<SUCCESSFUL/>} />
           <Route path="/business_manage" element={<SUCCESSFUL/>} />
           <Route path="/analysis_info" element={<ANALYSIS_INFO/>} />
@@ -84,10 +93,14 @@ const Routers = () => {
           <Route path="/enterprises_info" element={<ENTERPRISES_INFO/>} />
           <Route path="/analysis_content" element={<ANALYSIS_CONTENT/>} />
           <Route path="/enterprises_content" element={<ENTERPRISES_CONTENT/>} />
-          
-          
-          
-          
+          <Route path="/mobileapp_content" element={<MobileApp_content/>} />
+          <Route path="/mobileapp_info" element={<MobileApp_info/>} />         
+          <Route path="/managing_contant" element={<Managing_content/>} />         
+          <Route path="/managing_info" element={<Managing_info/>} />         
+          <Route path="/networking_content" element={<Networking_content/>} />         
+          <Route path="/networking_info" element={<Networking_info/>} />         
+          <Route path="/system_development_content" element={<System_development_content/>} /> 
+          <Route path="/system_development_info" element={<System_development_info/>} />         
         </Routes>
       </Router>
   )

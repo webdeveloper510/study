@@ -9,7 +9,7 @@ import { Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 
 
-function desk() {
+function sales_content() {
   return (
     <>
       <section className='bodys1'>
@@ -86,4 +86,4 @@ function desk() {
   )
 }
 
-export default desk
+export default sales_content

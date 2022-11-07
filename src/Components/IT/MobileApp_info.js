@@ -9,7 +9,8 @@ import { Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 
 
-function enterprises_info() {
+
+function MobileApp_info() {
   return (
     <>
       <section className='bodys1'>
@@ -44,12 +45,11 @@ function enterprises_info() {
             <Row>
               <Col md={7}>
                 <div className='mt-4'>
-                  <h3 className='title'>ENTERPRISE RESOURCE PLANNING SYSTEMS</h3>
+                  <h3 className='title'>MOBILE APPLICATION DEVELOPMENT </h3>
                   <h4 className='title'>Why get the RSD?</h4>
-                  <p>-To gain knowledge and understanding of Enterprise Resource Planning (ERP) Systems</p>
-                  <p>-To learn system principles, their use and the benefits they can bring to an organisation.</p>
-                  <p>-To focus on the cost, planning and training associated with implementing and running these systems in an organisation.</p>
-                  <p>-To cover professional practice and the role of ethics and codes of conduct in relation to computing systems</p>
+                  <p>-	To have an advanced understanding of the processes involved with developing and launching a mobile application to meet user requirements. </p>
+                  <p>-	To have the opportunity to plan, develop and launch a mobile application of their choice to solve a problem. </p>
+                  <p>-	To explore testing across all stages of the lifecycle.</p>
                 </div>
               </Col>
               <Col md={5} className="mt-5">
@@ -87,4 +87,4 @@ function enterprises_info() {
   )
 }
 
-export default enterprises_info
+export default MobileApp_info

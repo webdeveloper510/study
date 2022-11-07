@@ -9,7 +9,8 @@ import { Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 
 
-function enterprises_info() {
+
+function System_development_info() {
   return (
     <>
       <section className='bodys1'>
@@ -23,7 +24,6 @@ function enterprises_info() {
                   <Nav.Link className='active' href="/BusinessPage">Home</Nav.Link>
                   <Nav.Link href="/Desk">Destination</Nav.Link>
                   <Nav.Link href="#link">About</Nav.Link>
-
                 </Nav>
                 <Form className="d-flex">
                   <Form.Control
@@ -32,7 +32,6 @@ function enterprises_info() {
                     className="me-2"
                     aria-label="Search"
                   />
-
                 </Form>
               </Navbar.Collapse>
             </Container>
@@ -44,12 +43,10 @@ function enterprises_info() {
             <Row>
               <Col md={7}>
                 <div className='mt-4'>
-                  <h3 className='title'>ENTERPRISE RESOURCE PLANNING SYSTEMS</h3>
+                  <h3 className='title'>SYSTEMS DEVELOPMENT AND USER EXPERIENCE (UX) </h3>
                   <h4 className='title'>Why get the RSD?</h4>
-                  <p>-To gain knowledge and understanding of Enterprise Resource Planning (ERP) Systems</p>
-                  <p>-To learn system principles, their use and the benefits they can bring to an organisation.</p>
-                  <p>-To focus on the cost, planning and training associated with implementing and running these systems in an organisation.</p>
-                  <p>-To cover professional practice and the role of ethics and codes of conduct in relation to computing systems</p>
+                  <p>-	To gain knowledge and understanding of the development of systems and how this is achieved using a range of systems development life cycle models (SDLC).   </p>
+                  <p>-	To focus on how to establish the user and technical requirements of the system and the considerations to make when developing a user interface.   </p>
                 </div>
               </Col>
               <Col md={5} className="mt-5">
@@ -69,9 +66,7 @@ function enterprises_info() {
                      </div>
                 </div>
               </Col>
-            </Row>
-           
-
+            </Row>        
           </Container>
         </div>
         <div className='footer py-2 text-right'>
@@ -87,4 +82,4 @@ function enterprises_info() {
   )
 }
 
-export default enterprises_info
+export default System_development_info
