@@ -20,7 +20,7 @@ function iot_info() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                  <Nav.Link className='active' href="/BusinessPage">Home</Nav.Link>
+                  <Nav.Link className='active' href="/iot_info">Home</Nav.Link>
                   <Nav.Link href="/Desk">Destination</Nav.Link>
                   <Nav.Link href="#link">About</Nav.Link>
 

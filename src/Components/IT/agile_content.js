@@ -20,8 +20,8 @@ function agile_content() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                  <Nav.Link  href="/BusinessPage">Home</Nav.Link>
-                  <Nav.Link className='active' href="/Desk">Destination</Nav.Link>
+                  <Nav.Link  href="/agile_info">Home</Nav.Link>
+                  <Nav.Link className='active' href="/agile_content">Destination</Nav.Link>
                   <Nav.Link href="#link">About</Nav.Link>
 
                 </Nav>

@@ -9,7 +9,7 @@ import { Row, Col } from 'react-bootstrap';
 import '../../assets/css/style.css';
 
 
-function strategy() {
+function agile_transform() {
   return (
     <>
       <section className='bodys1'>
@@ -20,8 +20,8 @@ function strategy() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                  <Nav.Link className='active' href="/BusinessPage">Home</Nav.Link>
-                  <Nav.Link href="/Desk">Destination</Nav.Link>
+                  <Nav.Link className='active' href="/agile_info">Home</Nav.Link>
+                  <Nav.Link href="/agile_content">Destination</Nav.Link>
                   <Nav.Link href="#link">About</Nav.Link>
 
                 </Nav>
@@ -44,11 +44,11 @@ function strategy() {
             <Row>
               <Col md={7}>
                 <div className='mt-4'>
-                  <h3 className='title'>BUSINESS STRATEGY</h3>
+                  <h3 className='title'>AGILE TRANSFORMATION</h3>
                   <h4 className='title'>Why get the RSD?</h4>
-                  <p>-It supports the development and enhancement of strategic thinking and planning that will improve organisational performances of businesses in their respective competitive markets.</p>
-                  <p>-It would develop students’ awareness of the different types of strategic approaches that could be used in an operational, tactical or strategic role for an organisation.</p>
-                  <p>-It would provide knowledge and understanding of strategy to make a positive, efficient and effective contribution to the development of business plans and operational direction.</p>
+                  <p>-To gain the knowledge and uses of agile development within business environments.</p>
+                  <p>-To explore the fundamental process of agile development including the methodologies used.</p>
+                  <p>-To develop the skills and knowledge to be able to embed and use agile approaches in a working environment.</p>
                 </div>
               </Col>
               <Col md={5} className="mt-5">
@@ -86,4 +86,4 @@ function strategy() {
   )
 }
 
-export default strategy
+export default agile_transform

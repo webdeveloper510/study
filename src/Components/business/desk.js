@@ -19,11 +19,11 @@ function desk() {
               <Navbar.Brand href="#home"><img src={Logo} className="img-fluid" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ms-auto">
-                  <Nav.Link  href="/BusinessPage">Home</Nav.Link>
-                  <Nav.Link className='active' href="/Desk">Destination</Nav.Link>
+                <Nav className="ms-auto">  
+                <Nav.Link  href="/brand">Home</Nav.Link>               
+                  <Nav.Link className='active' href="/desk">Destination</Nav.Link>
+                  
                   <Nav.Link href="#link">About</Nav.Link>
-
                 </Nav>
                 <Form className="d-flex">
                   <Form.Control

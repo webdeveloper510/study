@@ -373,6 +373,8 @@ img.contentimage1 {
   transition:left 1s ease-out;
 }
 
+
+
 .brain-left1:hover .collage9 {
   position: absolute;
   left: 22%;
@@ -433,6 +435,8 @@ img.contentimage1 {
   left: 36%;
   transition:left 1s ease-out;
 }
+
+
 
 .brain-left2:hover .collage11 {
   position: absolute;
@@ -532,6 +536,303 @@ img.contentimage1 {
   top: -92px;
 }
 
+
+/* .....................business...................... */
+
+
+.business{
+  opacity: 0;
+}
+
+.management:hover .business{
+  opacity: 1; 
+}
+
+.management:hover {
+  width: 350%;
+}
+
+.management{
+  position: relative;
+}
+
+.management:hover .business1{
+  position: absolute;
+  top: -34%;
+  right: 42%;
+  transition:right 1s ease-out;
+}
+
+.management:hover .business2{
+  position: absolute;
+  top: 32%;
+  right: 20%;
+  transition:right 1s ease-out;
+}
+
+.management:hover .business3{
+  position: absolute;
+  top: 113%;
+  right: 10%;
+  transition:right 1s ease-out;
+}
+
+.management:hover .business4{
+  position: absolute;
+  top: 200%;
+  right: 5%;
+  transition:right 1s ease-out;
+}
+
+.management:hover .business5{
+  position: absolute;
+  top: 280%;
+  right: 5%;
+  transition:right 1s ease-out;
+}
+
+.management:hover .business6{
+  position: absolute;
+  top: 370%;
+  right: 15%;
+  transition:right 1s ease-out;
+}
+
+.management:hover .business7{
+  position: absolute;
+  top: 450%;
+  right: 34%;
+  transition:right 1s ease-out;
+}
+
+.management:hover .business8{
+  position: absolute;
+  top: 510%;
+  right: 58%;
+  transition:right 1s ease-out;
+}
+
+.business1 {
+  position: absolute;
+  top: -34px;
+  right: -30%;
+}
+.business2 {
+  position: absolute;
+  top: 32px;
+  right: -30%;
+}
+
+.business3 {
+  position: absolute;
+  top: 113px;
+  right: -30%;
+}
+
+.business4 {
+  position: absolute;
+  top: 200px;
+  right: -30%;
+}
+.business5 {
+  position: absolute;
+  top: 280px;
+  right: -30%;
+}
+.business6 {
+  position: absolute;
+  top: 370px;
+  right: -30%;
+}
+.business7 {
+  position: absolute;
+  top: 450px;
+  right: -30%;
+}
+.business8 {
+  position: absolute;
+  top: 510px;
+  right: -30%;
+}
+
+/* .....................it...................... */
+
+.it{
+  opacity: 0;
+}
+
+.management1:hover .it{
+  opacity: 1; 
+}
+
+.management1:hover {
+  width: 150%;
+}
+
+.management1{
+  position: relative;
+}
+
+.management1:hover .it1{
+  position: absolute;
+  top: -450%;
+  right: -8%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it2{
+  position: absolute;
+  top: -385%;
+  right: -46%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it3{
+  position: absolute;
+  top: -317%;
+  right: -66%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it4{
+  position: absolute;
+  top: -248%;
+  right: -76%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it5{
+  position: absolute;
+  top: -179%;
+  right: -77%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it6{
+  position: absolute;
+  top: -104%;
+  right: -75%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it7{
+  position: absolute;
+  top: -24%;
+  right: -70%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it8{
+  position: absolute;
+  top: 47%;
+  right: -40%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it9{
+  position: absolute;
+  top: 121%;
+  right: -10%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it10{
+  position: absolute;
+  top: 185%;
+  right: 25%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it11{
+  position: absolute;
+  top: 235%;
+  right: 65%;
+  transition:right 1s ease-out;
+}
+
+.management1:hover .it12{
+  position: absolute;
+  top: 272%;
+  right: 105%;
+  transition:right 1s ease-out;
+}
+
+.it1 {
+  position: absolute;
+  top: -450px;
+  right: -80%;
+}
+
+.it2 {
+  position: absolute;
+  top: -385px;
+  right: -100%;
+}
+
+.it3 {
+  position: absolute;
+  top: -317px;
+  right: -100%;
+}
+
+.it4 {
+  position: absolute;
+  top: -248px;
+  right: -120%;
+}
+
+.it5 {
+  position: absolute;
+  top: -179px;
+  right: -120%;
+}
+.it6 {
+  position: absolute;
+  top: -104px;
+  right: -120%;
+}
+
+.it7 {
+  position: absolute;
+  top: -24px;
+  right: -120%;
+}
+
+.it8 {
+  position: absolute;
+  top: 47px;
+  right: -120%;
+}
+
+.it9 {
+  position: absolute;
+  top: 121px;
+  right: -120%;
+}
+
+.it10 {
+  position: absolute;
+  top: 185px;
+  right: -120%;
+}
+.it11 {
+  position: absolute;
+  top: 235px;
+  right: -120%;
+}
+.it12 {
+  position: absolute;
+  top: 272px;
+  right: -120%;
+}
+
+
+/* ............................................. */
+
+
+
+
+
 .right:hover .collage3 {
   position: absolute;
   top: -36px;
@@ -543,18 +844,18 @@ img.contentimage1 {
   right: 30%;
   top: 8%;
   transition:right 1s ease-out;
-
 }
+
 .right:hover .collage12 {
   position: absolute;
   top: 28%;
   transition:right 1s ease-out;
-  right: 174px;
+  right: 154px;
 }
 .right:hover .collage13 {
   position: absolute;
   top: 50%;
-  right: 27%;
+  right: 30%;
   transition:right 1s ease-out;
 }
 .right:hover .collage14 {

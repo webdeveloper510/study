@@ -47,16 +47,16 @@ const HomePage = () => {
     console.log('uni', uniData)
   }, [])
   const [uniData, setUniData] = useState(universityData)
-  function newsPage(){
+  function newsPage() {
     navigate(`/news`);
   }
-  function demoPage(){
+  function demoPage() {
     navigate(`/businessPage`);
   }
   return (
     <div>
       <div className="text-right container py-3">
-        <button className="btn btn-primary" type="button" onClick={()=>newsPage()} > News</button>
+        <button className="btn btn-primary" type="button" onClick={() => newsPage()} > News</button>
       </div>
       <div className="container">
         <div className="brain">
@@ -78,14 +78,12 @@ const HomePage = () => {
                     <div className="collage9">
                       <img className="" src={image3} height={'150px'} alt="" />
                     </div>
-                   
+
                   </div>
                 </div>
                 <div className="brain-left2">
                   <img src={brainL1} width={'271px'} alt="" />
                   <div className="barin-left11">
-                   
-                   
                     <div className="collage11">
                       <img className="" src={image6} height={'150px'} alt="" />
                     </div>
@@ -100,10 +98,10 @@ const HomePage = () => {
                 <div className="brain-left3">
                   <img src={brainL2} width={'263px'} alt="" />
                   <div className="barin-left12">
-                  <div className="collage7">
+                    <div className="collage7">
                       <img className="" src={image8} height={'150px'} alt="" />
                     </div>
-                  <div className="collage8">
+                    <div className="collage8">
                       <img className="" src={image9} height={'120px'} alt="" />
                     </div>
                     <div className="collage20">
@@ -125,36 +123,64 @@ const HomePage = () => {
                     <img className="" src={image17} height={'80px'} alt="" />
                   </div>
                   <div className="collage3">
-                    <img className="" src={image10}  height={'120px'} onClick={()=>demoPage()} alt="" />
+                    <div className="management">
+                    <img className="" src={image10} height={'100px'} onClick={() => demoPage()} alt="" />
+                    <div className="business">
+                      <div className="business1"><a href='/brand'><img className="" src={image10} height={'100px'} alt="" /></a></div>
+                      <div className="business2"><a href='/enterpreneour_info'><img className="" src={image10} height={'100px'} alt="" /></a></div>
+                      <div className="business3"><a href='/innovation'><img className="" src={image10} height={'100px'} alt="" /></a></div>
+                      <div className="business4"><a href='/international_marketing'><img className="" src={image10} height={'100px'} alt="" /></a></div>
+                      <div className="business5"><a href='/it_info'><img className="" src={image10} height={'100px'} alt="" /></a></div>
+                      <div className="business6"><a href='/marketing_learn'><img className="" src={image10} height={'100px'} alt="" /></a></div>
+                      <div className="business7"><a href='/sales_info'><img className="" src={image10} height={'100px'} alt="" /></a></div>
+                      <div className="business8"><a href='/strategy_info'><img className="" src={image10} height={'100px'} alt="" /></a></div>
+                    </div>
+                    </div>
                   </div>
                   <div className="collage5">
-                    <img className="" src={image12} height={'120px'} alt="" />
+                    <img className="" src={image12} height={'90px'} alt="" />
                   </div>
                   <div className="collage12">
-                    <img className="" src={image13} height={'120px'} alt="" />
+                    <img className="" src={image13} height={'85px'} alt="" />
                   </div>
                   <div className="collage13">
-                    <img className="" src={image14} height={'120px'} alt="" />
+                    <img className="" src={image14} height={'90px'} alt="" />
                   </div>
                   <div className="collage14">
-                    <img className="" src={image15} height={'120px'} alt="" />
+                    <div className="management1">
+                    <img className="" src={image15} height={'95px'} alt="" />
+                    <div className="it">
+                      <div className="it1"><a href='/agile_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it2"><a href='/analysis_content'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it3"><a href='/artificial_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it4"><a href='/computer_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it5"><a href='/cyber_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it6"><a href='/data_analysis_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it7"><a href='/enterprises_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it8"><a href='/iot_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it9"><a href='/managing_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>
+                      <div className="it10"><a href='/mobileapp_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>  
+                      <div className="it11"><a href='/networking_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>                 
+                      <div className="it12"><a href='/system_development_info'><img className="" src={image15} height={'95px'} alt="" /></a></div>             
+                    </div>
+                    </div>
                   </div>
                   <div className="collage16">
-                    <img className="" src={image11} height={'120px'} alt="" />
+                    <img className="" src={image11} height={'90px'} alt="" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="text-center col-12">
               <div className="brain3">
-              <img src={brain1} height={'83px'} alt="" />
-              <div className="brain-center">
-                <img src={brain2} height={'120px'} alt="" />
+                <img src={brain1} height={'83px'} alt="" />
+                <div className="brain-center">
+                  <img src={brain2} height={'120px'} alt="" />
+                </div>
               </div>
-              </div>
+            </div>
           </div>
-          </div>
-          
+
         </div>
         {/* <div className="brain">
 

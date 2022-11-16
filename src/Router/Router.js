@@ -16,7 +16,7 @@ import BusinessPage2 from '../Components/business/Brand';
 import Desk1 from '../Components/business/desk';
 import IT from '../Components/business/it_info';
 import IT_learn from '../Components/business/it_learning';
-import STRATEGY from '../Components/business/strategy';
+import STRATEGY from '../Components/business/strategy_info';
 import STRATEGY_learn from '../Components/business/strategy_learning';
 import ENTERPRENEOUR from '../Components/business/enterpreneour';
 import ENTERPRENEOUR_Learn from '../Components/business/enterpreneour_learn';
@@ -26,7 +26,7 @@ import SUCCESSFUL from '../Components/business/successful';
 import SUCCESSFUL_learn from '../Components/business/success_learn';
 import SALES_INFO from '../Components/business/sales_info';
 import SALES_CONTENT from '../Components/business/sales_content';
-import AGILE_TRANS from '../Components/IT/agile_transform';
+import AGILE_TRANS from '../Components/IT/agile_info';
 import AGILE_CONTENT from '../Components/IT/agile_content';
 import ARTIFICIAL_INFO from '../Components/IT/artificial_info';
 import ARTIFICIAL_CONTENT from '../Components/IT/agile_content';
@@ -66,24 +66,24 @@ const Routers = () => {
           <Route path="/university/Fdp" element={<Fdp/>} />
           <Route path="/university/British" element={<British/>} />
           <Route path="/cyber_content" element={<CYBER_CONTENT/>} />
-          <Route path="/businessPage" element={<BusinessPage1/>} />
-          <Route path="/businessPage1" element={<BusinessPage2/>} />
+          <Route path="/innovation" element={<BusinessPage1/>} />
+          <Route path="/brand" element={<BusinessPage2/>} />
           <Route path="/desk" element={<Desk1/>} />
-          <Route path="/it" element={<IT/>} />
-          <Route path="/strategy" element={<STRATEGY/>} />
-          <Route path="/it_learn" element={<IT_learn/>} />
-          <Route path="/strategy_learn" element={<STRATEGY_learn/>} />
+          <Route path="/it_info" element={<IT/>} />
+          <Route path="/strategy_info" element={<STRATEGY/>} />
+          <Route path="/it_learning" element={<IT_learn/>} />
+          <Route path="/strategy_learning" element={<STRATEGY_learn/>} />
           <Route path="/enterpreneour_info" element={<ENTERPRENEOUR/>} />
-          <Route path="/enterpreneour_content" element={<ENTERPRENEOUR_Learn/>} />
-          <Route path="/marketing" element={<INTERNATIONAL_MARKET/>} />
+          <Route path="/enterpreneour_learn" element={<ENTERPRENEOUR_Learn/>} />
+          <Route path="/international_marketing" element={<INTERNATIONAL_MARKET/>} />
           <Route path="/sales_info" element={<SALES_INFO/>} />
-          <Route path="/marketing_content" element={<Market_learn/>} />
+          <Route path="/marketing_learn" element={<Market_learn/>} />
           <Route path="/artificial_info" element={<ARTIFICIAL_INFO/>} />
           <Route path="/agile_info" element={<AGILE_TRANS/>} />
           <Route path="/agile_content" element={<AGILE_CONTENT/>} />
           <Route path="/business_manage" element={<SUCCESSFUL/>} />
           <Route path="/business_manage" element={<SUCCESSFUL/>} />
-          <Route path="/analysis_info" element={<ANALYSIS_INFO/>} />
+          <Route path="/data_analysis_info" element={<ANALYSIS_INFO/>} />
           <Route path="/artificial_content" element={<ARTIFICIAL_CONTENT/>} />
           <Route path="/success_content" element={<SUCCESSFUL_learn/>} />
           <Route path="/sales_content" element={<SALES_CONTENT/>} />
